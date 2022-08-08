@@ -1,0 +1,56 @@
+{
+  "store.otpCodeVerification": {
+    "children": [
+      {
+        "store-form.signup#otp-validation": {
+          "children": [
+            {
+              "flex-layout.row#inputRow": {
+                "children": [
+                  {
+                    "flex-layout.col#inputCol": {
+                      "children": [
+                        "rich-text#otp-code-validation",
+                        {
+                          "store-form.input#otp-code-input": {
+                            "children": [
+                              "icon#pass",
+                              "icon#alert"
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.row#storeFormEmailSignup": {
+                            "children": [
+                              {
+                                "flex-layout.col#storeFormEmailSignup": {
+                                  "children": [
+                                    {
+                                      "store-form.input#password-signup": {
+                                        "children": [
+                                          "icon#pass",
+                                          "icon#alert"
+                                        ]
+                                      }
+                                    },
+                                    "rich-text#passwordRules",
+                                    "store-form.button#submit-signup"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "resend-code-link#otpValidationLink"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "store.cart": {
+    "children": [
+      {
+        "flex-layout.col#cart": {
+          "children": [
+            {
+              "flex-layout.col#cart-products": {
+                "children": [
+                  {
+                    "cart-layout#cart": {
+                      "children": [
+                        {
+                          "flex-layout.row#total-and-remove-items": {
+                            "children": [
+                              "product-summary-total#cart",
+                              {
+                                "condition.cart#RemoveAllItems": {
+                                  "children": [
+                                    "cart.all-items-remove-button"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.row#selected-address": {
+                            "children": [
+                              "rich-text#direccion-seleccionada",
+                              "my-addresses.selected-address-text",
+                              "icon#list-edit"
+                            ]
+                          }
+                        },
+                        {
+                          "product-summary.shelf#cart": {
+                            "children": [
+                              {
+                                "flex-layout.row#cart-list": {
+                                  "children": [
+                                    {
+                                      "flex-layout.col#image-productCart": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#image-product-offerCart": {
+                                              "children": [
+                                                "cart.remove-button",
+                                                "product-summary-image#productimageCart",
+                                                "discountBadge#cart"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "flex-layout.col#description-productCart": {
+                                        "children": [
+                                          "product-summary-brand#productbrandCart",
+                                          "product-summary-name#productnameCart",
+                                          {
+                                            "flex-layout.row#product-priceCart": {
+                                              "children": [
+                                                "product-summary-price#productpriceCart"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "flex-layout.col#add-to-cart-buttonCart": {
+                                        "children": [
+                                          "product-summary-quantity#brandCart"
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "condition.cart#cartButton": {
+                            "children": [
+                              "proceed-checkout.button#cart"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "store.search-store-tenants": {
+    "children": [
+      {
+        "scroll-view#select-tenant": {
+          "children": [
+            {
+              "store-form.select-tenant": {
+                "children": [
+                  {
+                    "store-form.select-group#tenants": {
+                      "children": [
+                        "store-form.select-group-item#tenant-department",
+                        "store-form.select-group-item#tenant-municipalicies",
+                        "store-form.select-group-item#tenant",
+                        "store-form.button#select-store-address"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

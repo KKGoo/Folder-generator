@@ -1,0 +1,13 @@
+{
+  "store.splash": {
+    "children": [
+      {
+        "flex-layout.row#splash": {
+          "children": [
+            "custom.splash-screen"
+          ]
+        }
+      }
+    ]
+  }
+}

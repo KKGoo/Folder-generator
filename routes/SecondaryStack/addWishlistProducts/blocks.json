@@ -1,0 +1,70 @@
+{
+  "store.addWishlistProducts": {
+    "children": [
+      {
+        "flex-layout.col#AddWishListProducts": {
+          "children": [
+            {
+              "flex-layout.col#AddWishListProducts-list": {
+                "children": [
+                  {
+                    "wishlist-layout#AddWishListProducts": {
+                      "children": [
+                        {
+                          "wishlist.shelf#AddWishListProducts": {
+                            "children": [
+                              {
+                                "flex-layout.row#AddWishListProducts-list": {
+                                  "children": [
+                                    {
+                                      "flex-layout.col#description-ddWishListProducts": {
+                                        "children": [
+                                          "wishlist-name#AddWishListProductsName"
+                                        ]
+                                      }
+                                    },
+                                    "add-to-wishlist-button#add-wishlist"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "store-form.customer-add-wishlist#AddWishListProducts": {
+                            "children": [
+                              {
+                                "flex-layout.row#wishlist-form-input": {
+                                  "children": [
+                                    {
+                                      "flex-layout.col#input-wrapper": {
+                                        "children": [
+                                          "store-form.input#wishlist-name"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "flex-layout.col#button-wrapper": {
+                                        "children": [
+                                          "store-form.button#add-wishlist-submit"
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

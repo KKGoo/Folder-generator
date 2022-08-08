@@ -1,0 +1,7 @@
+{
+  "store.user-superintendency": {
+    "children": [
+      "web-view#superintendency"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerLeftBlock": "icon#goback-cart",
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "Confirmaci\u00f3n de Pedido"
+  },
+  "path": "order-placed/:orderId",
+  "type": "Component"
+}

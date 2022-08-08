@@ -1,0 +1,193 @@
+{
+  "store.supermercado": {
+    "children": [
+      {
+        "scroll-view#category-supermercado": {
+          "children": [
+            "rich-text#category-supermercado",
+            {
+              "flex-layout.row#supermercado-row-one": {
+                "children": [
+                  {
+                    "flex-layout.col#supermercado-col-one": {
+                      "children": [
+                        "info-card#carnes-rojas"
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.col#supermercado-col-two": {
+                      "children": [
+                        "info-card#frutas-verduras"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "flex-layout.row#supermercado-row-two": {
+                "children": [
+                  {
+                    "flex-layout.col#supermercado-col-three": {
+                      "children": [
+                        "info-card#pescados-mariscos"
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.col#supermercado-col-four": {
+                      "children": [
+                        "info-card#vinos-licores"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "flex-layout.row#supermercado-row-three": {
+                "children": [
+                  {
+                    "flex-layout.col#supermercado-col-five": {
+                      "children": [
+                        "info-card#despensa"
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.col#supermercado-col-six": {
+                      "children": [
+                        "info-card#panaderia-pasteleria"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "flex-layout.row#supermercado-row-four": {
+                "children": [
+                  {
+                    "flex-layout.col#supermercado-col-seven": {
+                      "children": [
+                        "info-card#lacteos-huevos-refrigerados"
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.col#supermercado-col-eight": {
+                      "children": [
+                        "info-card#charcuteria"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "flex-layout.row#supermercado-row-five": {
+                "children": [
+                  {
+                    "flex-layout.col#supermercado-col-nine": {
+                      "children": [
+                        "info-card#productos-congelados"
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.col#supermercado-col-ten": {
+                      "children": [
+                        "info-card#dulces-postres"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "flex-layout.row#supermercado-row-six": {
+                "children": [
+                  {
+                    "flex-layout.col#supermercado-col-eleven": {
+                      "children": [
+                        "info-card#pasabocas"
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.col#supermercado-col-twelve": {
+                      "children": [
+                        "info-card#platos-preparados"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "flex-layout.row#supermercado-row-seven": {
+                "children": [
+                  {
+                    "flex-layout.col#supermercado-col-thirteen": {
+                      "children": [
+                        "info-card#cuidado-ropa-calzado"
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.col#supermercado-col-fourteen": {
+                      "children": [
+                        "info-card#aseo-hogar"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "flex-layout.row#supermercado-row-eight": {
+                "children": [
+                  {
+                    "flex-layout.col#supermercado-col-fifteen": {
+                      "children": [
+                        "info-card#cuidado-personal"
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.col#supermercado-col-sixteen": {
+                      "children": [
+                        "info-card#bebidas"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "flex-layout.row#supermercado-row-nine": {
+                "children": [
+                  {
+                    "flex-layout.col#supermercado-col-seventeen": {
+                      "children": [
+                        "info-card#belleza"
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.col#supermercado-col-eighteen": {
+                      "children": [
+                        "info-card#limpieza-cocina"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

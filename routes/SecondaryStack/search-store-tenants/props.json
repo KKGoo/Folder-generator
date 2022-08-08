@@ -1,0 +1,11 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "Buscar Tiendas"
+  },
+  "path": "search-store-tenants",
+  "type": "Component"
+}

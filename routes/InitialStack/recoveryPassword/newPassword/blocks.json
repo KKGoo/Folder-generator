@@ -1,0 +1,39 @@
+{
+  "store.newPassword": {
+    "children": [
+      {
+        "scroll-view#new-password": {
+          "children": [
+            {
+              "store-form.new-password#newPassword": {
+                "children": [
+                  "rich-text#text-new-password",
+                  "store-form.input#new-password-code",
+                  {
+                    "store-form.input#newPasswordRenew": {
+                      "children": [
+                        "icon#alert",
+                        "icon#alert"
+                      ]
+                    }
+                  },
+                  {
+                    "store-form.input#confirmPassword": {
+                      "children": [
+                        "icon#alert",
+                        "icon#alert"
+                      ]
+                    }
+                  },
+                  "rich-text#passwordRules",
+                  "store-form.button#newPassword",
+                  "resend-code-link#otpValidationLink"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerShown": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "requiero-ayuda"
+  },
+  "path": "requiero-ayuda",
+  "type": "Component"
+}

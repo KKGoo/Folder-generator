@@ -1,0 +1,12 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerShown": true,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "Como Comprar"
+  },
+  "path": "how-to-buy",
+  "type": "Component"
+}

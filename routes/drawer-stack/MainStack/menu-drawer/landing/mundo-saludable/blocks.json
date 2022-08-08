@@ -1,0 +1,98 @@
+{
+  "store.mundo-saludable": {
+    "children": [
+      {
+        "list-context.product-list#mund-saludable": {
+          "children": [
+            {
+              "flex-layout.row#filterBar": {
+                "children": [
+                  {
+                    "flex-layout.row#filterBarLeft": {
+                      "children": [
+                        "rich-text#result",
+                        "product-summary.total-products",
+                        "rich-text#products"
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.col#filterBarRight": {
+                      "children": [
+                        "collapse#navigator"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "product-summary.shelf#department-products": {
+                "children": [
+                  {
+                    "flex-layout.row#products-list": {
+                      "children": [
+                        {
+                          "flex-layout.col#image-product": {
+                            "children": [
+                              {
+                                "flex-layout.row#image-product-offer": {
+                                  "children": [
+                                    "product-summary-image#productimage",
+                                    "discountBadge#product"
+                                  ]
+                                }
+                              },
+                              "custom.image-prime-plp"
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.col#description-product": {
+                            "children": [
+                              "product-summary-brand#productbrand",
+                              "product-summary-name#productname",
+                              {
+                                "flex-layout.row#product-price": {
+                                  "children": [
+                                    "product-summary-price#productprice"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.col#add-to-cart-button": {
+                            "children": [
+                              {
+                                "condition.product#if-is-added-to-the-cart-show-quantity": {
+                                  "children": [
+                                    "product-summary-quantity#brandSearch"
+                                  ]
+                                }
+                              },
+                              {
+                                "add-to-cart-button#search": {
+                                  "children": [
+                                    "icon#plus",
+                                    "icon#cart-product-list"
+                                  ]
+                                }
+                              },
+                              "add-to-wishlist-button#add-list"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

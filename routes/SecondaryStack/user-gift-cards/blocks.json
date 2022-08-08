@@ -1,0 +1,60 @@
+{
+  "store.user-gift-cards": {
+    "children": [
+      {
+        "gift-card-layout#gift-card": {
+          "children": [
+            {
+              "flex-layout.row#gift-card-titles-container": {
+                "children": [
+                  {
+                    "gift-card.shelf#gift-card": {
+                      "children": [
+                        {
+                          "flex-layout.row#gift-card-titles": {
+                            "children": [
+                              "rich-text#gift-card-number",
+                              "rich-text#gift-available-balance",
+                              "rich-text#gift-initial-value"
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.row#gift-card-list": {
+                            "children": [
+                              {
+                                "flex-layout.col#gift-card-number": {
+                                  "children": [
+                                    "gift-card-number#gift-card-number"
+                                  ]
+                                }
+                              },
+                              {
+                                "flex-layout.col#gift-card-available-balance": {
+                                  "children": [
+                                    "gift-card-available-balance#gift-card-available-balance"
+                                  ]
+                                }
+                              },
+                              {
+                                "flex-layout.col#gift-card-initial-value": {
+                                  "children": [
+                                    "gift-card-initial-value#gift-card-initial-value"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

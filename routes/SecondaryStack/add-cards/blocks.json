@@ -1,0 +1,32 @@
+{
+  "store.add-cards": {
+    "children": [
+      {
+        "scroll-view#add-cards": {
+          "children": [
+            {
+              "store-form.customer-add-cards#my-address": {
+                "children": [
+                  {
+                    "credit-card-group#add-cart": {
+                      "children": [
+                        "credit-card#add-card",
+                        "rich-text#num-tarjeta",
+                        "number-card-input#num-tarjeta",
+                        "rich-text#cardholder",
+                        "cardholder-input#cardholder",
+                        "rich-text#duedate",
+                        "due-date-input#duedate",
+                        "store-form.button#add-card-submit"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

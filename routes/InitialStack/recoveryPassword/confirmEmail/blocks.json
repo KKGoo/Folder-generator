@@ -1,0 +1,35 @@
+{
+  "store.confirmEmail": {
+    "children": [
+      {
+        "store-form.otp#confirmFormEmailOtp": {
+          "children": [
+            {
+              "flex-layout.row#confirmFormEmail": {
+                "children": [
+                  {
+                    "flex-layout.col#confirmFormEmail": {
+                      "children": [
+                        "rich-text#text-otp",
+                        {
+                          "store-form.input#email-otp": {
+                            "children": [
+                              "icon#alert",
+                              "icon#alert"
+                            ]
+                          }
+                        },
+                        "store-form.button#send-otp-button"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "store-link#signUp"
+          ]
+        }
+      }
+    ]
+  }
+}

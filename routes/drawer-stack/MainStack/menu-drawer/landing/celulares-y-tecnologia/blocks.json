@@ -1,0 +1,129 @@
+{
+  "store.celulares-y-tecnologia": {
+    "children": [
+      {
+        "scroll-view#tech-scroll": {
+          "children": [
+            {
+              "flex-layout.row#tech-container": {
+                "children": [
+                  "image#ofertaTech1"
+                ]
+              }
+            },
+            "rich-text#view-tech-tittle",
+            {
+              "scroll-view#Tech": {
+                "children": [
+                  {
+                    "flex-layout.row#menumotorola": {
+                      "children": [
+                        {
+                          "flex-layout.col#menu-motorola": {
+                            "children": [
+                              "image#home-motorola",
+                              "rich-text#view-tech-brand-moto"
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.col#menu-honor": {
+                            "children": [
+                              "image#home-honor",
+                              "rich-text#view-tech-brand-honor"
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.col#menu-lg": {
+                            "children": [
+                              "image#home-lg",
+                              "rich-text#view-tech-brand-lg"
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.col#menu-samsung": {
+                            "children": [
+                              "image#home-samsung",
+                              "rich-text#view-tech-brand-samsung"
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.col#menu-huawei": {
+                            "children": [
+                              "image#home-huawei",
+                              "rich-text#view-tech-brand-huawei"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "rich-text#view-product-tittle",
+            {
+              "list-context.product-list#celulares": {
+                "children": [
+                  {
+                    "product-summary.shelf#listTech": {
+                      "children": [
+                        "product-summary-image#productimageTech",
+                        {
+                          "flex-layout.col#tech-product-tittlecontainer": {
+                            "children": [
+                              "product-summary-price#productprice",
+                              "product-summary-name#productnameTech",
+                              "product-summary-brand#productbrandhome"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "flex-layout.col#smartcart": {
+                "children": [
+                  "info-card#smart"
+                ]
+              }
+            },
+            {
+              "flex-layout.row#watchcart": {
+                "children": [
+                  {
+                    "flex-layout.col#watchcart": {
+                      "children": [
+                        "info-card#watch"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "flex-layout.col#phonecart": {
+                "children": [
+                  "info-card#phone"
+                ]
+              }
+            },
+            {
+              "flex-layout.col#callcart": {
+                "children": [
+                  "info-card#call"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

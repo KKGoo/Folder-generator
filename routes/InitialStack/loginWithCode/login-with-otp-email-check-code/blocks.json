@@ -1,0 +1,35 @@
+{
+  "store.login-with-otp-email-check-code": {
+    "children": [
+      {
+        "store-form.otp-code-validation#login-with-otp-email-check-code": {
+          "children": [
+            {
+              "flex-layout.row#inputRowoAuth": {
+                "children": [
+                  {
+                    "flex-layout.col#inputColoAuth": {
+                      "children": [
+                        "rich-text#otp-code-validation",
+                        {
+                          "store-form.input#otp-code-input-oAuth": {
+                            "children": [
+                              "icon#pass",
+                              "icon#alert"
+                            ]
+                          }
+                        },
+                        "store-form.button#submit-otp-code-validation-oAuth"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "resend-code-link#otpValidationLink"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "Iniciar Sesi\u00f3n"
+  },
+  "path": "login",
+  "type": "Component"
+}

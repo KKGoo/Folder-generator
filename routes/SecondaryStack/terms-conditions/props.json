@@ -1,0 +1,11 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "T\u00e9rminos y Condiciones"
+  },
+  "path": "Terms&Conditions",
+  "type": "Component"
+}

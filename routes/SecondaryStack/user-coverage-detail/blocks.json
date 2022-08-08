@@ -1,0 +1,7 @@
+{
+  "store.user-coverage-detail": {
+    "children": [
+      "web-view#coverage"
+    ]
+  }
+}

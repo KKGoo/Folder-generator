@@ -1,0 +1,28 @@
+{
+  "store.add-addresses": {
+    "children": [
+      {
+        "scroll-view#add-address": {
+          "children": [
+            {
+              "store-form.customer-add-address#my-address": {
+                "children": [
+                  {
+                    "store-form.select-group#address": {
+                      "children": [
+                        "store-form.select-group-item#department",
+                        "store-form.select-group-item#municipalicies"
+                      ]
+                    }
+                  },
+                  "store-form.input#street",
+                  "store-form.button#add-address-submit"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerShown": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "Celulares y Telefon\u00eda"
+  },
+  "path": "celulares-y-tecnologia/:department?/:category?/:subCategory?/:brand?",
+  "type": "Component"
+}

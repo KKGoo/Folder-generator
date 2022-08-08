@@ -1,0 +1,7 @@
+{
+  "store.user-preguntas-frecuentes": {
+    "children": [
+      "web-view#preguntasFrecuentes"
+    ]
+  }
+}

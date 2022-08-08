@@ -1,0 +1,11 @@
+{
+  "initialRouteName": "location-selection-screen",
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerShown": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {}
+  },
+  "type": "Stack"
+}

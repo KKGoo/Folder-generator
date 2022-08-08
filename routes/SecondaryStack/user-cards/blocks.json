@@ -1,0 +1,25 @@
+{
+  "store.user-cards": {
+    "children": [
+      {
+        "credit-card-layout": {
+          "children": [
+            {
+              "credit-card-list#credit-card-list": {
+                "children": [
+                  {
+                    "flex-layout.row#credit-card-list": {
+                      "children": [
+                        "credit-card-item"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerShown": true,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "Movimientos de Tarjeta de Regalo"
+  },
+  "path": "tarjetas-regalo/detail/:id",
+  "type": "Component"
+}

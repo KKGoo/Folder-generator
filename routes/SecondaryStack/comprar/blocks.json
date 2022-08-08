@@ -1,0 +1,7 @@
+{
+  "store.comprar": {
+    "children": [
+      "rich-text#comprar"
+    ]
+  }
+}

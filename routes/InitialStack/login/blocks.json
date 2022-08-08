@@ -1,0 +1,97 @@
+{
+  "store.login": {
+    "children": [
+      {
+        "scroll-view#login-scroll-view-jumbo": {
+          "children": [
+            {
+              "store-form.login#login": {
+                "children": [
+                  {
+                    "flex-layout.row#signup-form-container": {
+                      "children": [
+                        {
+                          "flex-layout.col#signup": {
+                            "children": [
+                              "image#logo",
+                              {
+                                "store-form.input#email": {
+                                  "children": [
+                                    "icon#pass",
+                                    "icon#alert"
+                                  ]
+                                }
+                              },
+                              "store-link#forgot-password",
+                              {
+                                "store-form.input#password": {
+                                  "children": [
+                                    "icon#pass",
+                                    "icon#alert"
+                                  ]
+                                }
+                              },
+                              "store-form.button#submit",
+                              "store-link#startWithCode"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.row#social-row": {
+                      "children": [
+                        {
+                          "flex-layout.col#social-column": {
+                            "children": [
+                              "rich-text#continueWith",
+                              {
+                                "flex-layout.row#social-links-container": {
+                                  "children": [
+                                    {
+                                      "flex-layout.col#facebook-col": {
+                                        "children": [
+                                          "image#logofacebook"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "flex-layout.col#google-col": {
+                                        "children": [
+                                          "image#logogoogle"
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              "store-link#signUp",
+                              {
+                                "flex-layout.row#cencosud": {
+                                  "children": [
+                                    {
+                                      "flex-layout.col#logocenco": {
+                                        "children": [
+                                          "image#logocenco"
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

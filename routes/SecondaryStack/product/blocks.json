@@ -1,0 +1,171 @@
+{
+  "store.product": {
+    "children": [
+      {
+        "product-details#detail": {
+          "children": [
+            {
+              "scroll-view#product": {
+                "children": [
+                  {
+                    "flex-layout.row#product-details-image": {
+                      "children": [
+                        "product-slider",
+                        "product-discount",
+                        "custom.image-prime-pdp"
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.col#product-details-details": {
+                      "children": [
+                        {
+                          "flex-layout.col#product-details-nameBrand": {
+                            "children": [
+                              "product-name#detail-name",
+                              {
+                                "flex-layout.row#brand-productReference": {
+                                  "children": [
+                                    "product-brand",
+                                    "rich-text#product-reference",
+                                    "product-reference"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "product-description#price",
+                        {
+                          "flex-layout.row#product-details-price": {
+                            "children": [
+                              {
+                                "flex-layout.col#product-details-pricing": {
+                                  "children": [
+                                    {
+                                      "condition.product-details#if-is-no-discount": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#product-details-pricing": {
+                                              "children": [
+                                                "rich-text#discount",
+                                                "product-price#detail-discount"
+                                              ]
+                                            }
+                                          },
+                                          {
+                                            "flex-layout.row#product-details-discount": {
+                                              "children": [
+                                                "rich-text#pricing",
+                                                "product-price#detail-price"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "condition.product-details#if-is-no-discount-price-regular": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#product-details-no=discount": {
+                                              "children": [
+                                                "rich-text#pricing-no-discount",
+                                                "product-price#detail-price-no-discount"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "condition.product-details#pum-price-per-unit": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#pum": {
+                                              "children": [
+                                                "rich-text#parantesis1",
+                                                "product-measurement-unit",
+                                                "rich-text#unitMultiplier",
+                                                "product-unit-multiplier",
+                                                "rich-text#parantesis2"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "flex-layout.row#product-details-restriction-bin": {
+                                        "children": [
+                                          "rich-text#restriction-bins"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "flex-layout.col#product-detail-flags": {
+                                        "children": [
+                                          "custom.price-flags"
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "flex-layout.col#product-details-quantity": {
+                                  "children": [
+                                    {
+                                      "condition.product-details#if-is-added-to-the-cart-show-quantity": {
+                                        "children": [
+                                          "product-details-quantity#detail"
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "product-specifications"
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.row#product-wishlist-button": {
+                      "children": [
+                        {
+                          "add-to-wishlist-button#add-list-product": {
+                            "children": [
+                              "icon#list-edit-product",
+                              "rich-text#add-to-wishlist-from-product"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.row#product-checkout-button": {
+                      "children": [
+                        {
+                          "product-add-to-cart-button#pdp": {
+                            "children": [
+                              "icon#cart-product-list",
+                              "rich-text#detail"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

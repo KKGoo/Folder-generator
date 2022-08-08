@@ -1,0 +1,15 @@
+{
+  "initialRouteName": "home",
+  "options": {
+    "drawerContent": "scroll-view#categories",
+    "drawerType": "front",
+    "headerBackTitleVisible": false,
+    "headerShown": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "iconName": "list-outline",
+    "title": "Categor\u00edas"
+  },
+  "type": "Drawer"
+}

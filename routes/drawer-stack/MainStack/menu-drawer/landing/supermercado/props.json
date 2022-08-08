@@ -1,0 +1,12 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerShown": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "Categor\u00edas"
+  },
+  "path": "supermercado/:department?/:category?/:subCategory?/:brand?",
+  "type": "Component"
+}

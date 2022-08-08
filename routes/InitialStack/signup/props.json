@@ -1,0 +1,11 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "Crear cuenta"
+  },
+  "path": "signup/:email/:accessKey",
+  "type": "Component"
+}

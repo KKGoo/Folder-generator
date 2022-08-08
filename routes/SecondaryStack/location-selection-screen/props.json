@@ -1,0 +1,12 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerShown": true,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "\u00bfC\u00f3mo quieres recibir tu pedido?"
+  },
+  "path": "location-selection",
+  "type": "Component"
+}

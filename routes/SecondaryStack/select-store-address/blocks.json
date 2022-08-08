@@ -1,0 +1,70 @@
+{
+  "store.select-store-address": {
+    "children": [
+      {
+        "flex-layout.row#seeOnMap": {
+          "children": [
+            "store-link#storeSeeAddress",
+            "icon#map"
+          ]
+        }
+      },
+      {
+        "tenant-layout#tenants": {
+          "children": [
+            {
+              "flex-layout.col#store-address": {
+                "children": [
+                  "rich-text#find-store-address",
+                  {
+                    "store-locator.shelf#store-address": {
+                      "children": [
+                        {
+                          "store-locator-item#store-address": {
+                            "children": [
+                              {
+                                "flex-layout.row#store-address-wrapper": {
+                                  "children": [
+                                    {
+                                      "flex-layout.col#store-address-content": {
+                                        "children": [
+                                          "store-locator-name#adressName",
+                                          {
+                                            "flex-layout.row#scheduleName": {
+                                              "children": [
+                                                "icon#schedule",
+                                                "store-locator-openingHours#store-address"
+                                              ]
+                                            }
+                                          },
+                                          {
+                                            "flex-layout.row#AddressName": {
+                                              "children": [
+                                                "icon#address",
+                                                "store-locator-address#store-address"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "store-locator-switch#store-address"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "store-link#storeSeeAddressButton"
+    ]
+  }
+}

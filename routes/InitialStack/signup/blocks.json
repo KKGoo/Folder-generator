@@ -1,0 +1,93 @@
+{
+  "store.signup": {
+    "children": [
+      {
+        "scroll-view#signup": {
+          "children": [
+            {
+              "store-form.update-profile#update-profile-signup": {
+                "children": [
+                  "rich-text#text-signup",
+                  {
+                    "store-form.input#firstName": {
+                      "children": [
+                        "icon#pass",
+                        "icon#alert"
+                      ]
+                    }
+                  },
+                  {
+                    "store-form.input#lastName": {
+                      "children": [
+                        "icon#pass",
+                        "icon#alert"
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.row#document": {
+                      "children": [
+                        {
+                          "flex-layout.col#id-type": {
+                            "children": [
+                              "store-form.select#id-type"
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.col#id": {
+                            "children": [
+                              {
+                                "store-form.input#id": {
+                                  "children": [
+                                    "icon#alert",
+                                    "icon#alert"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "store-form.date-picker#dateOfBirth": {
+                      "children": [
+                        "icon#calendar"
+                      ]
+                    }
+                  },
+                  {
+                    "store-form.input#cellPhone": {
+                      "children": [
+                        "icon#pass",
+                        "icon#alert"
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.row#first-term": {
+                      "children": [
+                        "switch-component#accept-conditions",
+                        "store-link#linkToConditions"
+                      ]
+                    }
+                  },
+                  "store-form.button#submit-profile"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "flex-layout.row#rowLinkToLogInSreenSignIn": {
+          "children": [
+            "store-link#signIn"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "initialRouteName": "login",
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerMode": "none",
+    "headerShown": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {}
+  },
+  "path": "auth",
+  "type": "Stack",
+  "unmountIfIsAuthenticated": true
+}

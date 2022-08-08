@@ -1,0 +1,11 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "Acceso con c\u00f3digo"
+  },
+  "path": "login-with-otp-email-check-code/:email",
+  "type": "Component"
+}

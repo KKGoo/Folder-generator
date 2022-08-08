@@ -1,0 +1,9 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerShown": true,
+    "title": "A\u00f1adir Tarjetas"
+  },
+  "path": "add-cards",
+  "type": "Component"
+}

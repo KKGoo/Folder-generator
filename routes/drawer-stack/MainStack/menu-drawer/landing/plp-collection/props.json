@@ -1,0 +1,12 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerShown": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "PLP Colecci\u00f3n"
+  },
+  "path": "/collection/:collectionId?",
+  "type": "Component"
+}

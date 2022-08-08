@@ -1,0 +1,47 @@
+{
+  "store.user-app-version": {
+    "children": [
+      {
+        "flex-layout.row#flex-layout.col#app-version": {
+          "children": [
+            {
+              "flex-layout.col#app-version": {
+                "children": [
+                  "image#cencosud-app-version",
+                  {
+                    "flex-layout.col#info": {
+                      "children": [
+                        {
+                          "flex-layout.row#about-container": {
+                            "children": [
+                              "icon#info",
+                              "rich-text#about"
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.row#device-info-title": {
+                            "children": [
+                              "rich-text#device-info"
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.row#device-info": {
+                            "children": [
+                              "device-info"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

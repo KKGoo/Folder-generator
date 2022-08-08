@@ -1,0 +1,7 @@
+{
+  "store.checkout": {
+    "children": [
+      "web-view#checkout"
+    ]
+  }
+}

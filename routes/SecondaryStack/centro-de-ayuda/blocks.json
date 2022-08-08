@@ -1,0 +1,116 @@
+{
+  "store.centro-de-ayuda": {
+    "children": [
+      {
+        "flex-layout.row#cento-de-ayuda": {
+          "children": [
+            {
+              "menu#centro-de-ayuda": {
+                "children": [
+                  {
+                    "menu-item#como-comprar": {
+                      "children": [
+                        {
+                          "flex-layout.row#como-compar": {
+                            "children": [
+                              "rich-text#como-comprar",
+                              "icon#chevron-forward"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "menu-item#terminos-y-condiciones": {
+                      "children": [
+                        {
+                          "flex-layout.row#terminos-y-condiciones": {
+                            "children": [
+                              "rich-text#terminos-y-condiciones",
+                              "icon#chevron-forward"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "menu-item#preguntas-frecuentes": {
+                      "children": [
+                        {
+                          "flex-layout.row#preguntas-frecuentes": {
+                            "children": [
+                              "rich-text#preguntas-frecuentes",
+                              "icon#chevron-forward"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "menu-item#tengo-un-PQRF": {
+                      "children": [
+                        {
+                          "flex-layout.row#tengo-un-PQRF": {
+                            "children": [
+                              "rich-text#tengo-un-PQRF",
+                              "icon#chevron-forward"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "menu-item#ciudades-con-cobertura": {
+                      "children": [
+                        {
+                          "flex-layout.row#ciudades-con-cobertura": {
+                            "children": [
+                              "rich-text#ciudades-con-cobertura",
+                              "icon#chevron-forward"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "menu-item#superintendencia-de-industria-y-comercio": {
+                      "children": [
+                        {
+                          "flex-layout.row#superintendencia-de-industria-y-comercio": {
+                            "children": [
+                              "rich-text#superintendencia-de-industria-y-comercio",
+                              "icon#chevron-forward"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "menu-item#app-version": {
+                      "children": [
+                        {
+                          "flex-layout.row#app-version": {
+                            "children": [
+                              "rich-text#app-version",
+                              "icon#chevron-forward"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "store.stores": {
+    "children": [
+      {
+        "flex-layout.row#tiendas": {
+          "children": [
+            {
+              "flex-layout.col#tiendas": {
+                "children": [
+                  {
+                    "address-locator": {
+                      "children": [
+                        "icon#location"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

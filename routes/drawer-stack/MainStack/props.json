@@ -1,0 +1,16 @@
+{
+  "initialRouteName": "home",
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerMode": "none",
+    "headerShown": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "keyboardHidesTabBar": true,
+    "tabBarActiveTintColor": "black",
+    "tabBarInactiveTintColor": "gray",
+    "title": "Inicio"
+  },
+  "type": "Tab"
+}

@@ -1,0 +1,11 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "Reg\u00edstro con C\u00f3digo"
+  },
+  "path": "otp-code-verification/:email",
+  "type": "Component"
+}

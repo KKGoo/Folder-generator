@@ -1,0 +1,7 @@
+{
+  "store.user-pqr": {
+    "children": [
+      "web-view#pqr"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "store.wishlistDetail": {
+    "children": [
+      {
+        "flex-layout.col#wishlistDetail": {
+          "children": [
+            {
+              "flex-layout.col#wishlist-products": {
+                "children": [
+                  {
+                    "wishlist-detail-layout#wishlistDetail": {
+                      "children": [
+                        {
+                          "product-summary.shelf#wishlistDetail": {
+                            "children": [
+                              {
+                                "flex-layout.row#wishlistDetail-list": {
+                                  "children": [
+                                    {
+                                      "flex-layout.col#image-productWishlistDetail": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#image-product-offerWishlistDetail": {
+                                              "children": [
+                                                "wishlist-item.remove-button",
+                                                "product-summary-image#productimageWishlistDetail",
+                                                "discountBadge#wishlistDetail"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "flex-layout.col#description-productWishlistDetail": {
+                                        "children": [
+                                          "product-summary-brand#productbrandWishlistDetail",
+                                          "product-summary-name#productnameWishlistDetail",
+                                          {
+                                            "flex-layout.row#product-priceWishlistDetail": {
+                                              "children": [
+                                                "product-summary-price#productpriceCart"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "flex-layout.col#add-to-cart-buttonWishlistDetail": {
+                                        "children": [
+                                          "wishlist-quantity#brandWishlistDetail"
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "wishlist-to-cart-button#wishlistDetail",
+                        "store-link#wishlist-add-product"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "store.home": {
+    "children": [
+      {
+        "flex-layout.row#header": {
+          "children": [
+            {
+              "flex-layout.row#dummy-container": {
+                "children": [
+                  {
+                    "condition.theme#jumbo": {
+                      "children": [
+                        "image#jumbo"
+                      ]
+                    }
+                  },
+                  "store-link#fake-input",
+                  "icon#lupa-de-busqueda"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "scroll-view#home-scroll": {
+          "children": [
+            {
+              "condition.theme#jumbo-home": {
+                "children": [
+                  "custom.prime-fab",
+                  {
+                    "flex-layout.row#sliderhome": {
+                      "children": [
+                        {
+                          "slider-layout#home": {
+                            "children": [
+                              "image#oferta1",
+                              "image#oferta2",
+                              "image#oferta3"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "scroll-view#home": {
+                      "children": [
+                        {
+                          "menu#menu-home": {
+                            "children": [
+                              {
+                                "menu-item#home-ofertas": {
+                                  "children": [
+                                    "info-card#ofertas"
+                                  ]
+                                }
+                              },
+                              {
+                                "menu-item#home-supermercado": {
+                                  "children": [
+                                    "info-card#supermercado"
+                                  ]
+                                }
+                              },
+                              {
+                                "menu-item#home-pescaderia": {
+                                  "children": [
+                                    "info-card#pescaderia"
+                                  ]
+                                }
+                              },
+                              {
+                                "menu-item#home-carnes": {
+                                  "children": [
+                                    "info-card#carnes"
+                                  ]
+                                }
+                              },
+                              {
+                                "menu-item#home-mundo-saludable": {
+                                  "children": [
+                                    "info-card#mundo-saludable"
+                                  ]
+                                }
+                              },
+                              {
+                                "menu-item#home-panaderia": {
+                                  "children": [
+                                    "info-card#panaderia"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.row#home-row-one": {
+                      "children": [
+                        {
+                          "flex-layout.col#home-col-one": {
+                            "children": [
+                              "info-card#supermercadoBanner"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.row#home-row-two": {
+                      "children": [
+                        {
+                          "flex-layout.col#home-col-two": {
+                            "children": [
+                              "info-card#tv-tecnologia"
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.col#home-col-three": {
+                            "children": [
+                              "info-card#bazar-hogar"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "rich-text#view-product-tittle-1",
+                  {
+                    "list-context.product-list#product-destcados": {
+                      "children": [
+                        {
+                          "product-summary.shelf#listHome": {
+                            "children": [
+                              "product-summary-image#productimageHome",
+                              {
+                                "flex-layout.col#home-product-tittlecontainer": {
+                                  "children": [
+                                    "product-summary-price#productprice",
+                                    "product-summary-name#productnameHome",
+                                    "product-summary-brand#productbrandhome",
+                                    {
+                                      "flex-layout.row#shipping-home": {
+                                        "children": [
+                                          "icon#free-shippingCartHome",
+                                          "rich-text#shipping-home"
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.row#home-row-three": {
+                      "children": [
+                        {
+                          "flex-layout.col#home-col-four": {
+                            "children": [
+                              "info-card#eco-tank-banner"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "rich-text#view-product-tittle-2",
+                  {
+                    "list-context.product-list#product-destcados-2": {
+                      "children": [
+                        {
+                          "product-summary.shelf#listHome": {
+                            "children": [
+                              "product-summary-image#productimageHome",
+                              {
+                                "flex-layout.col#home-product-tittlecontainer": {
+                                  "children": [
+                                    "product-summary-price#productprice",
+                                    "product-summary-name#productnameHome",
+                                    "product-summary-brand#productbrandhome",
+                                    {
+                                      "flex-layout.row#shipping-home": {
+                                        "children": [
+                                          "icon#free-shippingCartHome",
+                                          "rich-text#shipping-home"
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.row#home-row-four": {
+                      "children": [
+                        {
+                          "flex-layout.col#home-col-five": {
+                            "children": [
+                              "info-card#vanish"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "condition.theme#metro-home": {
+                "children": [
+                  "rich-text#title-metro"
+                ]
+              }
+            },
+            {
+              "condition.theme#easy-home": {
+                "children": [
+                  "rich-text#title-easy"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "flex-layout.row#FAB": {
+          "children": [
+            "custom.prime-fab"
+          ]
+        }
+      }
+    ]
+  }
+}

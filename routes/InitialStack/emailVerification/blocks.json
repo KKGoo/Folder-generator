@@ -1,0 +1,35 @@
+{
+  "store.emailVerification": {
+    "children": [
+      {
+        "store-form.otp#emailverification": {
+          "children": [
+            {
+              "flex-layout.row#storeFormemail": {
+                "children": [
+                  {
+                    "flex-layout.col#storeFormemail": {
+                      "children": [
+                        "rich-text#text-emailverification",
+                        {
+                          "store-form.input#emailOtp": {
+                            "children": [
+                              "icon#pass",
+                              "icon#alert"
+                            ]
+                          }
+                        },
+                        "store-form.button#submit-emailverification"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "store-link#signIn"
+          ]
+        }
+      }
+    ]
+  }
+}

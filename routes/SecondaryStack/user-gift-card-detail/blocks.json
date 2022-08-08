@@ -1,0 +1,87 @@
+{
+  "store.user-gift-card-detail": {
+    "children": [
+      {
+        "gift-card-detail-layout#gift-card": {
+          "children": [
+            "rich-text#gift-card-detail",
+            {
+              "flex-layout.row#gift-card-detail": {
+                "children": [
+                  {
+                    "flex-layout.row#gift-card-detail-titles": {
+                      "children": [
+                        {
+                          "flex-layout.col#gift-card-detail-shelf": {
+                            "children": [
+                              {
+                                "flex-layout.row#gift-card-detail-text": {
+                                  "children": [
+                                    "rich-text#gift-card-detail-text-title-transaction-number",
+                                    "rich-text#gift-card-detail-text-title-consumed-value",
+                                    "rich-text#gift-card-detail-text-title-transaction-date",
+                                    "rich-text#gift-card-detail-text-title-store-name"
+                                  ]
+                                }
+                              },
+                              {
+                                "flex-layout.row#gift-card-detail-shel-component": {
+                                  "children": [
+                                    {
+                                      "gift-card-detail.shelf#gift-card-detail": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#gift-card-detail-list": {
+                                              "children": [
+                                                {
+                                                  "flex-layout.col#gift-card-detail-transaction-number": {
+                                                    "children": [
+                                                      "gift-card-detail-transaction-number#gift-card-detail"
+                                                    ]
+                                                  }
+                                                },
+                                                {
+                                                  "flex-layout.col#gift-card-detail-consumed-value": {
+                                                    "children": [
+                                                      "gift-card-detail-consumed-value#gift-card-detail"
+                                                    ]
+                                                  }
+                                                },
+                                                {
+                                                  "flex-layout.col#gift-card-detail-transaction-date": {
+                                                    "children": [
+                                                      "gift-card-detail-transaction-date#gift-card-detail"
+                                                    ]
+                                                  }
+                                                },
+                                                {
+                                                  "flex-layout.col#gift-card-detail-store-name": {
+                                                    "children": [
+                                                      "gift-card-detail-store-name#gift-card-detail"
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

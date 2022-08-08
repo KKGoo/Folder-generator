@@ -1,0 +1,40 @@
+{
+  "store.user-orders": {
+    "children": [
+      {
+        "orders-layout#orders": {
+          "children": [
+            {
+              "orders-layout.list#orderList": {
+                "children": [
+                  {
+                    "flex-layout.row#orderContainer": {
+                      "children": [
+                        {
+                          "flex-layout.col#oderDetails": {
+                            "children": [
+                              "orders-layout.id#order-id",
+                              "orders-layout.status#order-status",
+                              "orders-layout.date#order-date"
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.col#orderButton": {
+                            "children": [
+                              "orders-layout.show-more#show"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

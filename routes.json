@@ -1,0 +1,824 @@
+{
+    "rootType": "Stack",
+    "initialRouteName": "SplashStack",
+    "prefixes": ["https://framework.com", "framework://"],
+    "screens": {
+      "InitialStack": {
+        "type": "Stack",
+        "initialRouteName": "login",
+        "unmountIfIsAuthenticated": true,
+        "options": {
+          "headerTintColor": "#fff",
+          "headerTitleStyle": {},
+          "headerTitleAlign": "center",
+          "headerBackTitleVisible": false,
+          "headerMode": "none",
+          "headerShown": false
+        },
+        "path": "auth",
+        "screens": {
+          "login": {
+            "path": "login",
+            "options": {
+              "title": "Iniciar Sesión",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            },
+            "type": "Component"
+          },
+          "emailVerification": {
+            "path": "email-verification",
+            "type": "Component",
+            "options": {
+              "title": "Crear cuenta",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "otpCodeVerification": {
+            "path": "otp-code-verification/:email",
+            "type": "Component",
+            "options": {
+              "title": "Regístro con Código",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "terms-conditions": {
+            "path": "Terms&Conditions",
+            "type": "Component",
+            "options": {
+              "title": "Términos y Condiciones",
+              "headerBackTitleVisible": false,
+              "headerShown": true
+            }
+          },
+          "signup": {
+            "path": "signup/:email/:accessKey",
+            "type": "Component",
+            "options": {
+              "title": "Crear cuenta",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "loginWithCode": {
+            "type": "Stack",
+            "initialRouteName": "login-with-otp-email",
+            "options": {
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false,
+              "headerShown": false
+            },
+            "screens": {
+              "login-with-otp-email": {
+                "options": {
+                  "title": "Acceso con código",
+                  "headerTintColor": "#fff",
+                  "headerTitleStyle": {},
+                  "headerTitleAlign": "center",
+                  "headerBackTitleVisible": false
+                },
+                "path": "login-with-otp-email",
+                "type": "Component"
+              },
+              "login-with-otp-email-check-code": {
+                "options": {
+                  "title": "Acceso con código",
+                  "headerTintColor": "#fff",
+                  "headerTitleStyle": {},
+                  "headerTitleAlign": "center",
+                  "headerBackTitleVisible": false
+                },
+                "path": "login-with-otp-email-check-code/:email",
+                "type": "Component"
+              },
+              "login-with-oauth-email-check-code": {
+                "options": {
+                  "title": "Acceso con código",
+                  "headerTintColor": "#fff",
+                  "headerTitleStyle": {},
+                  "headerTitleAlign": "center",
+                  "headerBackTitleVisible": false
+                },
+                "path": "login-with-oauth-email-check-code/:email/:name/:lastName",
+                "type": "Component"
+              }
+            }
+          },
+          "recoveryPassword": {
+            "type": "Stack",
+            "initialRouteName": "confirmEmail",
+            "options": {
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false,
+              "headerShown": false
+            },
+            "screens": {
+              "confirmEmail": {
+                "options": {
+                  "title": "Cambiar Clave",
+                  "headerTintColor": "#fff",
+                  "headerTitleStyle": {},
+                  "headerTitleAlign": "center",
+                  "headerBackTitleVisible": false
+                },
+                "path": "confirmEmail",
+                "type": "Component"
+              },
+              "newPassword": {
+                "options": {
+                  "title": "Cambiar Clave",
+                  "headerTintColor": "#fff",
+                  "headerTitleStyle": {},
+                  "headerTitleAlign": "center",
+                  "headerBackTitleVisible": false
+                },
+                "path": "newPassword/:email",
+                "type": "Component"
+              }
+            }
+          }
+        }
+      },
+      "drawer-stack": {
+        "initialRouteName": "home",
+        "options": {
+          "headerTintColor": "#fff",
+          "headerTitleStyle": {},
+          "headerTitleAlign": "center",
+          "headerBackTitleVisible": false,
+          "title": "Categorías",
+          "iconName": "list-outline",
+          "drawerType": "front",
+          "headerShown": false,
+          "drawerContent": "scroll-view#categories"
+        },
+        "type": "Drawer",
+        "screens": {
+          "MainStack": {
+            "type": "Tab",
+            "initialRouteName": "home",
+            "options": {
+              "title": "Inicio",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false,
+              "headerMode": "none",
+              "headerShown": false,
+              "keyboardHidesTabBar": true,
+              "tabBarActiveTintColor": "black",
+              "tabBarInactiveTintColor": "gray"
+            },
+            "screens": {
+              "home": {
+                "path": "feed",
+                "type": "Component",
+                "options": {
+                  "title": "Inicio",
+                  "headerTintColor": "#fff",
+                  "headerTitleStyle": {},
+                  "headerTitleAlign": "center",
+                  "headerBackTitleVisible": false,
+                  "headerShown": false,
+                  "positionKey": 1,
+                  "tourguideText": "Encuentra todas nuestras ofertas y novedades",
+                  "tooltipBottomOffset": 100,
+                  "tourguideStyles": {
+                    "bottom": 30,
+                    "left": 20,
+                    "width": 60,
+                    "height": 60
+                  },
+                  "iconName": "home-outline"
+                }
+              },
+              "menu-drawer": {
+                "type": "Stack",
+                "initialRouteName": "search",
+                "options": {
+                  "headerTintColor": "#fff",
+                  "headerTitleStyle": {},
+                  "headerTitleAlign": "center",
+                  "headerBackTitleVisible": false,
+                  "title": "Categorías",
+                  "headerShown": false,
+                  "listeners": true,
+                  "iconType": "block",
+                  "iconName": "custom.open-drawer-button",
+                  "positionKey": 2,
+                  "tourguideText": "Encuentra todas nuestras secciones",
+                  "tooltipBottomOffset": 100,
+                  "tourguideStyles": {
+                    "bottom": 30,
+                    "left": 20,
+                    "width": 60,
+                    "height": 60
+                  }
+                },
+                "screens": {
+                  "search": {
+                    "path": "search/:department?/:category?/:subCategory?/:brand?",
+                    "type": "Component",
+                    "options": {
+                      "title": "PLP",
+                      "headerShown": false,
+                      "headerTintColor": "#fff",
+                      "headerTitleStyle": {},
+                      "headerTitleAlign": "center",
+                      "headerBackTitleVisible": false
+                    }
+                  },
+                  "landing": {
+                    "type": "Stack",
+                    "options": {
+                      "headerTintColor": "#fff",
+                      "headerTitleStyle": {},
+                      "headerTitleAlign": "center",
+                      "headerBackTitleVisible": false,
+                      "headerShown": false
+                    },
+                    "screens": {
+                      "celulares-y-tecnologia": {
+                        "path": "celulares-y-tecnologia/:department?/:category?/:subCategory?/:brand?",
+                        "type": "Component",
+                        "options": {
+                          "headerTintColor": "#fff",
+                          "headerTitleStyle": {},
+                          "headerTitleAlign": "center",
+                          "headerBackTitleVisible": false,
+                          "headerShown": false,
+                          "title": "Celulares y Telefonía"
+                        }
+                      },
+                      "supermercado": {
+                        "path": "supermercado/:department?/:category?/:subCategory?/:brand?",
+                        "type": "Component",
+                        "options": {
+                          "headerTintColor": "#fff",
+                          "headerTitleStyle": {},
+                          "headerTitleAlign": "center",
+                          "headerBackTitleVisible": false,
+                          "headerShown": false,
+                          "title": "Categorías"
+                        }
+                      },
+                      "mundo-saludable": {
+                        "path": "/mundo-saludable",
+                        "type": "Component",
+                        "options": {
+                          "headerTintColor": "#fff",
+                          "headerTitleStyle": {},
+                          "headerTitleAlign": "center",
+                          "headerBackTitleVisible": false,
+                          "title": "PLP Colección",
+                          "headerShown": false
+                        }
+                      },
+                      "plp-collection": {
+                        "path": "/collection/:collectionId?",
+                        "type": "Component",
+                        "options": {
+                          "title": "PLP Colección",
+                          "headerTintColor": "#fff",
+                          "headerTitleStyle": {},
+                          "headerTitleAlign": "center",
+                          "headerBackTitleVisible": false,
+                          "headerShown": false
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "cart": {
+                "options": {
+                  "title": "Mi carrito",
+                  "headerShown": false,
+                  "headerTintColor": "#fff",
+                  "headerTitleStyle": {},
+                  "headerTitleAlign": "center",
+                  "headerBackTitleVisible": false,
+                  "iconName": "cart-outline",
+                  "positionKey": 3,
+                  "tourguideText": "Encuentra el resumen de tus productos y finaliza la compra",
+                  "tooltipBottomOffset": 100,
+                  "tourguideStyles": {
+                    "bottom": 30,
+                    "left": 20,
+                    "width": 60,
+                    "height": 60
+                  }
+                },
+                "path": "cart",
+                "type": "Component"
+              },
+              "profile-stack": {
+                "type": "Stack",
+                "initialRouteName": "profile",
+                "options": {
+                  "title": "Mi Perfil",
+                  "headerTintColor": "#fff",
+                  "headerTitleStyle": {},
+                  "headerTitleAlign": "center",
+                  "headerBackTitleVisible": false,
+                  "iconName": "person-outline",
+                  "positionKey": 4,
+                  "tourguideText": "Administra tus datos, direcciones, formas de pago y muchos más",
+                  "tooltipBottomOffset": 100,
+                  "tourguideStyles": {
+                    "bottom": 30,
+                    "left": 20,
+                    "width": 60,
+                    "height": 60
+                  }
+                },
+                "screens": {
+                  "profile": {
+                    "path": "profile",
+                    "type": "Component",
+                    "options": {
+                      "title": "Perfil",
+                      "headerTintColor": "#fff",
+                      "headerTitleStyle": {},
+                      "headerTitleAlign": "center",
+                      "headerBackTitleVisible": false,
+                      "headerShown": false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "SecondaryStack": {
+        "type": "Stack",
+        "initialRouteName": "location-selection-screen",
+        "options": {
+          "headerTintColor": "#fff",
+          "headerTitleStyle": {},
+          "headerTitleAlign": "center",
+          "headerBackTitleVisible": false,
+          "headerShown": false
+        },
+        "screens": {
+          "product": {
+            "path": ":productId/p",
+            "type": "Component",
+            "options": {
+              "headerShown": false,
+              "title": "PDP",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "prime": {
+            "path": "prime",
+            "type": "Component",
+            "options": {
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false,
+              "title": "Descuentos Prime"
+            }
+          },
+          "edit-address": {
+            "path": "/account/profile/address/edit/:addressName",
+            "type": "Component",
+            "options": {
+              "title": "Editar Dirección",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "edit-profile": {
+            "path": "/account/profile/edit",
+            "type": "Component",
+            "options": {
+              "title": "Editar Perfil",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "terms-conditions": {
+            "path": "Terms&Conditions",
+            "type": "Component",
+            "options": {
+              "title": "Términos y Condiciones",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "user-preguntas-frecuentes": {
+            "path": "preguntas/detail",
+            "type": "Component",
+            "options": {
+              "title": "Preguntas frecuentes",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "user-pqr": {
+            "path": "pqrf/detail",
+            "type": "Component",
+            "options": {
+              "title": "PQRF",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "user-superintendency": {
+            "path": "Superintendencia",
+            "type": "Component",
+            "options": {
+              "title": "Superintendencia de Industria y Comercio",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "user-app-version": {
+            "path": "user-app-version",
+            "type": "Component",
+            "options": {
+              "title": "Versión de la aplicación",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "user-address": {
+            "path": "user-address",
+            "type": "Component",
+            "options": {
+              "title": "Mis Direcciones",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "user-services": {
+            "path": "user-services",
+            "type": "Component",
+            "options": {
+              "title": "Servicios",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "search-store-tenants": {
+            "path": "search-store-tenants",
+            "type": "Component",
+            "options": {
+              "title": "Buscar Tiendas",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "select-store-address": {
+            "path": "select-store-address",
+            "type": "Component",
+            "options": {
+              "title": "Tiendas",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "add-addresses": {
+            "path": "add-addresses",
+            "type": "Component",
+            "options": {
+              "title": "Mis Direcciones",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "select-address": {
+            "path": "select-address",
+            "type": "Component",
+            "options": {
+              "title": "Mis Direcciones",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "comprar": {
+            "path": "comprar",
+            "type": "Component",
+            "options": {
+              "title": "Comprar",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false,
+              "headerShown": false
+            }
+          },
+          "checkout": {
+            "path": "checkout",
+            "type": "Component",
+            "options": {
+              "title": "Checkout",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "user-cards": {
+            "path": "mis-tarjetas",
+            "type": "Component",
+            "options": {
+              "title": "Mis Tarjetas",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false,
+              "headerShown": true
+            }
+          },
+          "add-cards": {
+            "path": "add-cards",
+            "type": "Component",
+            "options": {
+              "title": "Añadir Tarjetas",
+              "headerBackTitleVisible": false,
+              "headerShown": true
+            }
+          },
+          "user-gift-cards": {
+            "path": "tarjetas-regalo",
+            "type": "Component",
+            "options": {
+              "title": "Tarjetas de Regalo",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false,
+              "headerShown": true
+            }
+          },
+          "user-gift-card-detail": {
+            "path": "tarjetas-regalo/detail/:id",
+            "type": "Component",
+            "options": {
+              "title": "Movimientos de Tarjeta de Regalo",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false,
+              "headerShown": true
+            }
+          },
+          "user-my-discounts": {
+            "path": "mis-descuentos",
+            "type": "Component",
+            "options": {
+              "title": "Mis descuentos",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false,
+              "headerShown": false
+            }
+          },
+          "order-summary": {
+            "path": "profile/order/:orderId",
+            "type": "Component",
+            "options": {
+              "title": "Mi orden",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "user-my-news": {
+            "path": "mis-novedades",
+            "type": "Component",
+            "options": {
+              "title": "Mis novedades",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "user-orders-detail": {
+            "path": "MyOrders/detail",
+            "type": "Component",
+            "options": {
+              "title": "Mi pedido",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "user-coverage-detail": {
+            "path": "coverage/detail",
+            "type": "Component",
+            "options": {
+              "title": "Ciudades con cobertura",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "wishlist": {
+            "path": "wishlist",
+            "type": "Component",
+            "options": {
+              "title": "Mis Listas",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "wishlistDetail": {
+            "path": "wishlist/detail/:id",
+            "type": "Component",
+            "options": {
+              "title": "Mis Listas",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "addWishlistProducts": {
+            "path": "wishlist/add/product/:id",
+            "type": "Component",
+            "options": {
+              "title": "Mis Listas",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "stores": {
+            "path": "stores",
+            "type": "Component",
+            "options": {
+              "title": "Tiendas",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "centro-de-ayuda": {
+            "path": "centro-de-ayuda",
+            "type": "Component",
+            "options": {
+              "title": "Centro de ayuda",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false,
+              "headerShown": true
+            }
+          },
+          "requiero-ayuda": {
+            "path": "requiero-ayuda",
+            "type": "Component",
+            "options": {
+              "title": "requiero-ayuda",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false,
+              "headerShown": false
+            }
+          },
+          "how-to-buy": {
+            "path": "how-to-buy",
+            "type": "Component",
+            "options": {
+              "title": "Como Comprar",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false,
+              "headerShown": true
+            }
+          },
+          "location-selection-screen": {
+            "path": "location-selection",
+            "type": "Component",
+            "options": {
+              "title": "¿Cómo quieres recibir tu pedido?",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false,
+              "headerShown": true
+            }
+          }
+        }
+      },
+      "SplashStack": {
+        "type": "Stack",
+        "options": {
+          "headerTintColor": "#fff",
+          "headerTitleStyle": {},
+          "headerTitleAlign": "center",
+          "headerBackTitleVisible": false,
+          "headerShown": false
+        },
+        "screens": {
+          "splash": {
+            "path": "splash",
+            "type": "Component",
+            "options": {
+              "title": "",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false,
+              "headerShown": false
+            }
+          }
+        }
+      },
+      "ProfileStack": {
+        "type": "Stack",
+        "options": {
+          "headerTintColor": "#fff",
+          "headerTitleStyle": {},
+          "headerTitleAlign": "center",
+          "headerBackTitleVisible": false,
+          "headerShown": false
+        },
+        "screens": {
+          "user-orders": {
+            "path": "MyOrders",
+            "type": "Component",
+            "options": {
+              "headerLeftBlock": "icon#goback-orders",
+              "title": "Mis pedidos",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          },
+          "order-placed": {
+            "path": "order-placed/:orderId",
+            "type": "Component",
+            "options": {
+              "headerLeftBlock": "icon#goback-cart",
+              "title": "Confirmación de Pedido",
+              "headerTintColor": "#fff",
+              "headerTitleStyle": {},
+              "headerTitleAlign": "center",
+              "headerBackTitleVisible": false
+            }
+          }
+        }
+      }
+    }
+  }

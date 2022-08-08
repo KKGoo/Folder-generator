@@ -1,0 +1,21 @@
+{
+  "store.user-my-news": {
+    "children": [
+      {
+        "flex-layout.row#emptyMyNews": {
+          "children": [
+            {
+              "flex-layout.col#emptyMyNews": {
+                "children": [
+                  "image#emptyMyNews",
+                  "rich-text#emptyMyNewsTitle",
+                  "rich-text#emptyMyNewsText"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

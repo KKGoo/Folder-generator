@@ -1,0 +1,28 @@
+{
+  "store.edit-address": {
+    "children": [
+      {
+        "scroll-view#edit-address": {
+          "children": [
+            {
+              "store-form.customer-update-address#edit-address": {
+                "children": [
+                  {
+                    "store-form.select-group#edit-address": {
+                      "children": [
+                        "store-form.select-group-item#edit-department",
+                        "store-form.select-group-item#edit-municipalicies"
+                      ]
+                    }
+                  },
+                  "store-form.input#edit-street",
+                  "store-form.button#edit-address-submit"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

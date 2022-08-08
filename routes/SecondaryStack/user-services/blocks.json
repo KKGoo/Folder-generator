@@ -1,0 +1,7 @@
+{
+  "store.user-services": {
+    "children": [
+      "web-view#user-services"
+    ]
+  }
+}

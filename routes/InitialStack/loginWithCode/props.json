@@ -1,0 +1,11 @@
+{
+  "initialRouteName": "login-with-otp-email",
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerShown": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {}
+  },
+  "type": "Stack"
+}

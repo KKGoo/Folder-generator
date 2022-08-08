@@ -1,0 +1,55 @@
+{
+  "store.user-address": {
+    "children": [
+      {
+        "flex-layout.col#address": {
+          "children": [
+            {
+              "flex-layout.col#newAddAddressAccept": {
+                "children": [
+                  "rich-text#user-address",
+                  {
+                    "my-addresses.shelf": {
+                      "children": [
+                        {
+                          "store-locator-item": {
+                            "children": [
+                              {
+                                "flex-layout.row#address": {
+                                  "children": [
+                                    "store-locator-switch",
+                                    "my-addresses.formatted-address",
+                                    {
+                                      "flex-layout.col#icon-swipe": {
+                                        "children": [
+                                          "icon#swipe"
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "flex-layout.row#newAddAddress": {
+                "children": [
+                  "icon#addNewAddress",
+                  "store-link#userAddAddress"
+                ]
+              }
+            },
+            "store-link#userAddAddressAccept"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "store.edit-profile": {
+    "children": [
+      {
+        "scroll-view#edit-profile": {
+          "children": [
+            {
+              "flex-layout.row#wrapper": {
+                "children": [
+                  {
+                    "flex-layout.col#wrapper": {
+                      "children": [
+                        {
+                          "my-account#edit-profile": {
+                            "children": [
+                              {
+                                "flex-layout.row#edit-profile-details": {
+                                  "children": [
+                                    "icon#user-circle-edit",
+                                    {
+                                      "flex-layout.col#welcome-profile-edit": {
+                                        "children": [
+                                          "my-account.fullname#edit-profile",
+                                          "my-account.email#edit-profile"
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              "flex-layout.row#divider"
+                            ]
+                          }
+                        },
+                        {
+                          "store-form.update-profile#edit-profile": {
+                            "children": [
+                              {
+                                "store-form.input#firstName": {
+                                  "children": [
+                                    "icon#pass",
+                                    "icon#alert"
+                                  ]
+                                }
+                              },
+                              {
+                                "store-form.input#lastName": {
+                                  "children": [
+                                    "icon#pass",
+                                    "icon#alert"
+                                  ]
+                                }
+                              },
+                              {
+                                "flex-layout.row#document": {
+                                  "children": [
+                                    {
+                                      "flex-layout.col#id-type": {
+                                        "children": [
+                                          "store-form.select#id-type"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "flex-layout.col#id": {
+                                        "children": [
+                                          {
+                                            "store-form.input#id": {
+                                              "children": [
+                                                "icon#alert",
+                                                "icon#alert"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "store-form.date-picker#dateOfBirth": {
+                                  "children": [
+                                    "icon#calendar"
+                                  ]
+                                }
+                              },
+                              {
+                                "store-form.input#cellPhone": {
+                                  "children": [
+                                    "icon#pass",
+                                    "icon#alert"
+                                  ]
+                                }
+                              },
+                              "store-form.button#submit-profile"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

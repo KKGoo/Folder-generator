@@ -1,0 +1,262 @@
+{
+  "store.profile": {
+    "children": [
+      {
+        "scroll-view#profile": {
+          "children": [
+            {
+              "my-account#profile": {
+                "children": [
+                  {
+                    "flex-layout.row#welcome-profile": {
+                      "children": [
+                        "icon#user-circle",
+                        {
+                          "flex-layout.col#welcome-profile-text": {
+                            "children": [
+                              "my-account.fullname#profile",
+                              "my-account.email#profile"
+                            ]
+                          }
+                        },
+                        {
+                          "flex-layout.col#edit-profile-wrapper": {
+                            "children": [
+                              "store-link#to-edit-profile"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "custom.prime-profile",
+                  {
+                    "flex-layout.col#profile-options": {
+                      "children": [
+                        {
+                          "flex-layout.row#profile": {
+                            "children": [
+                              {
+                                "menu#menu-profile": {
+                                  "children": [
+                                    {
+                                      "menu-item#profile-item-orders": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#orders": {
+                                              "children": [
+                                                {
+                                                  "flex-layout.row#orders-text": {
+                                                    "children": [
+                                                      "icon#basket-outline",
+                                                      "rich-text#orders"
+                                                    ]
+                                                  }
+                                                },
+                                                "icon#chevron-forward"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "menu-item#profile-item-location": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#location": {
+                                              "children": [
+                                                {
+                                                  "flex-layout.row#location-text": {
+                                                    "children": [
+                                                      "icon#location-outline",
+                                                      "rich-text#location"
+                                                    ]
+                                                  }
+                                                },
+                                                "icon#chevron-forward"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "menu-item#profile-item-cards": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#cards": {
+                                              "children": [
+                                                {
+                                                  "flex-layout.row#cards-text": {
+                                                    "children": [
+                                                      "icon#card-outline",
+                                                      "rich-text#cards"
+                                                    ]
+                                                  }
+                                                },
+                                                "icon#chevron-forward"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "menu-item#profile-item-gift": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#gift": {
+                                              "children": [
+                                                {
+                                                  "flex-layout.row#gift-text": {
+                                                    "children": [
+                                                      "icon#gift-outline",
+                                                      "rich-text#gift"
+                                                    ]
+                                                  }
+                                                },
+                                                "icon#chevron-forward"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "menu-item#profile-item-wishlist": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#wishlist": {
+                                              "children": [
+                                                {
+                                                  "flex-layout.row#wishlist-text": {
+                                                    "children": [
+                                                      "icon#wishlist-outline",
+                                                      "rich-text#wishlist"
+                                                    ]
+                                                  }
+                                                },
+                                                "icon#chevron-forward"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "menu-item#profile-item-discounts": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#discounts": {
+                                              "children": [
+                                                {
+                                                  "flex-layout.row#discounts-text": {
+                                                    "children": [
+                                                      "icon#pricetag-outline",
+                                                      "rich-text#discounts"
+                                                    ]
+                                                  }
+                                                },
+                                                "icon#chevron-forward"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "menu-item#profile-item-services": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#services": {
+                                              "children": [
+                                                {
+                                                  "flex-layout.row#services-text": {
+                                                    "children": [
+                                                      "icon#pricetag-gears",
+                                                      "rich-text#services"
+                                                    ]
+                                                  }
+                                                },
+                                                "icon#chevron-forward"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "menu-item#profile-item-fidelity": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#fidelity": {
+                                              "children": [
+                                                {
+                                                  "flex-layout.row#fidelity-text": {
+                                                    "children": [
+                                                      "icon#fidelity",
+                                                      "rich-text#fidelity"
+                                                    ]
+                                                  }
+                                                },
+                                                "icon#chevron-forward"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "menu-item#profile-item-help": {
+                                        "children": [
+                                          {
+                                            "flex-layout.row#help": {
+                                              "children": [
+                                                {
+                                                  "flex-layout.row#help-text": {
+                                                    "children": [
+                                                      "icon#help-circle-outline",
+                                                      "rich-text#help"
+                                                    ]
+                                                  }
+                                                },
+                                                "icon#chevron-forward"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "flex-layout.row#log-out": {
+                      "children": [
+                        {
+                          "signout#log-out": {
+                            "children": [
+                              "icon#power-outline",
+                              "rich-text#log-out"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

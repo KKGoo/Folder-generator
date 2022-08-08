@@ -1,0 +1,11 @@
+{
+  "options": {
+    "headerBackTitleVisible": false,
+    "headerTintColor": "#fff",
+    "headerTitleAlign": "center",
+    "headerTitleStyle": {},
+    "title": "Mis Listas"
+  },
+  "path": "wishlist/detail/:id",
+  "type": "Component"
+}
