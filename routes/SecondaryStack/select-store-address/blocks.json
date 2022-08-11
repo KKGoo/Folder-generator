@@ -1,70 +1,158 @@
 {
-  "store.select-store-address": {
+  "flex-layout.col#store-address": {
     "children": [
-      {
-        "flex-layout.row#seeOnMap": {
-          "children": [
-            "store-link#storeSeeAddress",
-            "icon#map"
-          ]
-        }
-      },
-      {
-        "tenant-layout#tenants": {
-          "children": [
-            {
-              "flex-layout.col#store-address": {
-                "children": [
-                  "rich-text#find-store-address",
-                  {
-                    "store-locator.shelf#store-address": {
-                      "children": [
-                        {
-                          "store-locator-item#store-address": {
-                            "children": [
-                              {
-                                "flex-layout.row#store-address-wrapper": {
-                                  "children": [
-                                    {
-                                      "flex-layout.col#store-address-content": {
-                                        "children": [
-                                          "store-locator-name#adressName",
-                                          {
-                                            "flex-layout.row#scheduleName": {
-                                              "children": [
-                                                "icon#schedule",
-                                                "store-locator-openingHours#store-address"
-                                              ]
-                                            }
-                                          },
-                                          {
-                                            "flex-layout.row#AddressName": {
-                                              "children": [
-                                                "icon#address",
-                                                "store-locator-address#store-address"
-                                              ]
-                                            }
-                                          }
-                                        ]
-                                      }
-                                    },
-                                    "store-locator-switch#store-address"
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
+      "rich-text#find-store-address",
+      "store-locator.shelf#store-address"
+    ],
+    "props": {
+      "blockClass": "locatorContainerWrapper"
+    }
+  },
+  "flex-layout.col#store-address-content": {
+    "children": [
+      "store-locator-name#adressName",
+      "flex-layout.row#scheduleName",
+      "flex-layout.row#AddressName"
+    ]
+  },
+  "flex-layout.row#AddressName": {
+    "children": [
+      "icon#address",
+      "store-locator-address#store-address"
+    ],
+    "props": {
+      "blockClass": "storeWrapperAddress"
+    }
+  },
+  "flex-layout.row#scheduleName": {
+    "children": [
+      "icon#schedule",
+      "store-locator-openingHours#store-address"
+    ],
+    "props": {
+      "blockClass": "storeWrapperAddress"
+    }
+  },
+  "flex-layout.row#seeOnMap": {
+    "children": [
+      "store-link#storeSeeAddress",
+      "icon#map"
+    ],
+    "props": {
+      "blockClass": "seeMapStoreContainer"
+    }
+  },
+  "flex-layout.row#store-address-wrapper": {
+    "children": [
+      "flex-layout.col#store-address-content",
+      "store-locator-switch#store-address"
+    ],
+    "props": {
+      "blockClass": "locatorStoreContainer"
+    }
+  },
+  "icon#address": {
+    "props": {
+      "color": "#A4C735",
+      "height": 50,
+      "lib": "FontAwesome5",
+      "name": "map-marker-alt",
+      "width": 50
+    }
+  },
+  "icon#map": {
+    "props": {
+      "color": "#1FA02E",
+      "lib": "FontAwesome5",
+      "name": "map",
+      "size": 18
+    }
+  },
+  "icon#schedule": {
+    "props": {
+      "color": "#A4C735",
+      "height": 50,
+      "lib": "FontAwesome5",
+      "name": "clock",
+      "width": 50
+    }
+  },
+  "rich-text#find-store-address": {
+    "props": {
+      "blockClass": "storeAdressText",
+      "text": "Selecciona la tienda"
+    }
+  },
+  "store-link#storeSeeAddress": {
+    "props": {
+      "blockClass": "linkSeeAdresses",
+      "displayMode": "anchor",
+      "label": "Ver Mapa",
+      "url": "/auth/login-with-otp-email"
+    }
+  },
+  "store-link#storeSeeAddressButton": {
+    "props": {
+      "blockClass": "linkSeeAdressesButton",
+      "displayMode": "button",
+      "label": "Ver Mapa",
+      "url": "/auth/login-with-otp-email"
+    }
+  },
+  "store-locator-address#store-address": {
+    "props": {
+      "blockClass": "locatorStoreAdress"
+    }
+  },
+  "store-locator-item#store-address": {
+    "children": [
+      "flex-layout.row#store-address-wrapper"
+    ],
+    "props": {
+      "name": "selectorLocator"
+    }
+  },
+  "store-locator-name#adressName": {
+    "props": {
+      "blockClass": "locatorStoreName"
+    }
+  },
+  "store-locator-openingHours#store-address": {
+    "props": {
+      "blockClass": "locatorStoreAdress"
+    }
+  },
+  "store-locator-switch#store-address": {
+    "props": {
+      "blockClass": "switchCreateAccount",
+      "isRequired": true,
+      "thumbColor": "#fff",
+      "trackColorFalse": "gray",
+      "trackColorTrue": "#A4C735"
+    }
+  },
+  "store-locator.shelf#store-address": {
+    "children": [
+      "store-locator-item#store-address"
+    ],
+    "props": {
+      "blockClass": "locatorwrapper",
+      "data": "DATA"
+    }
+  },
+  "store.select-store-address": {
+    "blocks": [
+      "flex-layout.row#seeOnMap",
+      "tenant-layout#tenants",
       "store-link#storeSeeAddressButton"
     ]
+  },
+  "tenant-layout#tenants": {
+    "children": [
+      "flex-layout.col#store-address"
+    ],
+    "props": {
+      "blockClass": "tenantLayoutContainer"
+    }
   }
 }

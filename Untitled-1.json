@@ -1,0 +1,37 @@
+{
+    "store.home": {
+        "blocks": [
+            "flex-layout.row#header",
+            "scroll-view#home-scroll",
+            "flex-layout.row#FAB"
+        ],
+    },
+    "flex-layout.row#header": {
+        "children": [
+            "flex-layout.row#dummy-container"
+        ],
+    },
+    "scroll-view#home-scroll": {
+        "blocks": [
+            "condition.theme#jumbo-home",
+            "condition.theme#metro-home",
+            "condition.theme#easy-home"
+        ],},
+
+    "flex-layout.row#dummy-container": {
+        "blocks": [
+            "condition.theme#jumbo"
+        ],
+        "children": [
+            {
+            "condition.theme#jumbo": {
+                "blocks": [],
+                "children": [
+                "image#jumbo"
+                ]
+            }
+            },
+            "store-link#fake-input",
+            "icon#lupa-de-busqueda"
+        ]
+        }   

@@ -1,35 +1,105 @@
 {
-  "store.emailVerification": {
+  "flex-layout.col#storeFormemail": {
     "children": [
-      {
-        "store-form.otp#emailverification": {
-          "children": [
+      "rich-text#text-emailverification",
+      "store-form.input#emailOtp",
+      "store-form.button#submit-emailverification"
+    ]
+  },
+  "flex-layout.row#storeFormemail": {
+    "children": [
+      "flex-layout.col#storeFormemail"
+    ]
+  },
+  "icon#alert": {
+    "props": {
+      "color": "red",
+      "lib": "Ionicons",
+      "name": "alert-circle-outline",
+      "size": 25
+    }
+  },
+  "icon#pass": {
+    "props": {
+      "color": "#565656",
+      "lib": "Ionicons",
+      "name": "key-outline",
+      "size": 30
+    }
+  },
+  "rich-text#text-emailverification": {
+    "props": {
+      "blockClass": "titleSignup",
+      "text": "Ingresa tu correo electr\u00f3nico y te enviaremos un enlace de verificaci\u00f3n"
+    }
+  },
+  "store-form.button#submit-emailverification": {
+    "props": {
+      "blockClass": "storeFormButtonStyle",
+      "buttonText": "Verificar correo electr\u00f3nico",
+      "variant": "secondary"
+    }
+  },
+  "store-form.input#emailOtp": {
+    "children": [
+      "icon#pass",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isEmail": true,
+      "isRequired": true,
+      "label": "Correo electr\u00f3nico",
+      "name": "email",
+      "rightIcon": true
+    }
+  },
+  "store-form.otp#emailverification": {
+    "children": [
+      "flex-layout.row#storeFormemail",
+      "store-link#signIn"
+    ],
+    "props": {
+      "blockClass": "emailVerificationFormEmail",
+      "modalDescription": "Hemos enviado al correo: {email} el enlace de verificaci\u00f3n de manera exitosa",
+      "modalType": "continue",
+      "mode": "onChange",
+      "redirectTo": "/auth/otp-code-verification/{email}",
+      "schemaValidation": [
+        {
+          "id": "email",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
             {
-              "flex-layout.row#storeFormemail": {
-                "children": [
-                  {
-                    "flex-layout.col#storeFormemail": {
-                      "children": [
-                        "rich-text#text-emailverification",
-                        {
-                          "store-form.input#emailOtp": {
-                            "children": [
-                              "icon#pass",
-                              "icon#alert"
-                            ]
-                          }
-                        },
-                        "store-form.button#submit-emailverification"
-                      ]
-                    }
-                  }
-                ]
-              }
+              "params": [
+                "El correo electr\u00f3nico es requerido"
+              ],
+              "type": "required"
             },
-            "store-link#signIn"
+            {
+              "params": [
+                "Debe ser un email v\u00e1lido"
+              ],
+              "type": "email"
+            }
           ]
         }
-      }
+      ]
+    }
+  },
+  "store-link#signIn": {
+    "props": {
+      "accessibilityLabel": "This is a button",
+      "blockClass": "signInLink",
+      "displayMode": "anchor",
+      "label": "\u00bfYa tienes cuenta? **Iniciar sesi\u00f3n**",
+      "url": "/auth/login"
+    }
+  },
+  "store.emailVerification": {
+    "blocks": [
+      "store-form.otp#emailverification"
     ]
   }
 }

@@ -1,35 +1,123 @@
 {
-  "store.login-with-otp-email-check-code": {
+  "flex-layout.col#inputColoAuth": {
     "children": [
-      {
-        "store-form.otp-code-validation#login-with-otp-email-check-code": {
-          "children": [
+      "rich-text#otp-code-validation",
+      "store-form.input#otp-code-input-oAuth",
+      "store-form.button#submit-otp-code-validation-oAuth"
+    ]
+  },
+  "flex-layout.row#inputRowoAuth": {
+    "children": [
+      "flex-layout.col#inputColoAuth"
+    ]
+  },
+  "icon#alert": {
+    "props": {
+      "color": "red",
+      "lib": "Ionicons",
+      "name": "alert-circle-outline",
+      "size": 25
+    }
+  },
+  "icon#pass": {
+    "props": {
+      "color": "#565656",
+      "lib": "Ionicons",
+      "name": "key-outline",
+      "size": 30
+    }
+  },
+  "resend-code-link#otpValidationLink": {
+    "props": {
+      "blockClass": "signInLink",
+      "displayMode": "anchor",
+      "label": "**\u00bfNo has recibido el c\u00f3digo?**",
+      "modalDescription": "El enlace de verificaci\u00f3n se ha enviado de manera exitosa a tu correo: {email} ",
+      "modalTitle": "Enviado",
+      "modalType": "continue"
+    }
+  },
+  "rich-text#otp-code-validation": {
+    "props": {
+      "blockClass": "titleSignup",
+      "text": "Ingresa el c\u00f3digo que te enviamos al correo:"
+    }
+  },
+  "store-form.button#submit-otp-code-validation-oAuth": {
+    "props": {
+      "blockClass": "storeFormButtonStyle",
+      "buttonText": "Aceptar",
+      "variant": "secondary"
+    }
+  },
+  "store-form.input#otp-code-input-oAuth": {
+    "children": [
+      "icon#pass",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isRequired": true,
+      "label": "C\u00f3digo de Validaci\u00f3n",
+      "name": "code",
+      "rightIcon": true
+    }
+  },
+  "store-form.otp-code-validation#login-with-otp-email-check-code": {
+    "children": [
+      "flex-layout.row#inputRowoAuth",
+      "resend-code-link#otpValidationLink"
+    ],
+    "props": {
+      "blockClass": "emailVerificationFormEmail",
+      "content": "flex-layout.row#contentModalUpdateError",
+      "modalDescription": "El enlace de verificaci\u00f3n se ha enviado de manera exitosa a tu correo: {email} ",
+      "modalTitle": "Enviado",
+      "modalType": "continue",
+      "mode": "onChange",
+      "redirectTo": "/feed",
+      "schemaValidation": [
+        {
+          "id": "code",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
             {
-              "flex-layout.row#inputRowoAuth": {
-                "children": [
-                  {
-                    "flex-layout.col#inputColoAuth": {
-                      "children": [
-                        "rich-text#otp-code-validation",
-                        {
-                          "store-form.input#otp-code-input-oAuth": {
-                            "children": [
-                              "icon#pass",
-                              "icon#alert"
-                            ]
-                          }
-                        },
-                        "store-form.button#submit-otp-code-validation-oAuth"
-                      ]
-                    }
-                  }
-                ]
-              }
+              "params": [
+                "El c\u00f3digo que ha ingresado es incorrecto"
+              ],
+              "type": "required"
             },
-            "resend-code-link#otpValidationLink"
+            {
+              "params": [
+                6,
+                "El c\u00f3digo debe ser de 6 d\u00edgitos"
+              ],
+              "type": "min"
+            },
+            {
+              "params": [
+                6,
+                "El c\u00f3digo debe ser de 6 d\u00edgitos"
+              ],
+              "type": "max"
+            },
+            {
+              "params": [
+                {},
+                "Debe ser solo d\u00edgitos"
+              ],
+              "type": "matches"
+            }
           ]
         }
-      }
+      ],
+      "validationOTP": true
+    }
+  },
+  "store.login-with-otp-email-check-code": {
+    "blocks": [
+      "store-form.otp-code-validation#login-with-otp-email-check-code"
     ]
   }
 }

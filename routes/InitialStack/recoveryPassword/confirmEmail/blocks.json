@@ -1,35 +1,97 @@
 {
-  "store.confirmEmail": {
+  "flex-layout.col#confirmFormEmail": {
     "children": [
-      {
-        "store-form.otp#confirmFormEmailOtp": {
-          "children": [
+      "rich-text#text-otp",
+      "store-form.input#email-otp",
+      "store-form.button#send-otp-button"
+    ]
+  },
+  "flex-layout.row#confirmFormEmail": {
+    "children": [
+      "flex-layout.col#confirmFormEmail"
+    ]
+  },
+  "icon#alert": {
+    "props": {
+      "color": "red",
+      "lib": "Ionicons",
+      "name": "alert-circle-outline",
+      "size": 25
+    }
+  },
+  "rich-text#text-otp": {
+    "props": {
+      "blockClass": "titleSignup",
+      "text": "Ingresa tu correo electr\u00f3nico y le enviaremos un enlace para recuperar su contrase\u00f1a."
+    }
+  },
+  "store-form.button#send-otp-button": {
+    "props": {
+      "blockClass": "storeFormButtonStyle",
+      "buttonText": "Verificar correo electr\u00f3nico",
+      "variant": "secondary"
+    }
+  },
+  "store-form.input#email-otp": {
+    "children": [
+      "icon#alert",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isEmail": true,
+      "isRequired": true,
+      "label": "Correo electr\u00f3nico",
+      "name": "email",
+      "rightIcon": true
+    }
+  },
+  "store-form.otp#confirmFormEmailOtp": {
+    "children": [
+      "flex-layout.row#confirmFormEmail",
+      "store-link#signUp"
+    ],
+    "props": {
+      "blockClass": "storeFormConfirmEmail",
+      "modalDescription": "Hemos enviado al correo: {email} el enlace de verificaci\u00f3n de manera exitosa",
+      "modalType": "continue",
+      "mode": "onChange",
+      "redirectTo": "/auth/newPassword/{email}",
+      "schemaValidation": [
+        {
+          "id": "email",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
             {
-              "flex-layout.row#confirmFormEmail": {
-                "children": [
-                  {
-                    "flex-layout.col#confirmFormEmail": {
-                      "children": [
-                        "rich-text#text-otp",
-                        {
-                          "store-form.input#email-otp": {
-                            "children": [
-                              "icon#alert",
-                              "icon#alert"
-                            ]
-                          }
-                        },
-                        "store-form.button#send-otp-button"
-                      ]
-                    }
-                  }
-                ]
-              }
+              "params": [
+                "El correo electr\u00f3nico es requerido"
+              ],
+              "type": "required"
             },
-            "store-link#signUp"
+            {
+              "params": [
+                "Debe ser un email v\u00e1lido"
+              ],
+              "type": "email"
+            }
           ]
         }
-      }
+      ]
+    }
+  },
+  "store-link#signUp": {
+    "props": {
+      "blockClass": "signUpLink",
+      "displayMode": "anchor",
+      "label": "\u00bfA\u00fan no tienes cuenta? **Crear Cuenta**",
+      "url": "/auth/email-verification",
+      "variant": "primary"
+    }
+  },
+  "store.confirmEmail": {
+    "blocks": [
+      "store-form.otp#confirmFormEmailOtp"
     ]
   }
 }

@@ -1,60 +1,100 @@
 {
-  "store.user-gift-cards": {
+  "flex-layout.col#gift-card-available-balance": {
     "children": [
-      {
-        "gift-card-layout#gift-card": {
-          "children": [
-            {
-              "flex-layout.row#gift-card-titles-container": {
-                "children": [
-                  {
-                    "gift-card.shelf#gift-card": {
-                      "children": [
-                        {
-                          "flex-layout.row#gift-card-titles": {
-                            "children": [
-                              "rich-text#gift-card-number",
-                              "rich-text#gift-available-balance",
-                              "rich-text#gift-initial-value"
-                            ]
-                          }
-                        },
-                        {
-                          "flex-layout.row#gift-card-list": {
-                            "children": [
-                              {
-                                "flex-layout.col#gift-card-number": {
-                                  "children": [
-                                    "gift-card-number#gift-card-number"
-                                  ]
-                                }
-                              },
-                              {
-                                "flex-layout.col#gift-card-available-balance": {
-                                  "children": [
-                                    "gift-card-available-balance#gift-card-available-balance"
-                                  ]
-                                }
-                              },
-                              {
-                                "flex-layout.col#gift-card-initial-value": {
-                                  "children": [
-                                    "gift-card-initial-value#gift-card-initial-value"
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
+      "gift-card-available-balance#gift-card-available-balance"
+    ]
+  },
+  "flex-layout.col#gift-card-initial-value": {
+    "children": [
+      "gift-card-initial-value#gift-card-initial-value"
+    ]
+  },
+  "flex-layout.col#gift-card-number": {
+    "children": [
+      "gift-card-number#gift-card-number"
+    ]
+  },
+  "flex-layout.row#gift-card-list": {
+    "children": [
+      "flex-layout.col#gift-card-number",
+      "flex-layout.col#gift-card-available-balance",
+      "flex-layout.col#gift-card-initial-value"
+    ],
+    "props": {
+      "blockClass": "productGiftList"
+    }
+  },
+  "flex-layout.row#gift-card-titles": {
+    "children": [
+      "rich-text#gift-card-number",
+      "rich-text#gift-available-balance",
+      "rich-text#gift-initial-value"
+    ],
+    "props": {
+      "blockClass": "productGiftList"
+    }
+  },
+  "flex-layout.row#gift-card-titles-container": {
+    "children": [
+      "gift-card.shelf#gift-card"
+    ]
+  },
+  "gift-card-available-balance#gift-card-available-balance": {
+    "props": {
+      "blockClass": "productShelfGiftName"
+    }
+  },
+  "gift-card-initial-value#gift-card-initial-value": {
+    "props": {
+      "blockClass": "productShelfGiftName"
+    }
+  },
+  "gift-card-layout#gift-card": {
+    "children": [
+      "flex-layout.row#gift-card-titles-container"
+    ],
+    "props": {
+      "blockClass": "giftCardDetailLayoutClass"
+    }
+  },
+  "gift-card-number#gift-card-number": {
+    "props": {
+      "blockClass": "productShelfGiftName"
+    }
+  },
+  "gift-card.shelf#gift-card": {
+    "children": [
+      "flex-layout.row#gift-card-titles",
+      "flex-layout.row#gift-card-list"
+    ],
+    "props": {
+      "blockClass": "productShelf",
+      "columns": 1,
+      "listEmptyComponent": "flex-layout.row#emptyGiftCard",
+      "redirectTo": "/tarjetas-regalo/detail/{numeroTarjeta}"
+    }
+  },
+  "rich-text#gift-available-balance": {
+    "props": {
+      "blockClass": "TextTitleGiftCard",
+      "text": "Saldo Disponible"
+    }
+  },
+  "rich-text#gift-card-number": {
+    "props": {
+      "blockClass": "TextTitleGiftCard",
+      "text": "N\u00ba de tarjeta"
+    }
+  },
+  "rich-text#gift-initial-value": {
+    "props": {
+      "blockClass": "TextTitleGiftCard",
+      "text": "Saldo Inicial"
+    }
+  },
+  "store.user-gift-cards": {
+    "blocks": [
+      "gift-card-layout#gift-card"
     ]
   }
 }

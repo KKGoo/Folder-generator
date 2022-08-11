@@ -1,28 +1,99 @@
 {
-  "store.add-addresses": {
+  "scroll-view#add-address": {
     "children": [
-      {
-        "scroll-view#add-address": {
-          "children": [
+      "store-form.customer-add-address#my-address"
+    ],
+    "props": {
+      "blockClass": "scrollAddAddress"
+    }
+  },
+  "store-form.button#add-address-submit": {
+    "props": {
+      "blockClass": "storeFormButtonStyle",
+      "buttonText": "A\u00f1adir Direcci\u00f3n",
+      "variant": "secondary"
+    }
+  },
+  "store-form.customer-add-address#my-address": {
+    "children": [
+      "store-form.select-group#address",
+      "store-form.input#street",
+      "store-form.button#add-address-submit"
+    ],
+    "props": {
+      "blockClass": "AddAddressWrapper",
+      "content": "flex-layout.row#contentModalAddAddress",
+      "modalType": "continue",
+      "redirectTo": "/user-address",
+      "schemaValidation": [
+        {
+          "id": "address",
+          "type": "text",
+          "validationType": "object",
+          "validations": [
             {
-              "store-form.customer-add-address#my-address": {
-                "children": [
-                  {
-                    "store-form.select-group#address": {
-                      "children": [
-                        "store-form.select-group-item#department",
-                        "store-form.select-group-item#municipalicies"
-                      ]
-                    }
-                  },
-                  "store-form.input#street",
-                  "store-form.button#add-address-submit"
-                ]
-              }
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            }
+          ]
+        },
+        {
+          "id": "street",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
             }
           ]
         }
-      }
+      ]
+    }
+  },
+  "store-form.input#street": {
+    "props": {
+      "blockClass": "storeFormAddressInputStyle",
+      "name": "street",
+      "placeholder": "Direcci\u00f3n"
+    }
+  },
+  "store-form.select-group#address": {
+    "children": [
+      "store-form.select-group-item#department",
+      "store-form.select-group-item#municipalicies"
+    ],
+    "props": {
+      "blockClass": "wrapperGroup"
+    }
+  },
+  "store-form.select-group-item#department": {
+    "props": {
+      "blockClass": "storeFormSelectAdresses",
+      "iconActive": "icon#chevronUp",
+      "iconDisable": "icon#chevronDown",
+      "name": "departments",
+      "placeholder": "Selecciona una opci\u00f3n"
+    }
+  },
+  "store-form.select-group-item#municipalicies": {
+    "props": {
+      "blockClass": "storeFormSelectAdresses",
+      "dependency": "departments",
+      "iconActive": "icon#chevronUp",
+      "iconDisable": "icon#chevronDown",
+      "iconPosition": "right",
+      "name": "municipalicies",
+      "placeholder": "Selecciona una opci\u00f3n"
+    }
+  },
+  "store.add-addresses": {
+    "blocks": [
+      "scroll-view#add-address"
     ]
   }
 }

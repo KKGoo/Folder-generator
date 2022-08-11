@@ -1,116 +1,197 @@
 {
-  "store.centro-de-ayuda": {
+  "flex-layout.row#app-version": {
     "children": [
-      {
-        "flex-layout.row#cento-de-ayuda": {
-          "children": [
-            {
-              "menu#centro-de-ayuda": {
-                "children": [
-                  {
-                    "menu-item#como-comprar": {
-                      "children": [
-                        {
-                          "flex-layout.row#como-compar": {
-                            "children": [
-                              "rich-text#como-comprar",
-                              "icon#chevron-forward"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "menu-item#terminos-y-condiciones": {
-                      "children": [
-                        {
-                          "flex-layout.row#terminos-y-condiciones": {
-                            "children": [
-                              "rich-text#terminos-y-condiciones",
-                              "icon#chevron-forward"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "menu-item#preguntas-frecuentes": {
-                      "children": [
-                        {
-                          "flex-layout.row#preguntas-frecuentes": {
-                            "children": [
-                              "rich-text#preguntas-frecuentes",
-                              "icon#chevron-forward"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "menu-item#tengo-un-PQRF": {
-                      "children": [
-                        {
-                          "flex-layout.row#tengo-un-PQRF": {
-                            "children": [
-                              "rich-text#tengo-un-PQRF",
-                              "icon#chevron-forward"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "menu-item#ciudades-con-cobertura": {
-                      "children": [
-                        {
-                          "flex-layout.row#ciudades-con-cobertura": {
-                            "children": [
-                              "rich-text#ciudades-con-cobertura",
-                              "icon#chevron-forward"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "menu-item#superintendencia-de-industria-y-comercio": {
-                      "children": [
-                        {
-                          "flex-layout.row#superintendencia-de-industria-y-comercio": {
-                            "children": [
-                              "rich-text#superintendencia-de-industria-y-comercio",
-                              "icon#chevron-forward"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "menu-item#app-version": {
-                      "children": [
-                        {
-                          "flex-layout.row#app-version": {
-                            "children": [
-                              "rich-text#app-version",
-                              "icon#chevron-forward"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
+      "rich-text#app-version",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "menu-item-centro-de-ayuda"
+    }
+  },
+  "flex-layout.row#cento-de-ayuda": {
+    "children": [
+      "menu#centro-de-ayuda"
+    ],
+    "props": {
+      "blockClass": "container-centro-de-ayuda"
+    }
+  },
+  "flex-layout.row#ciudades-con-cobertura": {
+    "children": [
+      "rich-text#ciudades-con-cobertura",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "menu-item-centro-de-ayuda"
+    }
+  },
+  "flex-layout.row#como-compar": {
+    "children": [
+      "rich-text#como-comprar",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "menu-item-centro-de-ayuda"
+    }
+  },
+  "flex-layout.row#preguntas-frecuentes": {
+    "children": [
+      "rich-text#preguntas-frecuentes",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "menu-item-centro-de-ayuda"
+    }
+  },
+  "flex-layout.row#superintendencia-de-industria-y-comercio": {
+    "children": [
+      "rich-text#superintendencia-de-industria-y-comercio",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "menu-item-centro-de-ayuda"
+    }
+  },
+  "flex-layout.row#tengo-un-PQRF": {
+    "children": [
+      "rich-text#tengo-un-PQRF",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "menu-item-centro-de-ayuda"
+    }
+  },
+  "flex-layout.row#terminos-y-condiciones": {
+    "children": [
+      "rich-text#terminos-y-condiciones",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "menu-item-centro-de-ayuda"
+    }
+  },
+  "icon#chevron-forward": {
+    "props": {
+      "lib": "Ionicons",
+      "name": "chevron-forward-outline",
+      "size": 30
+    }
+  },
+  "menu#centro-de-ayuda": {
+    "children": [
+      "menu-item#como-comprar",
+      "menu-item#terminos-y-condiciones",
+      "menu-item#preguntas-frecuentes",
+      "menu-item#tengo-un-PQRF",
+      "menu-item#ciudades-con-cobertura",
+      "menu-item#superintendencia-de-industria-y-comercio",
+      "menu-item#app-version"
+    ],
+    "props": {
+      "blockClass": "menu-centro-de-ayuda-wrapper"
+    }
+  },
+  "menu-item#app-version": {
+    "children": [
+      "flex-layout.row#app-version"
+    ],
+    "props": {
+      "redirectTo": "/user-app-version"
+    }
+  },
+  "menu-item#ciudades-con-cobertura": {
+    "children": [
+      "flex-layout.row#ciudades-con-cobertura"
+    ],
+    "props": {
+      "redirectTo": "/coverage/detail"
+    }
+  },
+  "menu-item#como-comprar": {
+    "children": [
+      "flex-layout.row#como-compar"
+    ],
+    "props": {
+      "redirectTo": "/categories"
+    }
+  },
+  "menu-item#preguntas-frecuentes": {
+    "children": [
+      "flex-layout.row#preguntas-frecuentes"
+    ],
+    "props": {
+      "redirectTo": "/preguntas/detail"
+    }
+  },
+  "menu-item#superintendencia-de-industria-y-comercio": {
+    "children": [
+      "flex-layout.row#superintendencia-de-industria-y-comercio"
+    ],
+    "props": {
+      "redirectTo": "/Superintendencia"
+    }
+  },
+  "menu-item#tengo-un-PQRF": {
+    "children": [
+      "flex-layout.row#tengo-un-PQRF"
+    ],
+    "props": {
+      "redirectTo": "/pqrf/detail"
+    }
+  },
+  "menu-item#terminos-y-condiciones": {
+    "children": [
+      "flex-layout.row#terminos-y-condiciones"
+    ],
+    "props": {
+      "redirectTo": "/Terms&Conditions"
+    }
+  },
+  "rich-text#app-version": {
+    "props": {
+      "blockClass": "text-menu-item-centro-de-ayuda",
+      "text": "Versi\u00f3n de la aplicaci\u00f3n"
+    }
+  },
+  "rich-text#ciudades-con-cobertura": {
+    "props": {
+      "blockClass": "text-menu-item-centro-de-ayuda",
+      "text": "Ciudades con cobertura"
+    }
+  },
+  "rich-text#como-comprar": {
+    "props": {
+      "blockClass": "text-menu-item-centro-de-ayuda",
+      "text": "\u00bfC\u00f3mo comprar?"
+    }
+  },
+  "rich-text#preguntas-frecuentes": {
+    "props": {
+      "blockClass": "text-menu-item-centro-de-ayuda",
+      "text": "Preguntas frecuentes"
+    }
+  },
+  "rich-text#superintendencia-de-industria-y-comercio": {
+    "props": {
+      "blockClass": "text-menu-item-centro-de-ayuda",
+      "text": "Superintendencia de Industria y Comercio"
+    }
+  },
+  "rich-text#tengo-un-PQRF": {
+    "props": {
+      "blockClass": "text-menu-item-centro-de-ayuda",
+      "text": "Tengo un PQRF"
+    }
+  },
+  "rich-text#terminos-y-condiciones": {
+    "props": {
+      "blockClass": "text-menu-item-centro-de-ayuda",
+      "text": "T\u00e9rminos y condiciones"
+    }
+  },
+  "store.centro-de-ayuda": {
+    "blocks": [
+      "flex-layout.row#cento-de-ayuda"
     ]
   }
 }

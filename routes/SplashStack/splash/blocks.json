@@ -1,13 +1,24 @@
 {
-  "store.splash": {
+  "custom.splash-screen": {
+    "props": {
+      "autoPlay": true,
+      "blockClass": "splashStyleRow",
+      "height": 350,
+      "speed": 1,
+      "uri": "https://assets10.lottiefiles.com/packages/lf20_ohcxpybg.json"
+    }
+  },
+  "flex-layout.row#splash": {
     "children": [
-      {
-        "flex-layout.row#splash": {
-          "children": [
-            "custom.splash-screen"
-          ]
-        }
-      }
+      "custom.splash-screen"
+    ],
+    "props": {
+      "blockClass": "splashStyleRow"
+    }
+  },
+  "store.splash": {
+    "blocks": [
+      "flex-layout.row#splash"
     ]
   }
 }

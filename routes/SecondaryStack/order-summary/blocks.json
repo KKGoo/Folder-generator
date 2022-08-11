@@ -1,127 +1,257 @@
 {
-  "store.order-summary": {
+  "flex-layout.col#description-product-order": {
     "children": [
-      {
-        "order-detail-layout": {
-          "children": [
-            {
-              "flex-layout.col#orderSpecification": {
-                "children": [
-                  {
-                    "flex-layout.row#orderSpecificationDetails": {
-                      "children": [
-                        {
-                          "flex-layout.col#orderSpecificationDetailsContainer": {
-                            "children": [
-                              "order-detail.order-id#specificationTittle",
-                              {
-                                "flex-layout.row#orderSpecificationDetailsWrapper": {
-                                  "children": [
-                                    {
-                                      "flex-layout.col#orderSpecificationSend": {
-                                        "children": [
-                                          "rich-text#specificationLabelSend",
-                                          "order-detail.fullname#specificationLabelSendName",
-                                          "order-detail.formatted-address#specificationLabelSendPlace",
-                                          "order-detail.postal-code#specificationLabelSendCountry"
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "flex-layout.col#orderSpecificationPayment": {
-                                        "children": [
-                                          "rich-text#specificationLabelPayment",
-                                          "rich-text#specificationLabelPaymentCountry",
-                                          "order-detail.total-items#costototal",
-                                          "order-detail.total-shipping#valor"
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "flex-layout.col#orderSpecificationProducts": {
-                      "children": [
-                        "rich-text#orderSpecificationProductsTittle",
-                        {
-                          "product-summary.shelf#productsOrderList": {
-                            "children": [
-                              {
-                                "flex-layout.row#products-list-Order": {
-                                  "children": [
-                                    {
-                                      "flex-layout.col#image-product-order": {
-                                        "children": [
-                                          {
-                                            "flex-layout.row#image-product-order": {
-                                              "children": [
-                                                "product-summary-image#productimage"
-                                              ]
-                                            }
-                                          }
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "flex-layout.col#description-product-order": {
-                                        "children": [
-                                          "product-summary-brand#productbrand",
-                                          "product-summary-name#productname",
-                                          {
-                                            "flex-layout.row#product-quantity-order": {
-                                              "children": [
-                                                "rich-text#productQuantity",
-                                                "order-detail.product-quantity"
-                                              ]
-                                            }
-                                          },
-                                          {
-                                            "flex-layout.row#product-price-order": {
-                                              "children": [
-                                                "rich-text#subtotalOrder",
-                                                "product-summary-price#productpriceOrder"
-                                              ]
-                                            }
-                                          }
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "flex-layout.row#orderSpecificationShippingPrice": {
-                            "children": [
-                              "order-detail.total-shipping"
-                            ]
-                          }
-                        },
-                        {
-                          "flex-layout.row#orderSpecificationPrice": {
-                            "children": [
-                              "order-detail.total-items#specificationLabelAmmount"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
+      "product-summary-brand#productbrand",
+      "product-summary-name#productname",
+      "flex-layout.row#product-quantity-order",
+      "flex-layout.row#product-price-order"
+    ]
+  },
+  "flex-layout.col#image-product-order": {
+    "children": [
+      "flex-layout.row#image-product-order"
+    ]
+  },
+  "flex-layout.col#orderSpecification": {
+    "children": [
+      "flex-layout.row#orderSpecificationDetails",
+      "flex-layout.col#orderSpecificationProducts"
+    ]
+  },
+  "flex-layout.col#orderSpecificationDetailsContainer": {
+    "children": [
+      "order-detail.order-id#specificationTittle",
+      "flex-layout.row#orderSpecificationDetailsWrapper"
+    ]
+  },
+  "flex-layout.col#orderSpecificationPayment": {
+    "children": [
+      "rich-text#specificationLabelPayment",
+      "rich-text#specificationLabelPaymentCountry",
+      "order-detail.total-items#costototal",
+      "order-detail.total-shipping#valor"
+    ],
+    "props": {
+      "blockClass": "orderSpecificationDetailsItem"
+    }
+  },
+  "flex-layout.col#orderSpecificationProducts": {
+    "children": [
+      "rich-text#orderSpecificationProductsTittle",
+      "product-summary.shelf#productsOrderList",
+      "flex-layout.row#orderSpecificationShippingPrice",
+      "flex-layout.row#orderSpecificationPrice"
+    ]
+  },
+  "flex-layout.col#orderSpecificationSend": {
+    "children": [
+      "rich-text#specificationLabelSend",
+      "order-detail.fullname#specificationLabelSendName",
+      "order-detail.formatted-address#specificationLabelSendPlace",
+      "order-detail.postal-code#specificationLabelSendCountry"
+    ],
+    "props": {
+      "blockClass": "orderSpecificationDetailsItem"
+    }
+  },
+  "flex-layout.row#image-product-order": {
+    "children": [
+      "product-summary-image#productimage"
+    ]
+  },
+  "flex-layout.row#orderSpecificationDetails": {
+    "children": [
+      "flex-layout.col#orderSpecificationDetailsContainer"
+    ]
+  },
+  "flex-layout.row#orderSpecificationDetailsWrapper": {
+    "children": [
+      "flex-layout.col#orderSpecificationSend",
+      "flex-layout.col#orderSpecificationPayment"
+    ],
+    "props": {
+      "blockClass": "orderSpecificationDetailsWrapper"
+    }
+  },
+  "flex-layout.row#orderSpecificationPrice": {
+    "children": [
+      "order-detail.total-items#specificationLabelAmmount"
+    ],
+    "props": {
+      "blockClass": "amountSpecificationContainerTotalPrice"
+    }
+  },
+  "flex-layout.row#orderSpecificationShippingPrice": {
+    "children": [
+      "order-detail.total-shipping"
+    ],
+    "props": {
+      "blockClass": "amountSpecificationContainer"
+    }
+  },
+  "flex-layout.row#product-price-order": {
+    "children": [
+      "rich-text#subtotalOrder",
+      "product-summary-price#productpriceOrder"
+    ],
+    "props": {
+      "blockClass": "productPriceDesc"
+    }
+  },
+  "flex-layout.row#product-quantity-order": {
+    "children": [
+      "rich-text#productQuantity",
+      "order-detail.product-quantity"
+    ],
+    "props": {
+      "blockClass": "productPriceDesc"
+    }
+  },
+  "flex-layout.row#products-list-Order": {
+    "children": [
+      "flex-layout.col#image-product-order",
+      "flex-layout.col#description-product-order"
+    ],
+    "props": {
+      "blockClass": "productList"
+    }
+  },
+  "order-detail-layout": {
+    "children": [
+      "flex-layout.col#orderSpecification"
+    ],
+    "props": {
+      "blockClass": "MyOrdersDetailWrapper",
+      "loadingComponent": "custom.cenco-loader#plp"
+    }
+  },
+  "order-detail.formatted-address#specificationLabelSendPlace": {
+    "props": {
+      "blockClass": "OrderNameSpecificationsItemDetails",
+      "formatted": "Lugar: {address}"
+    }
+  },
+  "order-detail.fullname#specificationLabelSendName": {
+    "props": {
+      "blockClass": "OrderNameSpecificationsItemDetails",
+      "formatted": "Nombre: {fullname}"
+    }
+  },
+  "order-detail.order-id#specificationTittle": {
+    "props": {
+      "blockClass": "OrderNameSpecifications",
+      "formatted": "Pedido - {orderId}"
+    }
+  },
+  "order-detail.postal-code#specificationLabelSendCountry": {
+    "props": {
+      "blockClass": "OrderNameSpecificationsItemDetails",
+      "formatted": "C\u00f3digo Postal: {postalCode}"
+    }
+  },
+  "order-detail.product-quantity": {
+    "props": {
+      "blockClass": "productPriceOrder"
+    }
+  },
+  "order-detail.total-items#costototal": {
+    "props": {
+      "blockClass": "OrderNameSpecificationsItemDetails",
+      "deleteDecimals": true,
+      "formatted": "Total: {totalItems}"
+    }
+  },
+  "order-detail.total-items#specificationLabelAmmount": {
+    "props": {
+      "blockClass": "amountSpecification",
+      "deleteDecimals": true,
+      "formatted": "Total: {totalItems}"
+    }
+  },
+  "order-detail.total-shipping": {
+    "props": {
+      "blockClass": "amountSpecificationShipping",
+      "deleteDecimals": true,
+      "formatted": "Total env\u00edo: {shippingTotal}"
+    }
+  },
+  "order-detail.total-shipping#valor": {
+    "props": {
+      "blockClass": "OrderNameSpecificationsItemDetails",
+      "deleteDecimals": true,
+      "formatted": "Total Env\u00edo: {shippingTotal}"
+    }
+  },
+  "product-summary-brand#productbrand": {
+    "props": {
+      "blockClass": "productBrand"
+    }
+  },
+  "product-summary-image#productimage": {
+    "props": {
+      "blockClass": "productImage"
+    }
+  },
+  "product-summary-name#productname": {
+    "props": {
+      "blockClass": "productName"
+    }
+  },
+  "product-summary-price#productpriceOrder": {
+    "props": {
+      "blockClass": "productPriceOrder",
+      "deleteDecimals": true,
+      "showOriginal": true
+    }
+  },
+  "product-summary.shelf#productsOrderList": {
+    "children": [
+      "flex-layout.row#products-list-Order"
+    ],
+    "props": {
+      "blockClass": "productShelfOrder",
+      "columns": 1
+    }
+  },
+  "rich-text#orderSpecificationProductsTittle": {
+    "props": {
+      "blockClass": "OrderNameSpecifications",
+      "text": "Productos"
+    }
+  },
+  "rich-text#productQuantity": {
+    "props": {
+      "blockClass": "productPriceOrder",
+      "text": "Cantidad: "
+    }
+  },
+  "rich-text#specificationLabelPayment": {
+    "props": {
+      "blockClass": "OrderNameSpecificationsItem",
+      "text": "Datos de pago"
+    }
+  },
+  "rich-text#specificationLabelPaymentCountry": {
+    "props": {
+      "blockClass": "OrderNameSpecificationsItemDetails",
+      "text": "Pais: Colombia"
+    }
+  },
+  "rich-text#specificationLabelSend": {
+    "props": {
+      "blockClass": "OrderNameSpecificationsItem",
+      "text": "Datos de envio"
+    }
+  },
+  "rich-text#subtotalOrder": {
+    "props": {
+      "blockClass": "productPriceOrder",
+      "text": "Subtotal: "
+    }
+  },
+  "store.order-summary": {
+    "blocks": [
+      "order-detail-layout"
     ]
   }
 }

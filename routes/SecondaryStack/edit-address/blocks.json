@@ -1,28 +1,100 @@
 {
-  "store.edit-address": {
+  "scroll-view#edit-address": {
     "children": [
-      {
-        "scroll-view#edit-address": {
-          "children": [
+      "store-form.customer-update-address#edit-address"
+    ],
+    "props": {
+      "blockClass": "scrollAddAddress"
+    }
+  },
+  "store-form.button#edit-address-submit": {
+    "props": {
+      "blockClass": "storeFormButtonStyle",
+      "buttonText": "Editar Direcci\u00f3n",
+      "variant": "secondary"
+    }
+  },
+  "store-form.customer-update-address#edit-address": {
+    "children": [
+      "store-form.select-group#edit-address",
+      "store-form.input#edit-street",
+      "store-form.button#edit-address-submit"
+    ],
+    "props": {
+      "blockClass": "AddAddressWrapper",
+      "content": "flex-layout.row#content-modal-edit-address",
+      "modalType": "continue",
+      "redirectTo": "/user-address",
+      "schemaValidation": [
+        {
+          "id": "address",
+          "type": "text",
+          "validationType": "object",
+          "validations": [
             {
-              "store-form.customer-update-address#edit-address": {
-                "children": [
-                  {
-                    "store-form.select-group#edit-address": {
-                      "children": [
-                        "store-form.select-group-item#edit-department",
-                        "store-form.select-group-item#edit-municipalicies"
-                      ]
-                    }
-                  },
-                  "store-form.input#edit-street",
-                  "store-form.button#edit-address-submit"
-                ]
-              }
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            }
+          ]
+        },
+        {
+          "id": "street",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
             }
           ]
         }
-      }
+      ]
+    }
+  },
+  "store-form.input#edit-street": {
+    "props": {
+      "blockClass": "storeFormAddressInputStyle",
+      "name": "street",
+      "placeholder": "Direcci\u00f3n"
+    }
+  },
+  "store-form.select-group#edit-address": {
+    "children": [
+      "store-form.select-group-item#edit-department",
+      "store-form.select-group-item#edit-municipalicies"
+    ],
+    "props": {
+      "blockClass": "wrapperGroup",
+      "name": "address"
+    }
+  },
+  "store-form.select-group-item#edit-department": {
+    "props": {
+      "blockClass": "storeFormSelectAdresses",
+      "iconActive": "icon#chevron-up",
+      "iconDisable": "icon#chevron-down",
+      "name": "departments",
+      "placeholder": "Selecciona una opci\u00f3n"
+    }
+  },
+  "store-form.select-group-item#edit-municipalicies": {
+    "props": {
+      "blockClass": "storeFormSelectAdresses",
+      "dependency": "departments",
+      "iconActive": "icon#chevron-up",
+      "iconDisable": "icon#chevron-down",
+      "iconPosition": "right",
+      "name": "municipalicies",
+      "placeholder": "Selecciona una opci\u00f3n"
+    }
+  },
+  "store.edit-address": {
+    "blocks": [
+      "scroll-view#edit-address"
     ]
   }
 }

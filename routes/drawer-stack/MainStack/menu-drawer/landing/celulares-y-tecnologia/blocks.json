@@ -1,129 +1,326 @@
 {
-  "store.celulares-y-tecnologia": {
+  "flex-layout.col#callcart": {
     "children": [
-      {
-        "scroll-view#tech-scroll": {
-          "children": [
-            {
-              "flex-layout.row#tech-container": {
-                "children": [
-                  "image#ofertaTech1"
-                ]
-              }
-            },
-            "rich-text#view-tech-tittle",
-            {
-              "scroll-view#Tech": {
-                "children": [
-                  {
-                    "flex-layout.row#menumotorola": {
-                      "children": [
-                        {
-                          "flex-layout.col#menu-motorola": {
-                            "children": [
-                              "image#home-motorola",
-                              "rich-text#view-tech-brand-moto"
-                            ]
-                          }
-                        },
-                        {
-                          "flex-layout.col#menu-honor": {
-                            "children": [
-                              "image#home-honor",
-                              "rich-text#view-tech-brand-honor"
-                            ]
-                          }
-                        },
-                        {
-                          "flex-layout.col#menu-lg": {
-                            "children": [
-                              "image#home-lg",
-                              "rich-text#view-tech-brand-lg"
-                            ]
-                          }
-                        },
-                        {
-                          "flex-layout.col#menu-samsung": {
-                            "children": [
-                              "image#home-samsung",
-                              "rich-text#view-tech-brand-samsung"
-                            ]
-                          }
-                        },
-                        {
-                          "flex-layout.col#menu-huawei": {
-                            "children": [
-                              "image#home-huawei",
-                              "rich-text#view-tech-brand-huawei"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            "rich-text#view-product-tittle",
-            {
-              "list-context.product-list#celulares": {
-                "children": [
-                  {
-                    "product-summary.shelf#listTech": {
-                      "children": [
-                        "product-summary-image#productimageTech",
-                        {
-                          "flex-layout.col#tech-product-tittlecontainer": {
-                            "children": [
-                              "product-summary-price#productprice",
-                              "product-summary-name#productnameTech",
-                              "product-summary-brand#productbrandhome"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "flex-layout.col#smartcart": {
-                "children": [
-                  "info-card#smart"
-                ]
-              }
-            },
-            {
-              "flex-layout.row#watchcart": {
-                "children": [
-                  {
-                    "flex-layout.col#watchcart": {
-                      "children": [
-                        "info-card#watch"
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "flex-layout.col#phonecart": {
-                "children": [
-                  "info-card#phone"
-                ]
-              }
-            },
-            {
-              "flex-layout.col#callcart": {
-                "children": [
-                  "info-card#call"
-                ]
-              }
-            }
-          ]
-        }
-      }
+      "info-card#call"
+    ]
+  },
+  "flex-layout.col#menu-honor": {
+    "children": [
+      "image#home-honor",
+      "rich-text#view-tech-brand-honor"
+    ],
+    "props": {
+      "blockClass": "menuHometechStyle"
+    }
+  },
+  "flex-layout.col#menu-huawei": {
+    "children": [
+      "image#home-huawei",
+      "rich-text#view-tech-brand-huawei"
+    ],
+    "props": {
+      "blockClass": "menuHometechStyle"
+    }
+  },
+  "flex-layout.col#menu-lg": {
+    "children": [
+      "image#home-lg",
+      "rich-text#view-tech-brand-lg"
+    ],
+    "props": {
+      "blockClass": "menuHometechStyle"
+    }
+  },
+  "flex-layout.col#menu-motorola": {
+    "children": [
+      "image#home-motorola",
+      "rich-text#view-tech-brand-moto"
+    ],
+    "props": {
+      "blockClass": "menuHometechStyle"
+    }
+  },
+  "flex-layout.col#menu-samsung": {
+    "children": [
+      "image#home-samsung",
+      "rich-text#view-tech-brand-samsung"
+    ],
+    "props": {
+      "blockClass": "menuHometechStyle"
+    }
+  },
+  "flex-layout.col#phonecart": {
+    "children": [
+      "info-card#phone"
+    ]
+  },
+  "flex-layout.col#smartcart": {
+    "children": [
+      "info-card#smart"
+    ]
+  },
+  "flex-layout.col#tech-product-tittlecontainer": {
+    "children": [
+      "product-summary-price#productprice",
+      "product-summary-name#productnameTech",
+      "product-summary-brand#productbrandhome"
+    ],
+    "props": {
+      "blockClass": "TechProductContainer"
+    }
+  },
+  "flex-layout.col#watchcart": {
+    "children": [
+      "info-card#watch"
+    ]
+  },
+  "flex-layout.row#menumotorola": {
+    "children": [
+      "flex-layout.col#menu-motorola",
+      "flex-layout.col#menu-honor",
+      "flex-layout.col#menu-lg",
+      "flex-layout.col#menu-samsung",
+      "flex-layout.col#menu-huawei"
+    ],
+    "props": {
+      "blockClass": "brandsContainer"
+    }
+  },
+  "flex-layout.row#tech-container": {
+    "children": [
+      "image#ofertaTech1"
+    ],
+    "props": {
+      "blockClass": "sliderTech"
+    }
+  },
+  "flex-layout.row#watchcart": {
+    "children": [
+      "flex-layout.col#watchcart"
+    ]
+  },
+  "image#home-honor": {
+    "props": {
+      "blockClass": "techSliderImageStyle",
+      "height": 50,
+      "resizeMode": "stretch",
+      "uri": "https://i.imgur.com/mo7hIGk.png",
+      "width": 50
+    }
+  },
+  "image#home-huawei": {
+    "props": {
+      "blockClass": "techSliderImageStyle",
+      "height": 50,
+      "resizeMode": "stretch",
+      "uri": "https://i.imgur.com/0P5Mk9R.png",
+      "width": 50
+    }
+  },
+  "image#home-lg": {
+    "props": {
+      "blockClass": "techSliderImageStyle",
+      "height": 50,
+      "resizeMode": "stretch",
+      "uri": "https://i.imgur.com/zpybbB2.png",
+      "width": 50
+    }
+  },
+  "image#home-motorola": {
+    "props": {
+      "blockClass": "techSliderImageStyle",
+      "height": 50,
+      "resizeMode": "stretch",
+      "uri": "https://i.imgur.com/1IG8Vk0.png",
+      "width": 50
+    }
+  },
+  "image#home-samsung": {
+    "props": {
+      "blockClass": "techSliderImageStyle",
+      "height": 50,
+      "resizeMode": "stretch",
+      "uri": "https://i.imgur.com/85QiTSL.png",
+      "width": 50
+    }
+  },
+  "image#ofertaTech1": {
+    "props": {
+      "blockClass": "techSliderStyle",
+      "height": 170,
+      "resizeMode": "stretch",
+      "uri": "https://jumbocolombiafood.vteximg.com.br/arquivos/Bnr-Responsive-Cyber-Smart-Band-5-6oct-21.jpg?v=637689761560670000"
+    }
+  },
+  "info-card#call": {
+    "props": {
+      "blockClass": "infoCardTechStyle",
+      "callToActionMode": "link",
+      "callToActionText": "Telefon\u00eda Fija",
+      "callToActionUrl": "/search/moda-y-accesorios",
+      "height": 170,
+      "imageUrl": "https://i.imgur.com/9JFxobm.png",
+      "isFullModeStyle": false,
+      "textAlignment": "center",
+      "textPosition": "bottom"
+    }
+  },
+  "info-card#phone": {
+    "props": {
+      "blockClass": "infoCardTechStyle",
+      "callToActionMode": "link",
+      "callToActionText": "Smartwatch",
+      "callToActionUrl": "/search/moda-y-accesorios",
+      "height": 170,
+      "imageUrl": "https://i.imgur.com/qcuvINK.png",
+      "isFullModeStyle": false,
+      "textAlignment": "center",
+      "textPosition": "bottom"
+    }
+  },
+  "info-card#smart": {
+    "props": {
+      "blockClass": "infoCardTechStyle",
+      "callToActionMode": "link",
+      "callToActionText": "Celulares",
+      "callToActionUrl": "/search/moda-y-accesorios",
+      "height": 170,
+      "imageUrl": "https://i.imgur.com/YO0SnvR.png",
+      "isFullModeStyle": false,
+      "textAlignment": "center",
+      "textPosition": "bottom"
+    }
+  },
+  "info-card#watch": {
+    "props": {
+      "blockClass": "infoCardTechStyle",
+      "callToActionMode": "link",
+      "callToActionText": "Accesorios Celulares",
+      "callToActionUrl": "/search/moda-y-accesorios",
+      "height": 170,
+      "imageUrl": "https://i.imgur.com/fklg230.png",
+      "isFullModeStyle": false,
+      "textAlignment": "center",
+      "textPosition": "bottom"
+    }
+  },
+  "list-context.product-list#celulares": {
+    "children": [
+      "product-summary.shelf#listTech"
+    ],
+    "props": {
+      "blockClass": "wrapperLg;mt_2;pt_2",
+      "params": {
+        "category": "celulares-y-telefonia",
+        "department": "tecnologia"
+      },
+      "perPage": 9
+    }
+  },
+  "product-summary-brand#productbrandhome": {
+    "props": {
+      "blockClass": "productBrandHome"
+    }
+  },
+  "product-summary-image#productimageTech": {
+    "props": {
+      "blockClass": "productImageTech"
+    }
+  },
+  "product-summary-name#productnameTech": {
+    "props": {
+      "blockClass": "productNameTech",
+      "maxCharts": 15,
+      "truncate": true
+    }
+  },
+  "product-summary-price#productprice": {
+    "props": {
+      "blockClass": "productPrice",
+      "deleteDecimals": true
+    }
+  },
+  "product-summary.shelf#listTech": {
+    "children": [
+      "product-summary-image#productimageTech",
+      "flex-layout.col#tech-product-tittlecontainer"
+    ],
+    "props": {
+      "blockClass": "listTech",
+      "horizontal": true,
+      "redirectTo": "{link}"
+    }
+  },
+  "rich-text#view-product-tittle": {
+    "props": {
+      "blockClass": "techTittles",
+      "text": "Productos destacados"
+    }
+  },
+  "rich-text#view-tech-brand-honor": {
+    "props": {
+      "blockClass": "techBrandText",
+      "text": "Honor"
+    }
+  },
+  "rich-text#view-tech-brand-huawei": {
+    "props": {
+      "blockClass": "techBrandText",
+      "text": "Huawei"
+    }
+  },
+  "rich-text#view-tech-brand-lg": {
+    "props": {
+      "blockClass": "techBrandText",
+      "text": "LG"
+    }
+  },
+  "rich-text#view-tech-brand-moto": {
+    "props": {
+      "blockClass": "techBrandText",
+      "text": "Motorola"
+    }
+  },
+  "rich-text#view-tech-brand-samsung": {
+    "props": {
+      "blockClass": "techBrandText",
+      "text": "Samsung"
+    }
+  },
+  "rich-text#view-tech-tittle": {
+    "props": {
+      "blockClass": "techTittles",
+      "text": "Ver por marcas"
+    }
+  },
+  "scroll-view#Tech": {
+    "children": [
+      "flex-layout.row#menumotorola"
+    ],
+    "props": {
+      "blockClass": "scrollViewMenuHomeContainerTech",
+      "horizontal": true
+    }
+  },
+  "scroll-view#tech-scroll": {
+    "children": [
+      "flex-layout.row#tech-container",
+      "rich-text#view-tech-tittle",
+      "scroll-view#Tech",
+      "rich-text#view-product-tittle",
+      "list-context.product-list#celulares",
+      "flex-layout.col#smartcart",
+      "flex-layout.row#watchcart",
+      "flex-layout.col#phonecart",
+      "flex-layout.col#callcart"
+    ],
+    "props": {
+      "blockClass": "techMainContainer"
+    }
+  },
+  "store.celulares-y-tecnologia": {
+    "blocks": [
+      "scroll-view#tech-scroll"
     ]
   }
 }

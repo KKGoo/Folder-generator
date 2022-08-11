@@ -1,111 +1,397 @@
 {
-  "store.edit-profile": {
+  "flex-layout.col#id": {
     "children": [
-      {
-        "scroll-view#edit-profile": {
-          "children": [
+      "store-form.input#id"
+    ],
+    "props": {
+      "blockClass": "cartContainer"
+    }
+  },
+  "flex-layout.col#id-type": {
+    "children": [
+      "store-form.select#id-type"
+    ],
+    "props": {
+      "blockClass": "ProfileContainer"
+    }
+  },
+  "flex-layout.col#welcome-profile-edit": {
+    "children": [
+      "my-account.fullname#edit-profile",
+      "my-account.email#edit-profile"
+    ],
+    "props": {
+      "blockClass": "welcomeProfileTextContianer"
+    }
+  },
+  "flex-layout.col#wrapper": {
+    "children": [
+      "my-account#edit-profile",
+      "store-form.update-profile#edit-profile"
+    ]
+  },
+  "flex-layout.row#divider": {
+    "props": {
+      "blockClass": "divider"
+    }
+  },
+  "flex-layout.row#document": {
+    "children": [
+      "flex-layout.col#id-type",
+      "flex-layout.col#id"
+    ],
+    "props": {
+      "blockClass": "flexRowDocumentStyles"
+    }
+  },
+  "flex-layout.row#edit-profile-details": {
+    "children": [
+      "icon#user-circle-edit",
+      "flex-layout.col#welcome-profile-edit"
+    ],
+    "props": {
+      "blockClass": "welcomeContainer"
+    }
+  },
+  "flex-layout.row#wrapper": {
+    "children": [
+      "flex-layout.col#wrapper"
+    ],
+    "props": {
+      "blockClass": "editProfileWrapper"
+    }
+  },
+  "icon#alert": {
+    "props": {
+      "color": "red",
+      "lib": "Ionicons",
+      "name": "alert-circle-outline",
+      "size": 25
+    }
+  },
+  "icon#calendar": {
+    "props": {
+      "color": "#1FA02E",
+      "lib": "Ionicons",
+      "name": "calendar-outline",
+      "size": 25
+    }
+  },
+  "icon#pass": {
+    "props": {
+      "color": "#565656",
+      "lib": "Ionicons",
+      "name": "key-outline",
+      "size": 30
+    }
+  },
+  "icon#user-circle-edit": {
+    "props": {
+      "lib": "FontAwesome5",
+      "name": "user-circle",
+      "size": 50
+    }
+  },
+  "my-account#edit-profile": {
+    "children": [
+      "flex-layout.row#edit-profile-details",
+      "flex-layout.row#divider"
+    ]
+  },
+  "my-account.email#edit-profile": {
+    "props": {
+      "blockClass": "TextEmail"
+    }
+  },
+  "my-account.fullname#edit-profile": {
+    "props": {
+      "blockClass": "TextName"
+    }
+  },
+  "scroll-view#edit-profile": {
+    "children": [
+      "flex-layout.row#wrapper"
+    ],
+    "props": {
+      "blockClass": "scrollViewMenuCategoryContainer"
+    }
+  },
+  "store-form.button#submit-profile": {
+    "props": {
+      "blockClass": "storeFormButtonStyle",
+      "buttonText": "Confirmar",
+      "variant": "secondary"
+    }
+  },
+  "store-form.date-picker#dateOfBirth": {
+    "children": [
+      "icon#calendar"
+    ],
+    "props": {
+      "blockClass": "storeFormDatePicker",
+      "isRequired": true,
+      "label": "Fecha de nacimiento",
+      "name": "birthDate",
+      "variant": "secondary"
+    }
+  },
+  "store-form.input#cellPhone": {
+    "children": [
+      "icon#pass",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isRequired": true,
+      "keyboardType": "numeric",
+      "label": "Celular",
+      "name": "cellPhone",
+      "rightIcon": true
+    }
+  },
+  "store-form.input#firstName": {
+    "children": [
+      "icon#pass",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isRequired": true,
+      "label": "Nombre",
+      "rightIcon": true,
+      "schemaValidation": {}
+    }
+  },
+  "store-form.input#id": {
+    "children": [
+      "icon#alert",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "experiment",
+      "isRequired": true,
+      "label": "N\u00famero de documento",
+      "name": "document",
+      "rightIcon": true,
+      "valueType": "number"
+    }
+  },
+  "store-form.input#lastName": {
+    "children": [
+      "icon#pass",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isRequired": true,
+      "label": "Apellido",
+      "rightIcon": true
+    }
+  },
+  "store-form.select#id-type": {
+    "props": {
+      "blockClass": "storeFormSelectStyle",
+      "defaultText": {
+        "label": "C.C",
+        "value": "cedulaCOL"
+      },
+      "iconDisable": "icon#selectIcon",
+      "iconPosition": "right",
+      "label": "select",
+      "name": "documentType",
+      "options": [
+        {
+          "label": "C.C",
+          "value": "cedulaCOL"
+        },
+        {
+          "label": "C.E",
+          "value": "cedulaEXTRANJERO"
+        },
+        {
+          "label": "Pasaporte",
+          "value": "pasaporte"
+        }
+      ]
+    }
+  },
+  "store-form.update-profile#edit-profile": {
+    "children": [
+      "store-form.input#firstName",
+      "store-form.input#lastName",
+      "flex-layout.row#document",
+      "store-form.date-picker#dateOfBirth",
+      "store-form.input#cellPhone",
+      "store-form.button#submit-profile"
+    ],
+    "props": {
+      "blockClass": "editProfileForm",
+      "content": "flex-layout.row#contentModalUpdateProfile",
+      "contentError": "flex-layout.row#contentModalUpdateError",
+      "modalType": "continue",
+      "mode": "onChange",
+      "redirectTo": "/profile",
+      "schemaValidation": [
+        {
+          "id": "firstName",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
             {
-              "flex-layout.row#wrapper": {
-                "children": [
-                  {
-                    "flex-layout.col#wrapper": {
-                      "children": [
-                        {
-                          "my-account#edit-profile": {
-                            "children": [
-                              {
-                                "flex-layout.row#edit-profile-details": {
-                                  "children": [
-                                    "icon#user-circle-edit",
-                                    {
-                                      "flex-layout.col#welcome-profile-edit": {
-                                        "children": [
-                                          "my-account.fullname#edit-profile",
-                                          "my-account.email#edit-profile"
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              },
-                              "flex-layout.row#divider"
-                            ]
-                          }
-                        },
-                        {
-                          "store-form.update-profile#edit-profile": {
-                            "children": [
-                              {
-                                "store-form.input#firstName": {
-                                  "children": [
-                                    "icon#pass",
-                                    "icon#alert"
-                                  ]
-                                }
-                              },
-                              {
-                                "store-form.input#lastName": {
-                                  "children": [
-                                    "icon#pass",
-                                    "icon#alert"
-                                  ]
-                                }
-                              },
-                              {
-                                "flex-layout.row#document": {
-                                  "children": [
-                                    {
-                                      "flex-layout.col#id-type": {
-                                        "children": [
-                                          "store-form.select#id-type"
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "flex-layout.col#id": {
-                                        "children": [
-                                          {
-                                            "store-form.input#id": {
-                                              "children": [
-                                                "icon#alert",
-                                                "icon#alert"
-                                              ]
-                                            }
-                                          }
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              },
-                              {
-                                "store-form.date-picker#dateOfBirth": {
-                                  "children": [
-                                    "icon#calendar"
-                                  ]
-                                }
-                              },
-                              {
-                                "store-form.input#cellPhone": {
-                                  "children": [
-                                    "icon#pass",
-                                    "icon#alert"
-                                  ]
-                                }
-                              },
-                              "store-form.button#submit-profile"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            },
+            {
+              "params": [
+                32,
+                "El nombre no puede ser mayor a 50 caracteres"
+              ],
+              "type": "max"
+            },
+            {
+              "params": [
+                {},
+                "El nombre solo puede contener letras"
+              ],
+              "type": "matches"
+            }
+          ]
+        },
+        {
+          "id": "lastName",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            },
+            {
+              "params": [
+                32,
+                "El apellido no puede ser mayor a 50 caracteres"
+              ],
+              "type": "max"
+            },
+            {
+              "params": [
+                {},
+                "El apellido solo puede contener letras"
+              ],
+              "type": "matches"
+            }
+          ]
+        },
+        {
+          "id": "documentType",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            }
+          ]
+        },
+        {
+          "id": "document",
+          "type": "number",
+          "validationType": "number",
+          "validations": [
+            {
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            },
+            {
+              "params": [
+                100000,
+                "El n\u00famero de documento no puede ser menor a 6 caracteres"
+              ],
+              "type": "min"
+            },
+            {
+              "params": [
+                9999999999,
+                "El n\u00famero de documento no puede ser mayor a 10 caracteres"
+              ],
+              "type": "max"
+            },
+            {
+              "params": [
+                "El n\u00famero de documento debe ser v\u00e1lido"
+              ],
+              "type": "typeError"
+            }
+          ]
+        },
+        {
+          "id": "cellPhone",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            },
+            {
+              "params": [
+                {},
+                "Solo pueden ser n\u00fameros"
+              ],
+              "type": "matches"
+            },
+            {
+              "params": [
+                {},
+                "T\u00fa numero debe comenzar con 3 o 5"
+              ],
+              "type": "matches"
+            },
+            {
+              "params": [
+                10,
+                "El celular no puede ser menor a 10 caracteres"
+              ],
+              "type": "min"
+            },
+            {
+              "params": [
+                10,
+                "El celular no puede ser mayor a 10 caracteres"
+              ],
+              "type": "max"
+            }
+          ]
+        },
+        {
+          "id": "birthDate",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
             }
           ]
         }
-      }
+      ]
+    }
+  },
+  "store.edit-profile": {
+    "blocks": [
+      "scroll-view#edit-profile"
     ]
   }
 }

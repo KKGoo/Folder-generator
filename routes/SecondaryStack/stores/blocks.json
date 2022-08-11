@@ -1,25 +1,37 @@
 {
-  "store.stores": {
+  "address-locator": {
     "children": [
-      {
-        "flex-layout.row#tiendas": {
-          "children": [
-            {
-              "flex-layout.col#tiendas": {
-                "children": [
-                  {
-                    "address-locator": {
-                      "children": [
-                        "icon#location"
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
+      "icon#location"
+    ],
+    "props": {
+      "blockClass": "addressLocatorTiendas",
+      "openSettingsText": "copy open settings"
+    }
+  },
+  "flex-layout.col#tiendas": {
+    "children": [
+      "address-locator"
+    ]
+  },
+  "flex-layout.row#tiendas": {
+    "children": [
+      "flex-layout.col#tiendas"
+    ],
+    "props": {
+      "blockClass": "tiendasScreen"
+    }
+  },
+  "icon#location": {
+    "props": {
+      "color": "#323232",
+      "lib": "Ionicons",
+      "name": "compass-outline",
+      "size": 25
+    }
+  },
+  "store.stores": {
+    "blocks": [
+      "flex-layout.row#tiendas"
     ]
   }
 }

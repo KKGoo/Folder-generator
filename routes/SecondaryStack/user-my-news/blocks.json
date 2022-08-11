@@ -1,21 +1,46 @@
 {
-  "store.user-my-news": {
+  "flex-layout.col#emptyMyNews": {
     "children": [
-      {
-        "flex-layout.row#emptyMyNews": {
-          "children": [
-            {
-              "flex-layout.col#emptyMyNews": {
-                "children": [
-                  "image#emptyMyNews",
-                  "rich-text#emptyMyNewsTitle",
-                  "rich-text#emptyMyNewsText"
-                ]
-              }
-            }
-          ]
-        }
-      }
+      "image#emptyMyNews",
+      "rich-text#emptyMyNewsTitle",
+      "rich-text#emptyMyNewsText"
+    ],
+    "props": {
+      "blockClass": "emptyCartCol"
+    }
+  },
+  "flex-layout.row#emptyMyNews": {
+    "children": [
+      "flex-layout.col#emptyMyNews"
+    ],
+    "props": {
+      "blockClass": "emptyCartScreen"
+    }
+  },
+  "image#emptyMyNews": {
+    "props": {
+      "blockClass": "emptyCartImage",
+      "height": 250,
+      "resizeMode": "contain",
+      "uri": "https://i.imgur.com/gscJ16P.png",
+      "width": 250
+    }
+  },
+  "rich-text#emptyMyNewsText": {
+    "props": {
+      "blockClass": "emptyCartText",
+      "text": "Pr\u00f3ximamente podr\u00e1s disfrutar \n de todas las novedades que \n Jumbo te traer\u00e1."
+    }
+  },
+  "rich-text#emptyMyNewsTitle": {
+    "props": {
+      "blockClass": "emptyCartTitle",
+      "text": "Sitio en Construcci\u00f3n"
+    }
+  },
+  "store.user-my-news": {
+    "blocks": [
+      "flex-layout.row#emptyMyNews"
     ]
   }
 }

@@ -1,97 +1,287 @@
 {
-  "store.login": {
+  "flex-layout.col#facebook-col": {
     "children": [
-      {
-        "scroll-view#login-scroll-view-jumbo": {
-          "children": [
+      "image#logofacebook"
+    ],
+    "props": {
+      "blockClass": "facebookColStyles"
+    }
+  },
+  "flex-layout.col#google-col": {
+    "children": [
+      "image#logogoogle"
+    ],
+    "props": {
+      "blockClass": "googleColStyles"
+    }
+  },
+  "flex-layout.col#logocenco": {
+    "children": [
+      "image#logocenco"
+    ]
+  },
+  "flex-layout.col#signup": {
+    "children": [
+      "image#logo",
+      "store-form.input#email",
+      "store-link#forgot-password",
+      "store-form.input#password",
+      "store-form.button#submit",
+      "store-link#startWithCode"
+    ]
+  },
+  "flex-layout.col#social-column": {
+    "children": [
+      "rich-text#continueWith",
+      "flex-layout.row#social-links-container",
+      "store-link#signUp",
+      "flex-layout.row#cencosud"
+    ]
+  },
+  "flex-layout.row#cencosud": {
+    "children": [
+      "flex-layout.col#logocenco"
+    ]
+  },
+  "flex-layout.row#signup-form-container": {
+    "children": [
+      "flex-layout.col#signup"
+    ],
+    "props": {
+      "blockClass": "signupContainerStyles"
+    }
+  },
+  "flex-layout.row#social-links-container": {
+    "children": [
+      "flex-layout.col#facebook-col",
+      "flex-layout.col#google-col"
+    ],
+    "props": {
+      "blockClass": "socialLinksContainerStyles"
+    }
+  },
+  "flex-layout.row#social-row": {
+    "children": [
+      "flex-layout.col#social-column"
+    ],
+    "props": {
+      "blockClass": "socialColumnStyles"
+    }
+  },
+  "icon#alert": {
+    "props": {
+      "color": "red",
+      "lib": "Ionicons",
+      "name": "alert-circle-outline",
+      "size": 25
+    }
+  },
+  "icon#pass": {
+    "props": {
+      "color": "#565656",
+      "lib": "Ionicons",
+      "name": "key-outline",
+      "size": 30
+    }
+  },
+  "image#logo": {
+    "props": {
+      "blockClass": "companyLogoStyles",
+      "height": 95,
+      "uri": "https://i.imgur.com/JR6zdk9.png",
+      "width": 95
+    }
+  },
+  "image#logocenco": {
+    "props": {
+      "blockClass": "companyLogoStyles",
+      "height": 34,
+      "uri": "https://i.imgur.com/sRFbKFv.png",
+      "width": 65
+    }
+  },
+  "image#logofacebook": {
+    "props": {
+      "blockClass": "companyLogoSocialStyles",
+      "external_uri": true,
+      "height": 40,
+      "redirect": "https://production--tiendasjumboqaio.myvtex.com/oauth/validate?name=facebook",
+      "uri": "https://1000marcas.net/wp-content/uploads/2019/12/Facebook-logo-768x432.png",
+      "width": 70
+    }
+  },
+  "image#logogoogle": {
+    "props": {
+      "blockClass": "companyLogoSocialStyles",
+      "external_uri": true,
+      "height": 30,
+      "redirect": "https://production--tiendasjumboqaio.myvtex.com/oauth/validate?name=google",
+      "uri": "https://1000marcas.net/wp-content/uploads/2020/02/logo-Google.png",
+      "width": 60
+    }
+  },
+  "rich-text#continueWith": {
+    "props": {
+      "blockClass": "continueWithTextStyles",
+      "text": "O continuar con:"
+    }
+  },
+  "scroll-view#login-scroll-view-jumbo": {
+    "children": [
+      "store-form.login#login"
+    ],
+    "props": {
+      "blockClass": "scrollViewLogIn"
+    }
+  },
+  "store-form.button#submit": {
+    "props": {
+      "blockClass": "storeFormButtonStyle",
+      "buttonText": "Iniciar sesi\u00f3n",
+      "variant": "secondary"
+    }
+  },
+  "store-form.input#email": {
+    "children": [
+      "icon#pass",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isEmail": true,
+      "isRequired": true,
+      "label": "Correo electr\u00f3nico",
+      "name": "email",
+      "rightIcon": true
+    }
+  },
+  "store-form.input#password": {
+    "children": [
+      "icon#pass",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isPassword": true,
+      "isRequired": true,
+      "label": "Contrase\u00f1a",
+      "pattern": "^(?=.*[A-Za-z])(?=.*d)(?=.*[@$!%*#?&])[A-Za-zd@$!%*#?&]{8,}$",
+      "rightIcon": true,
+      "showPassword": true
+    }
+  },
+  "store-form.login#login": {
+    "children": [
+      "flex-layout.row#signup-form-container",
+      "flex-layout.row#social-row"
+    ],
+    "props": {
+      "blockClass": "storeFormLogin",
+      "content": "flex-layout.row#contentModalLoginError",
+      "modalType": "continue",
+      "mode": "onChange",
+      "redirectTo": "/feed",
+      "schemaValidation": [
+        {
+          "id": "email",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
             {
-              "store-form.login#login": {
-                "children": [
-                  {
-                    "flex-layout.row#signup-form-container": {
-                      "children": [
-                        {
-                          "flex-layout.col#signup": {
-                            "children": [
-                              "image#logo",
-                              {
-                                "store-form.input#email": {
-                                  "children": [
-                                    "icon#pass",
-                                    "icon#alert"
-                                  ]
-                                }
-                              },
-                              "store-link#forgot-password",
-                              {
-                                "store-form.input#password": {
-                                  "children": [
-                                    "icon#pass",
-                                    "icon#alert"
-                                  ]
-                                }
-                              },
-                              "store-form.button#submit",
-                              "store-link#startWithCode"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "flex-layout.row#social-row": {
-                      "children": [
-                        {
-                          "flex-layout.col#social-column": {
-                            "children": [
-                              "rich-text#continueWith",
-                              {
-                                "flex-layout.row#social-links-container": {
-                                  "children": [
-                                    {
-                                      "flex-layout.col#facebook-col": {
-                                        "children": [
-                                          "image#logofacebook"
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "flex-layout.col#google-col": {
-                                        "children": [
-                                          "image#logogoogle"
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              },
-                              "store-link#signUp",
-                              {
-                                "flex-layout.row#cencosud": {
-                                  "children": [
-                                    {
-                                      "flex-layout.col#logocenco": {
-                                        "children": [
-                                          "image#logocenco"
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
+              "params": [
+                "El correo electr\u00f3nico es requerido"
+              ],
+              "type": "required"
+            },
+            {
+              "params": [
+                "Debe ser un email v\u00e1lido"
+              ],
+              "type": "email"
+            }
+          ]
+        },
+        {
+          "id": "password",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                8,
+                "La contrase\u00f1a no puede ser menor a 8 caracteres"
+              ],
+              "type": "min"
+            },
+            {
+              "params": [
+                50,
+                "La contrase\u00f1a no puede ser mayor a 50 caracteres"
+              ],
+              "type": "max"
+            },
+            {
+              "params": [
+                {},
+                "Debe contener almenos un numero"
+              ],
+              "type": "matches"
+            },
+            {
+              "params": [
+                {},
+                "Debe contener almenos una letra minuscula"
+              ],
+              "type": "matches"
+            },
+            {
+              "params": [
+                {},
+                "Debe contener almenos una letra mayuscula"
+              ],
+              "type": "matches"
+            },
+            {
+              "params": [
+                "La contrase\u00f1a es requerida"
+              ],
+              "type": "required"
             }
           ]
         }
-      }
+      ],
+      "validationLogin": true
+    }
+  },
+  "store-link#forgot-password": {
+    "props": {
+      "accessibilityLabel": "This is a button",
+      "blockClass": "forgotPasswordStyles",
+      "displayMode": "anchor",
+      "label": "\u00bfOlvidaste tu contrase\u00f1a?",
+      "url": "/auth/confirmEmail"
+    }
+  },
+  "store-link#signUp": {
+    "props": {
+      "blockClass": "signUpLink",
+      "displayMode": "anchor",
+      "label": "\u00bfA\u00fan no tienes cuenta? **Crear Cuenta**",
+      "url": "/auth/email-verification",
+      "variant": "primary"
+    }
+  },
+  "store-link#startWithCode": {
+    "props": {
+      "blockClass": "startWithCodeButton",
+      "displayMode": "button",
+      "label": "Iniciar con c\u00f3digo",
+      "url": "/auth/login-with-otp-email"
+    }
+  },
+  "store.login": {
+    "blocks": [
+      "scroll-view#login-scroll-view-jumbo"
     ]
   }
 }

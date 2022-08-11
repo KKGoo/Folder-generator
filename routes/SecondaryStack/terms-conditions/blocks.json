@@ -1,154 +1,971 @@
 {
-  "store.terms-conditions": {
+  "flex-layout.col#eTerminosCondiciones": {
     "children": [
-      {
-        "scroll-view#terms-conditions": {
-          "children": [
-            {
-              "flex-layout.col#eTerminosCondiciones": {
-                "children": [
-                  "rich-text#eTerminosCondiciones",
-                  "rich-text#TerminosCondicionesHeader1",
-                  "rich-text#TerminosCondicionesText1",
-                  "rich-text#TerminosCondicionesHeader2",
-                  "rich-text#TerminosCondicionesText2",
-                  "rich-text#TerminosCondicionesHeader3",
-                  "rich-text#TerminosCondicionesText3",
-                  "rich-text#TerminosCondicionesHeader4",
-                  "rich-text#TerminosCondicionesText4",
-                  "rich-text#TerminosCondicionesText4.1",
-                  "rich-text#TerminosCondicionesText4.2",
-                  "rich-text#TerminosCondicionesText4.3",
-                  "rich-text#TerminosCondicionesText4.4",
-                  "rich-text#TerminosCondicionesText4.5",
-                  "rich-text#TerminosCondicionesText4.6",
-                  "rich-text#TerminosCondicionesText4.7",
-                  "rich-text#TerminosCondicionesText4.8",
-                  "rich-text#TerminosCondicionesText4.9",
-                  "rich-text#TerminosCondicionesHeader5",
-                  "rich-text#TerminosCondicionesText5",
-                  "rich-text#TerminosCondicionesText5.1",
-                  "rich-text#TerminosCondicionesText5.2",
-                  "rich-text#TerminosCondicionesText5.3",
-                  "rich-text#TerminosCondicionesText5.4",
-                  "rich-text#TerminosCondicionesText5.5",
-                  "rich-text#TerminosCondicionesText5.6",
-                  "rich-text#TerminosCondicionesText5.7",
-                  "rich-text#TerminosCondicionesText5.8",
-                  "rich-text#TerminosCondicionesHeader6",
-                  "rich-text#TerminosCondicionesText6",
-                  "rich-text#TerminosCondicionesText6.1",
-                  "rich-text#TerminosCondicionesText6.2",
-                  "rich-text#TerminosCondicionesText6.3",
-                  "rich-text#TerminosCondicionesText6.4",
-                  "rich-text#TerminosCondicionesText6.5",
-                  "rich-text#TerminosCondicionesText6.6",
-                  "rich-text#TerminosCondicionesHeader7",
-                  "rich-text#TerminosCondicionesText7",
-                  "rich-text#TerminosCondicionesText7.1",
-                  "rich-text#TerminosCondicionesHeader8",
-                  "rich-text#TerminosCondicionesText8",
-                  "rich-text#TerminosCondicionesText8.1",
-                  "rich-text#TerminosCondicionesText8.2",
-                  "rich-text#TerminosCondicionesHeader9",
-                  "rich-text#TerminosCondicionesText9",
-                  "rich-text#TerminosCondicionesText9.1",
-                  "rich-text#TerminosCondicionesText9.2",
-                  "rich-text#TerminosCondicionesText9.3",
-                  "rich-text#TerminosCondicionesText9.4",
-                  "rich-text#TerminosCondicionesText9.5",
-                  "rich-text#TerminosCondicionesText9.6",
-                  "rich-text#TerminosCondicionesText9.7",
-                  "rich-text#TerminosCondicionesText9.8",
-                  "rich-text#TerminosCondicionesText9.9",
-                  "rich-text#TerminosCondicionesText9.10",
-                  "rich-text#TerminosCondicionesText9.11",
-                  "rich-text#TerminosCondicionesText9.12",
-                  "rich-text#TerminosCondicionesText9.13",
-                  "rich-text#TerminosCondicionesText9.14",
-                  "rich-text#TerminosCondicionesText9.15",
-                  "rich-text#TerminosCondicionesText9.16",
-                  "rich-text#TerminosCondicionesText9.16.1",
-                  "rich-text#TerminosCondicionesText9.17",
-                  "rich-text#TerminosCondicionesText9.17.1",
-                  "rich-text#TerminosCondicionesText9.18",
-                  "rich-text#TerminosCondicionesHeader10",
-                  "rich-text#TerminosCondicionesText10",
-                  "rich-text#TerminosCondicionesText10.1.1",
-                  "rich-text#TerminosCondicionesHeader11",
-                  "rich-text#TerminosCondicionesText11",
-                  "rich-text#TerminosCondicionesText12",
-                  "rich-text#TerminosCondicionesText13",
-                  "rich-text#TerminosCondicionesText13.1",
-                  "rich-text#TerminosCondicionesHeader14",
-                  "rich-text#TerminosCondicionesText14",
-                  "rich-text#TerminosCondicionesHeader15",
-                  "rich-text#TerminosCondicionesText15",
-                  "rich-text#TerminosCondicionesHeader16",
-                  "rich-text#TerminosCondicionesText16",
-                  "rich-text#TerminosCondicionesHeader17",
-                  "rich-text#TerminosCondicionesText17",
-                  "rich-text#eTerminosCondicioneMercado",
-                  "rich-text#TerminosCondicionesHeader18",
-                  "rich-text#TerminosCondicionesText18",
-                  "rich-text#TerminosCondicionesHeader19",
-                  "rich-text#TerminosCondicionesText19",
-                  "rich-text#TerminosCondicionesHeader20",
-                  "rich-text#TerminosCondicionesText20",
-                  "rich-text#TerminosCondicionesHeader21",
-                  "rich-text#TerminosCondicionesText21",
-                  "rich-text#TerminosCondicionesHeader22",
-                  "rich-text#TerminosCondicionesText22",
-                  "rich-text#TerminosCondicionesHeader23",
-                  "rich-text#TerminosCondicionesText23",
-                  "rich-text#TerminosCondicionesHeader24",
-                  "rich-text#TerminosCondicionesText24",
-                  "rich-text#TerminosCondicionesHeader25",
-                  "rich-text#TerminosCondicionesText25",
-                  "rich-text#TerminosCondicionesHeader26",
-                  "rich-text#TerminosCondicionesText26",
-                  "rich-text#TerminosCondicionesHeader27",
-                  "rich-text#TerminosCondicionesText27",
-                  "rich-text#TerminosCondicionesHeader28",
-                  "rich-text#TerminosCondicionesText28",
-                  "rich-text#TerminosCondicionesHeader29",
-                  "rich-text#TerminosCondicionesText29",
-                  "rich-text#TerminosCondicionesHeader30",
-                  "rich-text#TerminosCondicionesText30",
-                  "rich-text#TerminosCondicionesHeader31",
-                  "rich-text#TerminosCondicionesText31",
-                  "rich-text#TerminosCondicionesHeader32",
-                  "rich-text#TerminosCondicionesText32",
-                  "rich-text#TerminosCondicionesHeader33",
-                  "rich-text#TerminosCondicionesText33",
-                  "rich-text#TerminosCondicionesHeader34",
-                  "rich-text#TerminosCondicionesText34",
-                  "rich-text#TerminosCondicionesHeader35",
-                  "rich-text#TerminosCondicionesText35",
-                  "rich-text#TerminosCondicionesHeader36",
-                  "rich-text#TerminosCondicionesText36",
-                  "rich-text#TerminosCondicionesHeader37",
-                  "rich-text#TerminosCondicionesText37",
-                  "rich-text#TerminosCondicionesHeader38",
-                  "rich-text#TerminosCondicionesText38",
-                  "rich-text#TerminosCondicionesHeader39",
-                  "rich-text#TerminosCondicionesText39",
-                  "rich-text#TerminosCondicionesHeader40",
-                  "rich-text#TerminosCondicionesText40",
-                  "rich-text#TerminosCondicionesHeader41",
-                  "rich-text#TerminosCondicionesText41",
-                  "rich-text#TerminosCondicionesHeader42",
-                  "rich-text#TerminosCondicionesText42",
-                  "rich-text#TerminosCondicionesHeader43",
-                  "rich-text#TerminosCondicionesText43",
-                  "rich-text#TerminosCondicionesHeader44",
-                  "rich-text#TerminosCondicionesText44"
-                ]
-              }
-            }
-          ]
-        }
-      }
+      "rich-text#eTerminosCondiciones",
+      "rich-text#TerminosCondicionesHeader1",
+      "rich-text#TerminosCondicionesText1",
+      "rich-text#TerminosCondicionesHeader2",
+      "rich-text#TerminosCondicionesText2",
+      "rich-text#TerminosCondicionesHeader3",
+      "rich-text#TerminosCondicionesText3",
+      "rich-text#TerminosCondicionesHeader4",
+      "rich-text#TerminosCondicionesText4",
+      "rich-text#TerminosCondicionesText4.1",
+      "rich-text#TerminosCondicionesText4.2",
+      "rich-text#TerminosCondicionesText4.3",
+      "rich-text#TerminosCondicionesText4.4",
+      "rich-text#TerminosCondicionesText4.5",
+      "rich-text#TerminosCondicionesText4.6",
+      "rich-text#TerminosCondicionesText4.7",
+      "rich-text#TerminosCondicionesText4.8",
+      "rich-text#TerminosCondicionesText4.9",
+      "rich-text#TerminosCondicionesHeader5",
+      "rich-text#TerminosCondicionesText5",
+      "rich-text#TerminosCondicionesText5.1",
+      "rich-text#TerminosCondicionesText5.2",
+      "rich-text#TerminosCondicionesText5.3",
+      "rich-text#TerminosCondicionesText5.4",
+      "rich-text#TerminosCondicionesText5.5",
+      "rich-text#TerminosCondicionesText5.6",
+      "rich-text#TerminosCondicionesText5.7",
+      "rich-text#TerminosCondicionesText5.8",
+      "rich-text#TerminosCondicionesHeader6",
+      "rich-text#TerminosCondicionesText6",
+      "rich-text#TerminosCondicionesText6.1",
+      "rich-text#TerminosCondicionesText6.2",
+      "rich-text#TerminosCondicionesText6.3",
+      "rich-text#TerminosCondicionesText6.4",
+      "rich-text#TerminosCondicionesText6.5",
+      "rich-text#TerminosCondicionesText6.6",
+      "rich-text#TerminosCondicionesHeader7",
+      "rich-text#TerminosCondicionesText7",
+      "rich-text#TerminosCondicionesText7.1",
+      "rich-text#TerminosCondicionesHeader8",
+      "rich-text#TerminosCondicionesText8",
+      "rich-text#TerminosCondicionesText8.1",
+      "rich-text#TerminosCondicionesText8.2",
+      "rich-text#TerminosCondicionesHeader9",
+      "rich-text#TerminosCondicionesText9",
+      "rich-text#TerminosCondicionesText9.1",
+      "rich-text#TerminosCondicionesText9.2",
+      "rich-text#TerminosCondicionesText9.3",
+      "rich-text#TerminosCondicionesText9.4",
+      "rich-text#TerminosCondicionesText9.5",
+      "rich-text#TerminosCondicionesText9.6",
+      "rich-text#TerminosCondicionesText9.7",
+      "rich-text#TerminosCondicionesText9.8",
+      "rich-text#TerminosCondicionesText9.9",
+      "rich-text#TerminosCondicionesText9.10",
+      "rich-text#TerminosCondicionesText9.11",
+      "rich-text#TerminosCondicionesText9.12",
+      "rich-text#TerminosCondicionesText9.13",
+      "rich-text#TerminosCondicionesText9.14",
+      "rich-text#TerminosCondicionesText9.15",
+      "rich-text#TerminosCondicionesText9.16",
+      "rich-text#TerminosCondicionesText9.16.1",
+      "rich-text#TerminosCondicionesText9.17",
+      "rich-text#TerminosCondicionesText9.17.1",
+      "rich-text#TerminosCondicionesText9.18",
+      "rich-text#TerminosCondicionesHeader10",
+      "rich-text#TerminosCondicionesText10",
+      "rich-text#TerminosCondicionesText10.1.1",
+      "rich-text#TerminosCondicionesHeader11",
+      "rich-text#TerminosCondicionesText11",
+      "rich-text#TerminosCondicionesText12",
+      "rich-text#TerminosCondicionesText13",
+      "rich-text#TerminosCondicionesText13.1",
+      "rich-text#TerminosCondicionesHeader14",
+      "rich-text#TerminosCondicionesText14",
+      "rich-text#TerminosCondicionesHeader15",
+      "rich-text#TerminosCondicionesText15",
+      "rich-text#TerminosCondicionesHeader16",
+      "rich-text#TerminosCondicionesText16",
+      "rich-text#TerminosCondicionesHeader17",
+      "rich-text#TerminosCondicionesText17",
+      "rich-text#eTerminosCondicioneMercado",
+      "rich-text#TerminosCondicionesHeader18",
+      "rich-text#TerminosCondicionesText18",
+      "rich-text#TerminosCondicionesHeader19",
+      "rich-text#TerminosCondicionesText19",
+      "rich-text#TerminosCondicionesHeader20",
+      "rich-text#TerminosCondicionesText20",
+      "rich-text#TerminosCondicionesHeader21",
+      "rich-text#TerminosCondicionesText21",
+      "rich-text#TerminosCondicionesHeader22",
+      "rich-text#TerminosCondicionesText22",
+      "rich-text#TerminosCondicionesHeader23",
+      "rich-text#TerminosCondicionesText23",
+      "rich-text#TerminosCondicionesHeader24",
+      "rich-text#TerminosCondicionesText24",
+      "rich-text#TerminosCondicionesHeader25",
+      "rich-text#TerminosCondicionesText25",
+      "rich-text#TerminosCondicionesHeader26",
+      "rich-text#TerminosCondicionesText26",
+      "rich-text#TerminosCondicionesHeader27",
+      "rich-text#TerminosCondicionesText27",
+      "rich-text#TerminosCondicionesHeader28",
+      "rich-text#TerminosCondicionesText28",
+      "rich-text#TerminosCondicionesHeader29",
+      "rich-text#TerminosCondicionesText29",
+      "rich-text#TerminosCondicionesHeader30",
+      "rich-text#TerminosCondicionesText30",
+      "rich-text#TerminosCondicionesHeader31",
+      "rich-text#TerminosCondicionesText31",
+      "rich-text#TerminosCondicionesHeader32",
+      "rich-text#TerminosCondicionesText32",
+      "rich-text#TerminosCondicionesHeader33",
+      "rich-text#TerminosCondicionesText33",
+      "rich-text#TerminosCondicionesHeader34",
+      "rich-text#TerminosCondicionesText34",
+      "rich-text#TerminosCondicionesHeader35",
+      "rich-text#TerminosCondicionesText35",
+      "rich-text#TerminosCondicionesHeader36",
+      "rich-text#TerminosCondicionesText36",
+      "rich-text#TerminosCondicionesHeader37",
+      "rich-text#TerminosCondicionesText37",
+      "rich-text#TerminosCondicionesHeader38",
+      "rich-text#TerminosCondicionesText38",
+      "rich-text#TerminosCondicionesHeader39",
+      "rich-text#TerminosCondicionesText39",
+      "rich-text#TerminosCondicionesHeader40",
+      "rich-text#TerminosCondicionesText40",
+      "rich-text#TerminosCondicionesHeader41",
+      "rich-text#TerminosCondicionesText41",
+      "rich-text#TerminosCondicionesHeader42",
+      "rich-text#TerminosCondicionesText42",
+      "rich-text#TerminosCondicionesHeader43",
+      "rich-text#TerminosCondicionesText43",
+      "rich-text#TerminosCondicionesHeader44",
+      "rich-text#TerminosCondicionesText44"
+    ],
+    "props": {
+      "blockClass": "containerTermsConditions"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader1": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981Aceptaci\u00f3n de T\u00e9rminos y Condiciones"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader10": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981 MARKETPLACE   "
+    }
+  },
+  "rich-text#TerminosCondicionesHeader11": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981 Reglamento de uso, manejo y protecci\u00f3n de datos personales    "
+    }
+  },
+  "rich-text#TerminosCondicionesHeader14": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981 USO COMO MEDIO DE PAGO"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader15": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tPROHIBICI\u00d3N DE USO DE LENGUAJE OFENSIVO"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader16": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tAUTORIZACI\u00d3N USO DE DATOS DE TERCEROS"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader17": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tENVIO DE LA TARJETA REGALO OMNICANAL"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader18": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981  Aceptaci\u00f3n de T\u00e9rminos y Condiciones"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader19": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tFacturaci\u00f3n Electr\u00f3nica"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader2": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981Facturaci\u00f3n Electr\u00f3nica"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader20": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tPrecios, promociones y producto exclusivo"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader21": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tDevoluciones y Cambios de producto"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader22": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tProductos de Aseo y Belleza"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader23": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tReversiones de dinero"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader24": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tPrecios, promociones y producto exclusivo"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader25": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981 Devoluciones y Cambios de producto"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader26": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tProductos de Aseo y Belleza"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader27": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981 Reversiones de dinero"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader28": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tGarant\u00edas "
+    }
+  },
+  "rich-text#TerminosCondicionesHeader29": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tProductos de Aseo y Belleza"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader3": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981Precios, promociones y producto exclusivo"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader30": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tAnulaci\u00f3n de Compra por parte del cliente"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader31": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tRechazo de Orden de Compra por parte de JUMBO"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader32": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tEntrega del Producto"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader33": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tLicores, tabacos y productos f\u00e1rmacos"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader34": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tAutorizaci\u00f3n No. 000693 para la venta de equipos terminales m\u00f3viles"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader35": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tReglamento de uso, manejo y protecci\u00f3n de datos personales"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader36": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tRevisi\u00f3n de los presentes t\u00e9rminos y condiciones"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader37": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tLegislaci\u00f3n y jurisdicci\u00f3n aplicable"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader38": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tLimitaci\u00f3n de cantidades y restricci\u00f3n de pedidos"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader39": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tLEGAL TARJETA REGALO"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader4": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981Devoluciones y Cambios de producto"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader40": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tBLOQUEO Y TRASLADOS"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader41": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tUSO COMO MEDIO DE PAGO"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader42": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tPROHIBICI\u00d3N DE USO DE LENGUAJE OFENSIVO"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader43": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tAUTORIZACI\u00d3N USO DE DATOS DE TERCEROS"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader44": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981\tENVIO DE LA TARJETA REGALO OMNICANAL"
+    }
+  },
+  "rich-text#TerminosCondicionesHeader5": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981Reversiones de dinero "
+    }
+  },
+  "rich-text#TerminosCondicionesHeader6": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981Garant\u00edas  "
+    }
+  },
+  "rich-text#TerminosCondicionesHeader7": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981Anulaci\u00f3n de Compra por parte del cliente  "
+    }
+  },
+  "rich-text#TerminosCondicionesHeader8": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981Rechazo de Orden de Compra por parte de JUMBO  "
+    }
+  },
+  "rich-text#TerminosCondicionesHeader9": {
+    "props": {
+      "blockClass": "header2TermsConditions",
+      "text": "\u2981Entrega del Producto  "
+    }
+  },
+  "rich-text#TerminosCondicionesText1": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El cliente entiende y acepta que antes de realizar una compra a trav\u00e9s de Tiendasjumbo.co o en la APP ha le\u00eddo y est\u00e1 de acuerdo con los t\u00e9rminos y condiciones descritos en este documento. Para todos los efectos de los presentes t\u00e9rminos y condiciones, CENCOSUD COLOMBIA S.A., identificada con el NIT. 900.155.107-1 debe entenderse como CENCOSUD y/o JUMBO.                                       Si va a facturar como empresa recuerde que, al realizar compras por este canal, no se genera factura electr\u00f3nica."
+    }
+  },
+  "rich-text#TerminosCondicionesText10": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El presente reglamento ser\u00e1 aplicado exclusivamente al servicio denominado como Marketplace que\u202fCENCOSUD COLOMBIA S.A., identificada con el NIT. 900.155.107-1 (CENCOSUD y/o JUMBO) ha dispuesto para todas los clientes que realicen compras bajo esta modalidad a trav\u00e9s de la p\u00e1gina\u202fwww.tiendasjumbo.co\u202fo en la APP (De aqu\u00ed en adelante se denominara como \u201cEl Sitio\u201d)      \n \n  El servicio Marketplace dar\u00e1 la posibilidad a terceros bajo el concepto de vendedores (en adelante \u201cLOS VENDEDORES\u201d), de ofrecer sus propios productos a trav\u00e9s del \u201csitio\u201d el cual facilitar\u00e1 y permitir\u00e1 la exhibici\u00f3n de estos. \n \n Cada producto Marketplace estar\u00e1 debidamente identificado en la ficha del producto, de tal forma que sea claramente identificable para el consumidor. \n \n El vendedor de productos Marketplace es quien vende, factura y entrega directamente al consumidor los productos ofrecidos a trav\u00e9s de este canal. \n \n Cualquier da\u00f1o o perjuicio directo e inmediato que sea consecuencia directa del vendedor, sus empleados y/o empresa transportadora es responsabilidad \u00fanica y exclusiva del vendedor.\n \n CENCOSUD COLOMBIA S.A., no asumir\u00e1 ning\u00fan tipo de responsabilidad derivada de cualquier actividad propia que el Vendedor desarrolle y/o explote a trav\u00e9s del Portal. (Venta, facturaci\u00f3n, transporte). Cencosud Colombia S.A., no asumir\u00e1 ning\u00fan tipo de responsabilidad por da\u00f1os o perjuicios que sean consecuencia directa o indirecta del vendedor, sus empleados y/o empresa transportadora. "
+    }
+  },
+  "rich-text#TerminosCondicionesText10.1.1": {
+    "props": {
+      "blockClass": "subtextTermsConditions",
+      "text": "\u2981 PRECIOS, PROMOCIONES Y PRODUCTO EXCLUSIVO MARKETPLACE.  \n \n Los precios y din\u00e1micas comerciales de productos Marketplace ser\u00e1n exclusivos de ese canal y no coincidir\u00e1n con los dem\u00e1s canales de venta de CENCOSUD COLOMBIA S.A., como tiendas f\u00edsicas, domicilios telef\u00f3nicos, venta telef\u00f3nica o productos vendidos, facturados y entregados por\u202fCENCOSUD COLOMBIA S.A., a trav\u00e9s de la p\u00e1gina web\u202ftiendasjumbo.co o en la APP\n \n \u2981 PUNTOS CENCOSUD\n \n Las compras de productos Marketplace al ser realizadas directamente entre comprador y vendedor NO generan PUNTOS CENCOSUD COLOMBIA S.A\n \n En virtud de lo anterior, dichas compras no generar\u00e1n acumulaci\u00f3n de PUNTOS CENCOSUD, ni ser\u00e1n tenidas en cuenta para din\u00e1micas comerciales exclusivas del PROGRAMA DE PUNTOS CENCOSUD COLOMBIA\n \n \u2981 CAMBIOS Y/O DEVOLUCIONES\n \n La devoluci\u00f3n y/o cambio de un producto ofrecido a trav\u00e9s de la modalidad Marketplace deber\u00e1 realizarse directamente con el vendedor del producto. Cada vendedor decidir\u00e1 si cuenta con su propia pol\u00edtica de cambios y o devoluciones y deber\u00e1 entregar copia de las mismas al comprador\n \n El cliente deber\u00e1 comunicarse dentro del t\u00e9rmino otorgado con el vendedor o podr\u00e1 comunicarse con CENCOSUD COLOMBIA S.A., a la l\u00ednea de servicio al cliente al 60 1 348 9898 en Bogot\u00e1 o a nivel nacional al 01 8000 120 320 o escribiendo un mail con la solicitud al correo electr\u00f3nico\u202fsac@tiendasjumbo.co\n \n CENCOSUD COLOMBIA S.A., proporcionar\u00e1 los datos del vendedor o proveedor para que este le brinde el soporte adecuado a su solicitud\n \n En ning\u00fan caso se podr\u00e1 realizar el cambio o devoluci\u00f3n del producto Marketplace en alguna de las tiendas f\u00edsicas propiedad de CENCOSUD COLOMBIA S.A\n \n En caso que el cliente haya realizado una compra de un producto ofrecido por Jumbo y desee hacer el cambio por un producto ofrecido por el Vendedor en la modalidad Marketplace, deber\u00e1 solicitar la reversi\u00f3n de la compra y realizar una nueva por el producto deseado. Se aplicara el mismo procedimiento en caso que la compra inicial sea por un producto Marketplace y solicite el cambio por un producto ofrecido por Jumbo. Para cualquiera de los anteriores casos, el cliente deber\u00e1 registrar su solicitud mediante los canales que Jumbo ha dispuesto para este tipo de solicitudes\n \n CENCOSUD COLOMBIA S.A., no se hace responsable por los da\u00f1os o perjuicios que pueda causar el vendedor al cliente dentro del tr\u00e1mite de devoluci\u00f3n o cambios\n \n \u2981 REVERSIONES DE DINERO (DERECHO DE RETRACTO)\n \n La solicitud de reversi\u00f3n de dinero de un producto adquirido a trav\u00e9s de la modalidad Marketplace deber\u00e1 realizarse dentro de los siguientes cinco (5) d\u00edas h\u00e1biles contados a partir de la recepci\u00f3n del bien, directamente con el vendedor\n \n El vendedor indicar\u00e1 al cliente el lugar al cual deber\u00e1 llevar el producto para este tipo de procedimientos. El costo de retornar el producto ser\u00e1 asumido por el cliente\n \n En todo caso el comprador podr\u00e1 solicitar soporte a CENCOSUD COLOMBIA S.A. quien proporcionar\u00e1 los datos del vendedor o proveedor para que este le brinde el soporte adecuado a la solicitud\n \n El cliente podr\u00e1 llamar en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 60 1 348 9898 o a nivel nacional al 01 8000 120 320 o escribiendo un mail con la solicitud al correo electr\u00f3nico\u202fsac@tiendasjumbo.co\n \n En caso que hacer efectivo el derecho de retracto, la reversi\u00f3n aplica por el valor neto, sin incluir el valor del transporte. En caso que el producto haya sido entregado, el costo de retornar el producto ser\u00e1 asumido por el cliente\n \n En ning\u00fan caso CENCOSUD COLOMBIA S.A., emitir\u00e1 notas cambios por reversiones de Productos Marketplace\n \n El tiempo en ver reflejada la reversi\u00f3n iniciara desde el momento en que el producto haya retornado a la plataforma y/o lugar que el vendedor haya dispuesto para este tipo de procedimientos\n \n \u2981 GARANT\u00cdAS  \n \n El tr\u00e1mite de garant\u00edas deber\u00e1 realizarse directamente con el vendedor. Para lo cual, Jumbo proporcionar\u00e1 los datos del mismo para que este le brinde el soporte adecuado a su solicitud de garant\u00eda. \n \n El vendedor recoger\u00e1 el producto donde fue entregado asumiendo el costo de la recogida del bien o este podr\u00e1 solicitar al cliente llevarlo al centro de servicios designado en la ciudad donde fue entregado para que este sea revisado. El vendedor tiene derecho a reparar en primer t\u00e9rmino, a cambiar o reembolsar el valor pagado por el producto. \n \n Para cualquier caso es indispensable que el producto sea revisado por el Centro de Servicios Autorizado establecido por el vendedor. \u00c9ste realizar\u00e1 el diagn\u00f3stico respectivo de acuerdo con el cual se establecer\u00e1 la forma en que se har\u00e1 efectiva la garant\u00eda o si la misma no opera por encontrarse bajo alguna de las causales de exoneraci\u00f3n contempladas en la Ley Colombiana. \n \n En ning\u00fan caso se podr\u00e1 solicitar la garant\u00eda del producto Marketplace en alguna de nuestras tiendas f\u00edsicas Jumbo. \n \n \u2981 ENTREGAS \n \n El art\u00edculo ser\u00e1 entregado directamente por el vendedor y/o la transportadora que el haya dispuesto en la direcci\u00f3n que el cliente haya registrado al momento de realizar la compra. Es responsabilidad del cliente que la direcci\u00f3n sea correcta y completa para facilitar la entrega del producto por parte del transportista.  \n \n El tiempo y el costo de env\u00edo son valores establecidos por el vendedor para cada art\u00edculo en particular. Los costos de env\u00edo var\u00edan de acuerdo al tama\u00f1o, peso, zona geogr\u00e1fica de entrega. \n \n Los env\u00edos est\u00e1n sujetos al rango de cobertura que depender\u00e1 de la transportadora que cada vendedor haya dispuesto para las entregas de las compras realizadas en el sitio. \n \n El tiempo de entrega empieza a contar a partir del momento en que se haya tenido confirmaci\u00f3n del pago. \n \n El cliente podr\u00e1 hacer seguimiento con el n\u00famero de gu\u00eda que le ser\u00e1 informado oportunamente. En cualquier momento el vendedor, el transportador o Jumbo podr\u00e1 contactarlo a trav\u00e9s de llamadas telef\u00f3nicas, emails u otros medios para poder llevar a cabo un servicio oportuno y de calidad. \n \n En ning\u00fan caso el producto Marketplace podr\u00e1 ser entregado a trav\u00e9s de alguna de nuestras tiendas f\u00edsicas Jumbo. \n \n \u2981 PETICIONES, QUEJAS O RECLAMOS \n \n Cualquier petici\u00f3n, queja o reclamo de productos Marketplace ser\u00e1n atendidas directamente por el vendedor. CENCOSUD COLOMBIA S.A., proporcionar\u00e1 los datos del vendedor o proveedor para que este le brinde el soporte adecuado a su solicitud. \n \n Para lo cual el cliente deber\u00e1 llamar en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 60 1 348 9898 o a nivel nacional al 01 8000 120 320 o escribiendo un mail con la solicitud al correo electr\u00f3nico\u202fsac@tiendasjumbo.co. "
+    }
+  },
+  "rich-text#TerminosCondicionesText11": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": " Objeto \n \n El presente Reglamento de Uso, Manejo y Protecci\u00f3n de Datos, tiene por objeto garantizar la protecci\u00f3n del derecho de Habeas Data que tienen toda persona natural (en adelante el \"Titular\"), as\u00ed como la reglamentaci\u00f3n del uso de los datos por parte de CENCOSUD COLOMBIA S.A. \n \n CENCOSUD COLOMBIA S.A., en cumplimiento a la Ley 1581 de 2012 y al decreto 1377 de 2013 informa que los establecimientos de comercio cuentan con un sistema de video vigilancia por lo que est\u00e1 siendo grabado y monitoreado. \n \n En consecuencia, se informa que sus datos personales ser\u00e1n utilizados \u00fanicamente para la seguridad de los bienes y las personas que se encuentran dentro de nuestras instalaciones. Por lo anterior, le informamos que sus datos personales \u00fanicamente ser\u00e1n tratados para los fines que le est\u00e1n siendo comunicados. As\u00ed mismo, se le informa que podr\u00e1 ejercer su derecho para consultar, solicitar su correcci\u00f3n, actualizaci\u00f3n o supresi\u00f3n de acuerdo con los lineamientos consignados en la Pol\u00edtica de Protecci\u00f3n de Datos de CENCOSUD COLOMBIA S.A., que podr\u00e1 consultar en www.puntoscencosud.co \n \n La vigencia de los videos o im\u00e1genes descargables desde el CCTV tienen un t\u00e9rmino de ocho d\u00edas. \n \n Los videos o im\u00e1genes descargados desde el CCTV solo podr\u00e1n ser utilizados y manejados por el responsable de tratamiento de datos personales de la Sede Administrativa que pertenezcan a las \u00e1reas de Prevenci\u00f3n Riesgos y Asuntos Legales. Adicionalmente las autoridades competentes que los requieran por medio de una solicitud judicial. \n \n Lo anterior, atendiendo las disposiciones de la Ley 1581 de 2012, la cual se desarroll\u00f3 el derecho de todas las personas a conocer, actualizar y rectificar la informaci\u00f3n que se haya recogido sobre ellas en las bases de datos o archivos por parte de los responsables y encargados del tratamiento de dichos datos y, teniendo en cuenta la condici\u00f3n de encargado y responsable del tratamiento de datos, que le asiste a CENCOSUD COLOMBIA S.A., seg\u00fan las definiciones que para este efecto incluye la citada ley. \n \n Formato de inscripci\u00f3n y actualizaci\u00f3n de datos para realizar compras en l\u00ednea en tiendasjumbo.co \n \n Formato de inscripci\u00f3n y actualizaci\u00f3n de datos al programa de fidelizaci\u00f3n Puntos Cencosud. \n \n Formato de inscripci\u00f3n y actualizaci\u00f3n de datos para servicios financieros; \n \n Diligenciamiento de formatos de Petici\u00f3n, queja o reclamos aceptando el uso de datos; \n \n Formato de inscripci\u00f3n y actualizaci\u00f3n de datos para medios digitales. \n \n Transmisi\u00f3n de los siguientes datos personales: Nombre, documento de identidad, n\u00famero tarjeta de cr\u00e9dito, fecha de vencimiento de la tarjeta de cr\u00e9dito, c\u00f3digo de seguridad de la tarjeta de cr\u00e9dito, informaci\u00f3n de cuenta bancaria para pagos PSE, correo electr\u00f3nico, tel\u00e9fono, y direcci\u00f3n para que Pagosonline.Net S.A.S utilice dichos datos personales con dos prop\u00f3sitos: canalizar transacciones a trav\u00e9s del sistema de Pagosonline.Net S.A.S y hacer validaciones de las mismas en aras de mitigar el riesgo de fraude por suplantaci\u00f3n de identidad en tiendasjumbo.co. Los datos personales transmitidos a la Pagosonline.Net S.A.S, se almacenar\u00e1n por el tiempo suficiente para garantizar dicho fin. \n \n Autorizaci\u00f3n del titular para la captura y uso de datos. \n \n El Titular de la informaci\u00f3n, deber\u00e1 autorizar expresamente el uso de sus datos a CENCOSUD COLOMBIA S.A. Esta autorizaci\u00f3n deber\u00e1 ser adquirida a trav\u00e9s de los formularios que se dispongan por CENCOSUD COLOMBIA S.A. para estos efectos (en adelante el \"Formulario de Autorizaci\u00f3n\"). Dichos formularios hacen parte del presente Reglamento como Anexos y se enuncian a continuaci\u00f3n: \n \n Formato de inscripci\u00f3n y actualizaci\u00f3n de datos para realizar compras en l\u00ednea en tiendasjumbo.co o en la APP \n \n Formato de inscripci\u00f3n y actualizaci\u00f3n de datos al programa de fidelizaci\u00f3n Puntos Cencosud. \n \n Formato de inscripci\u00f3n y actualizaci\u00f3n de datos para servicios financieros; \n \n Diligenciamiento de formatos de Petici\u00f3n, queja o reclamos aceptando el uso de datos; \n \n Formato de inscripci\u00f3n y actualizaci\u00f3n de datos para medios digitales. \n \n Transmisi\u00f3n de los siguientes datos personales: Nombre, documento de identidad, n\u00famero tarjeta de cr\u00e9dito, fecha de vencimiento de la tarjeta de cr\u00e9dito, c\u00f3digo de seguridad de la tarjeta de cr\u00e9dito, informaci\u00f3n de cuenta bancaria para pagos PSE, correo electr\u00f3nico, tel\u00e9fono, y direcci\u00f3n para que Pagosonline.Net S.A.S utilice dichos datos personales con dos prop\u00f3sitos: canalizar transacciones a trav\u00e9s del sistema de Pagosonline.Net S.A.S y hacer validaciones de las mismas en aras de mitigar el riesgo de fraude por suplantaci\u00f3n de identidad en tiendasjumbo.co o en la APP. Los datos personales transmitidos a la Pagosonline.Net S.A.S, se almacenar\u00e1n por el tiempo suficiente para garantizar dicho fin. \n \n Finalidades de la captura de datos \n \n  CENCOSUD COLOMBIA S.A. podr\u00e1 usar los datos capturados de los Titulares para las siguientes actividades: \n \n Estudiar y atender la(s) solicitudes de servicios solicitados por el Titular en cualquier tiempo; \n \n Ejercer su derecho de conocer de manera suficiente al cliente/afiliado/usuario con quien se propone entablar relaciones, prestar servicios, y valorar el riesgo presente o futuro de las mismas relaciones y servicios; \n \n Ofrecer conjunta o separadamente con terceros o a nombre de terceros, servicios financieros, comerciales y conexos, as\u00ed como realizar campa\u00f1as de promoci\u00f3n, marketing, publicidad, beneficencia o servicio social o en conjunto con terceros. Lo anterior en consideraci\u00f3n a sus sinergias mutuas y su capacidad conjunta de proporcionar condiciones de servicio m\u00e1s favorables a sus clientes. Las empresas de transporte contratadas por CENCOSUD COLOMBIA S.A. recibir\u00e1n la informaci\u00f3n estrictamente necesaria para poder llevar a cabo su labor de entrega, y bajo ninguna circunstancia, ser\u00e1 utilizada para otro fin. \n \n Los datos capturados del solicitante reposar\u00e1n en la base de datos de CENCOSUD COLOMBIA S.A. hasta que el solicitante as\u00ed lo disponga, para retirar la informaci\u00f3n de la base de datos, el solicitante deber\u00e1 pedir darse de baja a trav\u00e9s de los canales dispuestos por CENCOSUD COLOMBIA S.A. para este fin. \n \n En consecuencia, para las finalidades descritas, CENCOSUD COLOMBIA S.A. podr\u00e1: \n \n Conocer, almacenar y procesar toda la informaci\u00f3n suministrada por el Titular en una o varias bases de datos, en el formato que estime m\u00e1s conveniente. \n \n Ordenar, catalogar, clasificar, dividir o separar la informaci\u00f3n suministrada por el Titular. \n \n Verificar, corroborar, comprobar, validar, investigar o comparar la informaci\u00f3n suministrada por el Titular, con cualquier informaci\u00f3n de que disponga leg\u00edtimamente, incluyendo aquella conocida por sus matrices, subordinadas, afiliadas o cualquier compa\u00f1\u00eda del Grupo CENCOSUD. \n \n Acceder, consultar, comparar y evaluar toda la informaci\u00f3n que sobre el Titular se encuentre almacenada en las bases de datos de cualquier central de riesgo crediticio, financiero, de antecedentes judiciales o de seguridad leg\u00edtimamente constituida, de naturaleza estatal o privada, nacional o extranjera, o cualquier base de datos comercial o de servicios que permita establecer de manera integral e hist\u00f3ricamente completa el comportamiento que como deudor, usuario, cliente, garante, endosante, afiliado, beneficiario, suscriptor, contribuyente y/o como titular de servicios financieros, comerciales o de cualquier otra \u00edndole. \n \n Analizar, procesar, evaluar, tratar o comparar la informaci\u00f3n suministrada por el Titular. A los datos resultantes de an\u00e1lisis, procesamientos, evaluaciones, tratamientos y comparaciones, les ser\u00e1n aplicables las mismas autorizaciones que otorg\u00f3 en el Formulario de Autorizaci\u00f3n para la informaci\u00f3n suministrada por el Titular. \n \n Estudiar, analizar, personalizar y utilizar la informaci\u00f3n suministrada por el Titular para el seguimiento, desarrollo y/o mejoramiento, tanto individual como general, de condiciones de servicio, administraci\u00f3n, seguridad o atenci\u00f3n, as\u00ed como para la implementaci\u00f3n de planes de mercadeo, campa\u00f1as, beneficios especiales y promociones. CENCOSUD COLOMBIA S.A. podr\u00e1 compartir con sus accionistas y con compa\u00f1\u00edas controlantes, controladas, vinculadas, afiliadas o pertenecientes al mismo grupo empresarial, o con los aliados de negocios que se sometan a las condiciones de la presente autorizaci\u00f3n los resultados de los mencionados estudios, an\u00e1lisis, personalizaciones y usos, as\u00ed como toda la informaci\u00f3n y datos personales suministrados por el Titular. \n \n Reportar, comunicar o permitir el acceso a la informaci\u00f3n suministrada por el Titular o aquella de que disponga sobre el Titular a las centrales de riesgo crediticio, financiero, comercial o de servicios leg\u00edtimamente constituidas, a entidades financieras, de acuerdo con las normas aplicables. \n \n Datos sensibles \n \n Se consideran datos sensibles aquellos relacionados con datos sobre origen racial o \u00e9tnico, la pertenencia a sindicatos, organizaciones sociales o de derechos humanos, convicciones pol\u00edticas, religiosas, de la vida sexual, biom\u00e9tricos o datos de la salud. Esta informaci\u00f3n podr\u00e1 no ser respondida por el Titular. \n \n Derechos y obligaciones de los titulares de la informaci\u00f3n. \n \n El Titular de la informaci\u00f3n compartida con CENCOSUD COLOMBIA S.A. tiene los siguientes derechos: \n \n Conocer, actualizar y rectificar mis datos personales frente a los responsables o encargados del tratamiento. este derecho se podr\u00e1 ejercer, entre otros frente a datos parciales, inexactos, incompletos, fraccionados, que induzcan a error, o aquellos cuyo tratamiento est\u00e9 expresamente prohibido o no haya sido autorizado; \n \n Solicitar prueba de la autorizaci\u00f3n otorgada al responsable del tratamiento salvo cuando dicha autorizaci\u00f3n no sea necesaria en los t\u00e9rminos del art\u00edculo 10 de la Ley Estatutaria 1581 de 2012. \n \n Ser informado por el responsable del tratamiento o el encargado del tratamiento, previa solicitud, respecto del uso que le ha dado a mis datos personales; \n \n Presentar ante la Superintendencia de Industria y Comercio quejas por infracciones a lo dispuesto en la Ley Estatutaria 1581 de 2012 y las dem\u00e1s normas que la modifiquen, adicionen o complementen. \n \n Revocar la autorizaci\u00f3n y/o solicitar la supresi\u00f3n del dato personal cuando en el tratamiento no se respeten los principios, derechos y garant\u00edas constitucionales y legales. La revocatoria y/o supresi\u00f3n s\u00f3lo proceder\u00e1 cuando la superintendencia de industria y comercio haya determinado que en el tratamiento el responsable o encargado han incurrido en conductas contrarias a la ley Estatutaria 1581 de 2012 y a la Constituci\u00f3n. \n \n Acceder en forma gratuita a mis datos personales que hayan sido objeto de Tratamiento. \n \n Consultas y requerimientos \n \n Cuando el Titular considere necesario hacer solicitudes de informaci\u00f3n o considere que sus derechos han sido vulnerados respecto del uso y manejo de su informaci\u00f3n, podr\u00e1 instaurar las solicitudes que considere pertinentes, de la siguiente forma: \n \n Presentando sus peticiones, quejas o reclamos, accediendo a: \n \n P\u00e1gina WEB\u202fhttps://www.tiendasjumbo.co/ o en la APP \n \n L\u00ednea de atenci\u00f3n al cliente en Bogot\u00e1 60 1 348 9898 y l\u00ednea nacional 01 8000 120 320 \n \n Formatos de peticiones, quejas y reclamos disponibles en tiendas \n \n As\u00ed mismo, en caso de tener alguna inquietud, observaci\u00f3n o comentario relacionado con la recolecci\u00f3n y/o uso de los datos personales suministrados a Pagosonline.Net S.A.S podr\u00e1 contactarse en los siguientes tel\u00e9fonos: L\u00ednea de Servicio al Pagador: (57) 601 742 5676, 60 1  742 5676 L\u00ednea Nacional: 01 8000 113126, acercarse a la direcci\u00f3n Calle 93b No 17-25 oficina 301, enviar un correo electr\u00f3nico a sac@payulatam.com, o ingresar a la p\u00e1gina web de Pagos On Line en Colombia y en la secci\u00f3n de ayuda, enviar su solicitud, observaci\u00f3n o comentario. \n \n \n \n Responsables del tratamiento \n \n El responsable del tratamiento de la informaci\u00f3n ser\u00e1 la sociedad CENCOSUD COLOMBIA S.A., con domicilio en la avenida 9 N\u00ba 125 -30 de la ciudad de Bogot\u00e1 tel\u00e9fono (57) 60 1 657 9797. \n \n Cancelar suscripci\u00f3n autom\u00e1tica de correos promocionales \n \n Si no deseas recibir m\u00e1s correos electr\u00f3nicos de nuestras tiendas Jumbo, has click en la palabra \u201cdesuscribirse\u201d al final de nuestros correos electr\u00f3nicos y sigue las instrucciones. "
+    }
+  },
+  "rich-text#TerminosCondicionesText12": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "\u2981 Revisi\u00f3n de los presentes t\u00e9rminos y condicion \n \n \u2981 JUMBO podr\u00e1, en cualquier momento, revisar los t\u00e9rminos de uso aqu\u00ed contenidos, por medio de la actualizaci\u00f3n del texto ac\u00e1 publicado. El usuario conviene en darse por obligado por cualquiera de tales revisiones, las cuales se entender\u00e1n vigentes a partir del momento en que las mismas sean publicadas a los usuarios, los cuales el usuario estar\u00e1 obligado de cumplir en el evento que decida utilizar este sitio.  \n \n \u2981 Legislaci\u00f3n y jurisdicci\u00f3n aplicable  \n \n Estos t\u00e9rminos y condiciones de venta se regir\u00e1n e interpretar\u00e1n de acuerdo con las leyes de la Rep\u00fablica de Colombia. Cualquier controversia que derive de este documento se someter\u00e1 a los jueces competentes de acuerdo con la legislaci\u00f3n colombiana, y tanto JUMBO como el cliente renuncian expresamente a cualquier otro fuero que pudiera corresponderles en raz\u00f3n de su domicilio presente o futuro.  \n \n \u2981 LEGAL TARJETA REGALO  \n \n Esta tarjeta es un medio de pago virtual, emitida y administrada por Cencosud Colombia S.A. NIT. 900.155.107-1, redimible total o parcialmente.  \n \n La Tarjeta Regalo tiene una vigencia de 2 a\u00f1os, a partir de la fecha de la emisi\u00f3n, t\u00e9rmino en el cual el saldo debe ser agotado en su totalidad, luego de este t\u00e9rmino, el saldo existente expirar\u00e1 y la tarjeta ser\u00e1 bloqueada. Dicha vigencia no se suspende, interrumpe, renueva, ni prorroga de manera autom\u00e1tica. Esta tarjeta no es recargable.  \n \n Cencosud Colombia S.A., no asume responsabilidad alguna en caso de robo o extrav\u00edo y en consecuencia no habr\u00e1 lugar a su reposici\u00f3n o reexpedici\u00f3n. Cencosud Colombia S.A., tampoco asume ning\u00fan tipo de responsabilidad respecto al uso y destinaci\u00f3n que de la tarjeta haga el titular. Este documento no es negociable ni redimible por dinero en efectivo ni por otro medio de pago.  \n \n En cada redenci\u00f3n (total o parcial) tanto en las tiendas f\u00edsicas como en la tienda virtual www.tiendasjumbo.co o en la APP llegar\u00e1 al titular de la tarjeta, un c\u00f3digo al n\u00famero de celular o correo electr\u00f3nico inscrito en el momento de la emisi\u00f3n de la Tarjeta Regalo para permitir dicha redenci\u00f3n.  \n \n Esta tarjeta es redimible \u00fanicamente en las tiendas f\u00edsicas JUMBO, EASY, METRO, SPID 35 y METRO EXPRESS ubicadas en la Rep\u00fablica de Colombia y en la p\u00e1gina\u202fwww.tiendasjumbo.co o en la APP, NO es redimible en estaciones de servicios.  \n \n   \n \n Las tarjetas regalo f\u00edsicas, pueden ser habilitadas como medio de pago en nuestra p\u00e1gina, ingresando a www.tiendasjumbo.co o en la APP y haciendo el registro previo.  \n \n La denominaci\u00f3n de la Tarjeta Regalo podr\u00e1 ser $50.000, $100.000, $200.000 y $500.000. Por transacci\u00f3n se podr\u00e1n adquirir Tarjetas Regalo hasta por un valor total de $3.000.000 y/o hasta 12 Tarjetas.  \n \n La redenci\u00f3n de las tarjetas regalo se permite hasta por un valor de $999.999 COP.  \n \n Para emisi\u00f3n de Tarjeta Regalo no aplica descuento de colaborador para empleados Cencosud.S.A.  \n \n En la redenci\u00f3n aplican las pol\u00edticas vigentes de descuento general de la compa\u00f1\u00eda. "
+    }
+  },
+  "rich-text#TerminosCondicionesText13": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "\u2981 Revisi\u00f3n de los presentes t\u00e9rminos y condicion\n \n JUMBO podr\u00e1, en cualquier momento, revisar los t\u00e9rminos de uso aqu\u00ed contenidos, por medio de la actualizaci\u00f3n del texto ac\u00e1 publicado. El usuario conviene en darse por obligado por cualquiera de tales revisiones, las cuales se entender\u00e1n vigentes a partir del momento en que las mismas sean publicadas a los usuarios, los cuales el usuario estar\u00e1 obligado de cumplir en el evento que decida utilizar este sit\n\n \n \u2981 Legislaci\u00f3n y jurisdicci\u00f3n aplicable \n \n Estos t\u00e9rminos y condiciones de venta se regir\u00e1n e interpretar\u00e1n de acuerdo con las leyes de la Rep\u00fablica de Colombia. Cualquier controversia que derive de este documento se someter\u00e1 a los jueces competentes de acuerdo con la legislaci\u00f3n colombiana, y tanto JUMBO como el cliente renuncian expresamente a cualquier otro fuero que pudiera corresponderles en raz\u00f3n de su domicilio presente o futuro. \n \n \u2981 LEGAL TARJETA REGALO \n \n Esta tarjeta es un medio de pago virtual, emitida y administrada por Cencosud Colombia S.A. NIT. 900.155.107-1, redimible total o parcialmente. \n \n La Tarjeta Regalo tiene una vigencia de 2 a\u00f1os, a partir de la fecha de la emisi\u00f3n, t\u00e9rmino en el cual el saldo debe ser agotado en su totalidad, luego de este t\u00e9rmino, el saldo existente expirar\u00e1 y la tarjeta ser\u00e1 bloqueada. Dicha vigencia no se suspende, interrumpe, renueva, ni prorroga de manera autom\u00e1tica. Esta tarjeta no es recargable. \n \n Cencosud Colombia S.A., no asume responsabilidad alguna en caso de robo o extrav\u00edo y en consecuencia no habr\u00e1 lugar a su reposici\u00f3n o reexpedici\u00f3n. Cencosud Colombia S.A., tampoco asume ning\u00fan tipo de responsabilidad respecto al uso y destinaci\u00f3n que de la tarjeta haga el titular. Este documento no es negociable ni redimible por dinero en efectivo ni por otro medio de pago. \n \n En cada redenci\u00f3n (total o parcial) tanto en las tiendas f\u00edsicas como en la tienda virtual www.tiendasjumbo.co o en la APP llegar\u00e1 al titular de la tarjeta, un c\u00f3digo al n\u00famero de celular o correo electr\u00f3nico inscrito en el momento de la emisi\u00f3n de la Tarjeta Regalo para permitir dicha redenci\u00f3n. \n \n Esta tarjeta es redimible \u00fanicamente en las tiendas f\u00edsicas JUMBO, EASY, METRO, SPID 35 y METRO EXPRESS ubicadas en la Rep\u00fablica de Colombia y en la p\u00e1gina\u202fwww.tiendasjumbo.co o en la APP, NO es redimible en estaciones de servicios. \n \n  \n \n Las tarjetas regalo f\u00edsicas, pueden ser habilitadas como medio de pago en nuestra p\u00e1gina, ingresando a www.tiendasjumbo.co o en la APP y haciendo el registro previo. \n \n La denominaci\u00f3n de la Tarjeta Regalo podr\u00e1 ser $50.000, $100.000, $200.000 y $500.000. Por transacci\u00f3n se podr\u00e1n adquirir Tarjetas Regalo hasta por un valor total de $3.000.000 y/o hasta 12 Tarjetas. \n \n La redenci\u00f3n de las tarjetas regalo se permite hasta por un valor de $999.999 COP. \n \n Para emisi\u00f3n de Tarjeta Regalo no aplica descuento de colaborador para empleados Cencosud.S.A. \n \n En la redenci\u00f3n aplican las pol\u00edticas vigentes de descuento general de la compa\u00f1\u00eda. \n \n \u2981 BLOQUEO Y TRASLADOS \n \n Cualquier incidencia se debe gestionar por los dos canales establecidos: "
+    }
+  },
+  "rich-text#TerminosCondicionesText13.1": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "1. En Tienda F\u00edsica Jumbo y Metro:\n Formatos de peticiones, quejas y reclamos disponibles en los m\u00f3dulos de Servicio al Cliente (ATC).\n \n 2. Servicio al Cliente de e-commerce\n \n I. P\u00e1gina WEB https://www.tiendasjumbo.co/ o en la APP\n II. L\u00ednea de atenci\u00f3n al cliente:\n \t I. Ecommerce Jumbo Non Food en Bogot\u00e1 60 1 3489898 y l\u00ednea nacional 01 8000 120 320\n \t I. II. Sac Jumbo Tiendas & Food en Bogot\u00e1 60 1 3489888 y l\u00ednea nacional 01 8000 114 880\n III. Correo Servicio al Cliente: sac@tiendasjumbo.co\n \n Canal Tiendas Metro:\n \n \u2981\tP\u00e1gina WEB https://www.tiendasmetro.co/ o en la APP\n II.  L\u00ednea de atenci\u00f3n al cliente:\n \t I. Ecommerce Metro Non food en Bogot\u00e1 60 1 3582220 y l\u00ednea nacional 01 8000 115 133\n \t \t \u2981\tSac Metro Tiendas & Food en Bogot\u00e1 60 1 3582222 y l\u00ednea nacional \u00a001 8000 113 510\n III. Correo Servicio al Cliente: sac@tiendasmetro.co "
+    }
+  },
+  "rich-text#TerminosCondicionesText14": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "En caso de utilizar en una misma transacci\u00f3n, una tarjeta de cr\u00e9dito como medio de pago adicional a la tarjeta regalo, y \u00e9sta quede en estado pendiente de validaci\u00f3n por parte de la pasarela; el monto utilizado con la tarjeta regalo ser\u00e1 bloqueado hasta obtener la confirmaci\u00f3n de la tarjeta de cr\u00e9dito. Si definitivamente no es posible completar la transacci\u00f3n, se devolver\u00e1 el monto utilizado dentro de las 24 horas siguientes al uso del medio de pago Tarjeta Regalo Omnicanal."
+    }
+  },
+  "rich-text#TerminosCondicionesText15": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Toda informaci\u00f3n o contenido transmitido por los usuarios y/o beneficiarios de producto tarjeta regalo virtual es responsabilidad de los mismos, por lo tanto Cencosud Colombia S.A., no asume responsabilidad alguna y queda prohibido el uso de lenguaje, vocabulario, modismos y cualquier expresi\u00f3n que pueda considerarse ofensiva tanto para el remitente como para el destinatario."
+    }
+  },
+  "rich-text#TerminosCondicionesText16": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Declaro que cuento con la autorizaci\u00f3n para el tratamiento de los datos personales del beneficiario de esta tarjeta regalo, en virtud de lo anterior, encargo a Cencosud Colombia S.A. para el tratamiento de los mismos, cuya finalidad ser\u00e1 remitir la tarjeta regalo al beneficiario."
+    }
+  },
+  "rich-text#TerminosCondicionesText17": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "La Tarjeta Regalo Omnicanal es un producto intangible, motivo por el cual no aplica m\u00e9todos de entrega a domicilio o recoge en tienda. Una vez confirmada la compra, el n\u00famero de Tarjeta Regalo Omnicanal adquirido, ser\u00e1 enviado desde el correo tarjetaregalo@cencosud.com.co al correo asociado en la personalizaci\u00f3n del medio de pago; en caso de no recibir esta notificaci\u00f3n en la bandeja principal, el cliente debe verificar la bandeja de correo no deseado o spam."
+    }
+  },
+  "rich-text#TerminosCondicionesText18": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El cliente entiende y acepta que antes de realizar una compra a trav\u00e9s de Tiendasjumbo.co o en la APP ha le\u00eddo y est\u00e1 de acuerdo con los t\u00e9rminos y condiciones descritos en este documento. Para todos los efectos de los presentes t\u00e9rminos y condiciones, CENCOSUD COLOMBIA S.A., identificada con el NIT. 900.155.107-1 debe entenderse como CENCOSUD y/o JUMBO.\n \n Si va a facturar como empresa recuerde que al realizar compras por \u00e9ste canal, no se genera factura electr\u00f3nica."
+    }
+  },
+  "rich-text#TerminosCondicionesText19": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Al realizar compras a trav\u00e9s de Web, Mercado Libre y Venta telef\u00f3nica \u00fanicamente se genera tiquete P.O.S., por lo que si requiere factura electr\u00f3nica deber\u00e1 solicitarla al correo\u00a0Servicio.al.Cliente@cencosud.com.co\u00a0para reemplazar el tiquete P.O.S. por factura electr\u00f3nica."
+    }
+  },
+  "rich-text#TerminosCondicionesText2": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Al realizar compras a trav\u00e9s de Web, Mercado Libre y Venta telef\u00f3nica \u00fanicamente se genera tiquete P.O.S., por lo que si requiere factura electr\u00f3nica deber\u00e1 solicitarla al correo\u00a0Servicio.al.Cliente@cencosud.com.co\u00a0para reemplazar el tiquete P.O.S. por factura electr\u00f3nica."
+    }
+  },
+  "rich-text#TerminosCondicionesText20": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Para que se hagan efectivos los precios y din\u00e1micas comerciales exclusivos de tarjetas de cr\u00e9dito el pago se debe realizar en l\u00ednea, es decir, NO aplica pago contra entrega.\n \n Los precios y din\u00e1micas comerciales que se comunican en nuestra p\u00e1gina\u00a0www.tiendasjumbo.co\u00a0o en la APP pueden ser exclusivos del canal, y no siempre coincidir\u00e1n con los vigentes en las tiendas Jumbo. Los productos exclusivos solo podr\u00e1n ser adquiridos a trav\u00e9s de la p\u00e1gina virtual, en ning\u00fan caso aplicar\u00e1n para productos Marketplace.\n \n Los precios de los productos de las categor\u00edas de Supermercado podr\u00e1n variar, seg\u00fan la ciudad de destino seleccionada. Por tanto, el valor a pagar por cada art\u00edculo ser\u00e1 determinado por la direcci\u00f3n de entrega y ciudad que el cliente indique al momento de realizar el pedido.\n \n La disponibilidad del stock y cantidades podr\u00e1n variar seg\u00fan la tienda o ciudad de destino seleccionada, por tanto, el despacho de los productos podr\u00e1n tener alguna modificaci\u00f3n si no se cuenta con el stock o con el total de las cantidades que el cliente desea adquirir."
+    }
+  },
+  "rich-text#TerminosCondicionesText21": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "La devoluci\u00f3n o el cambio de un bien de tecnolog\u00eda y productos de hogar, muebles adquiridos en JUMBO a trav\u00e9s de la p\u00e1gina web\u00a0www.tiendasjumbo.co o en la APP\u00a0debe gestionarse dentro de los siguientes 8 d\u00edas calendario a la fecha de la entrega del producto, llamando en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 60 1 3489888 o a nivel nacional al 01 8000 114880.\n \n Para todo lo relacionado con productos de mercado y aseo (Hogar y personal) debe comunicarse a la l\u00ednea de Jumbo en Bogot\u00e1 al 3489888.\n \n Para proceder a iniciar el proceso de devoluci\u00f3n o cambio de alg\u00fan producto de tecnolog\u00eda adquirido en nuestro sitio WEB debe comunicarse a la l\u00ednea de servicio al cliente al 3489888 o a nivel nacional al 01 8000 114880, tener a la mano la tirilla de compra que fue enviada a su email, y el art\u00edculo debe estar en condiciones \u00f3ptimas (no rayones, no abolladuras, no manchas, no roturas, no fallas de funcionamiento, etc.), estar sin uso, completo y en el mismo empaque que fue despachado, esto incluye que los cat\u00e1logos y accesorios del art\u00edculo est\u00e9n completos y sin ning\u00fan tipo de uso.\n \n En caso de que el cliente haya realizado el pago a trav\u00e9s del medio \u201cpago en tienda\u201d en la l\u00ednea de cajas de cualquiera de nuestras tiendas Jumbo a nivel nacional y desee solicitar el cambio o devoluci\u00f3n de un bien, deber\u00e1 comunicarse en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 3489888 o a nivel nacional al 01 8000 114880.\n \n Para los productos que necesitan armado o instalaci\u00f3n especializada, la devoluci\u00f3n o cambio no aplica si el art\u00edculo fue manipulado por un tercero no autorizado por CENCOSUD. Se aclara que los costos que se puedan llegar a generar por concepto de armado o instalaci\u00f3n ser\u00e1n responsabilidad del cliente (a menos que las marcas incluyan dicho servicio dentro del costo y as\u00ed lo especifiquen al momento de la compra) y se comunicar\u00e1 en la p\u00e1gina de informaci\u00f3n del producto con quien debe llevarse a cabo el proceso. El transportista dispuesto por Jumbo no retirar\u00e1 un art\u00edculo armado o instalado bajo ninguna circunstancia.\n \n Si se detectan problemas o fallas del art\u00edculo durante el armado o instalaci\u00f3n por parte del personal autorizado, \u00e9ste \u00faltimo deber\u00e1 desarmar y empacar el producto y el cliente deber\u00e1 comunicarse en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 3489888 o a nivel nacional al 01 8000 114880 para coordinar el retiro con el transportista dispuesto por JUMBO.\n \n Por seguridad de nuestros clientes, no se aceptan devoluciones o cambios de prendas de vestir o utensilios de uso estrictamente personal, tampoco de software, tel\u00e9fonos celulares, alimentos perecibles, licores o de cualquier otro art\u00edculo que as\u00ed lo especifique la p\u00e1gina de informaci\u00f3n del producto en nuestra WEB.\n \n Adicionalmente no se aceptan devoluciones o cambios de perfumes, consolas de videojuegos, videojuegos, CD\u2019s o cosm\u00e9ticos que no tengan intacta su empaquetadura y por ende que no hayan sido desempacados ni utilizados.\n \n La devoluci\u00f3n o cambio de colchones requiere que el producto est\u00e9 sin uso, con la empaquetadura intacta, y se debe revisar con cada marca la pol\u00edtica vigente para estos casos.\n \n Cuando el art\u00edculo se recoja en el domicilio del cliente para cambio o devoluci\u00f3n, \u00e9ste ser\u00e1 inspeccionado en su parte externa por el transportista dispuesto por JUMBO. En caso de que no se encuentre en las condiciones \u00f3ptimas antes descritas, el producto no ser\u00e1 retirado.\n \n Si el art\u00edculo cumple con la verificaci\u00f3n inicial, este ser\u00e1 enviado a nuestra plataforma, para pasar por un proceso de inspecci\u00f3n final en orden de validar su \u00f3ptimo estado, y as\u00ed poder iniciar el proceso de devoluci\u00f3n y/o cambio del producto. Si el art\u00edculo no cumple con las condiciones de calidad descritas anteriormente, este ser\u00e1 retornado al comprador. El tiempo para que el producto arribe a nuestra bodega puede ser de hasta diez (10) d\u00edas calendario, dependiendo del lugar al que se haya despachado el pedido. Si el art\u00edculo es llevado por el cliente a una de las tiendas JUMBO, este recibir\u00e1 tambi\u00e9n una inspecci\u00f3n por parte del personal designado por la tienda para verificar el estado del producto, pudiendo rechazar la entrega por no cumplir con las condiciones anteriormente descritas\n \n La devoluci\u00f3n o cambio del art\u00edculo es una posibilidad que le da CENCOSUD COLOMBIA S.A., a los clientes de la p\u00e1gina\u00a0www.tiendasjumbo.co\u00a0en la APP y difiere de la solicitud de la efectividad de la garant\u00eda del producto, el cual tiene un procedimiento diferente, tal y como se expone m\u00e1s adelante."
+    }
+  },
+  "rich-text#TerminosCondicionesText22": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Por razones de higiene y salubridad, las tinturas y productos de maquillaje no podr\u00e1n ser cambiados si han sido usados y/o presentan da\u00f1os en sus empaques."
+    }
+  },
+  "rich-text#TerminosCondicionesText23": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Para que se hagan efectivos los precios y din\u00e1micas comerciales exclusivos de tarjetas de cr\u00e9dito el pago se debe realizar en l\u00ednea, es decir, NO aplica pago contra entrega.\n \n Los precios y din\u00e1micas comerciales que se comunican en nuestra p\u00e1gina\u00a0www.tiendasjumbo.co\u00a0o en la APP pueden ser exclusivos del canal, y no siempre coincidir\u00e1n con los vigentes en las tiendas Jumbo. Los productos exclusivos solo podr\u00e1n ser adquiridos a trav\u00e9s de la p\u00e1gina virtual, en ning\u00fan caso aplicar\u00e1n para productos Marketplace.\n \n Los precios de los productos de las categor\u00edas de Supermercado podr\u00e1n variar, seg\u00fan la ciudad de destino seleccionada. Por tanto, el valor a pagar por cada art\u00edculo ser\u00e1 determinado por la direcci\u00f3n de entrega y ciudad que el cliente indique al momento de realizar el pedido.\n \n La disponibilidad del stock y cantidades podr\u00e1n variar seg\u00fan la tienda o ciudad de destino seleccionada, por tanto, el despacho de los productos podr\u00e1n tener alguna modificaci\u00f3n si no se cuenta con el stock o con el total de las cantidades que el cliente desea adquirir."
+    }
+  },
+  "rich-text#TerminosCondicionesText24": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Para que se hagan efectivos los precios y din\u00e1micas comerciales exclusivos de tarjetas de cr\u00e9dito el pago se debe realizar en l\u00ednea, es decir, NO aplica pago contra entrega.\n \n Los precios y din\u00e1micas comerciales que se comunican en nuestra p\u00e1gina\u00a0www.tiendasjumbo.co\u00a0o en la APP pueden ser exclusivos del canal, y no siempre coincidir\u00e1n con los vigentes en las tiendas Jumbo. Los productos exclusivos solo podr\u00e1n ser adquiridos a trav\u00e9s de la p\u00e1gina virtual, en ning\u00fan caso aplicar\u00e1n para productos Marketplace.\n \n Los precios de los productos de las categor\u00edas de Supermercado podr\u00e1n variar, seg\u00fan la ciudad de destino seleccionada. Por tanto, el valor a pagar por cada art\u00edculo ser\u00e1 determinado por la direcci\u00f3n de entrega y ciudad que el cliente indique al momento de realizar el pedido.\n \n La disponibilidad del stock y cantidades podr\u00e1n variar seg\u00fan la tienda o ciudad de destino seleccionada, por tanto, el despacho de los productos podr\u00e1n tener alguna modificaci\u00f3n si no se cuenta con el stock o con el total de las cantidades que el cliente desea adquirir."
+    }
+  },
+  "rich-text#TerminosCondicionesText25": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "La devoluci\u00f3n o el cambio de un bien de tecnolog\u00eda y productos de hogar, muebles adquiridos en JUMBO a trav\u00e9s de la p\u00e1gina web\u00a0www.tiendasjumbo.co o en la APP\u00a0debe gestionarse dentro de los siguientes 8 d\u00edas calendario a la fecha de la entrega del producto, llamando en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 60 1 3489888 o a nivel nacional al 01 8000 114880.\n \n Para todo lo relacionado con productos de mercado y aseo (Hogar y personal) debe comunicarse a la l\u00ednea de Jumbo en Bogot\u00e1 al 3489888.\n \n Para proceder a iniciar el proceso de devoluci\u00f3n o cambio de alg\u00fan producto de tecnolog\u00eda adquirido en nuestro sitio WEB debe comunicarse a la l\u00ednea de servicio al cliente al 3489888 o a nivel nacional al 01 8000 114880, tener a la mano la tirilla de compra que fue enviada a su email, y el art\u00edculo debe estar en condiciones \u00f3ptimas (no rayones, no abolladuras, no manchas, no roturas, no fallas de funcionamiento, etc.), estar sin uso, completo y en el mismo empaque que fue despachado, esto incluye que los cat\u00e1logos y accesorios del art\u00edculo est\u00e9n completos y sin ning\u00fan tipo de uso.\n \n En caso de que el cliente haya realizado el pago a trav\u00e9s del medio \u201cpago en tienda\u201d en la l\u00ednea de cajas de cualquiera de nuestras tiendas Jumbo a nivel nacional y desee solicitar el cambio o devoluci\u00f3n de un bien, deber\u00e1 comunicarse en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 3489888 o a nivel nacional al 01 8000 114880.\n \n Para los productos que necesitan armado o instalaci\u00f3n especializada, la devoluci\u00f3n o cambio no aplica si el art\u00edculo fue manipulado por un tercero no autorizado por CENCOSUD. Se aclara que los costos que se puedan llegar a generar por concepto de armado o instalaci\u00f3n ser\u00e1n responsabilidad del cliente (a menos que las marcas incluyan dicho servicio dentro del costo y as\u00ed lo especifiquen al momento de la compra) y se comunicar\u00e1 en la p\u00e1gina de informaci\u00f3n del producto con quien debe llevarse a cabo el proceso. El transportista dispuesto por Jumbo no retirar\u00e1 un art\u00edculo armado o instalado bajo ninguna circunstancia.\n \n Si se detectan problemas o fallas del art\u00edculo durante el armado o instalaci\u00f3n por parte del personal autorizado, \u00e9ste \u00faltimo deber\u00e1 desarmar y empacar el producto y el cliente deber\u00e1 comunicarse en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 3489888 o a nivel nacional al 01 8000 114880 para coordinar el retiro con el transportista dispuesto por JUMBO.\n \n Por seguridad de nuestros clientes, no se aceptan devoluciones o cambios de prendas de vestir o utensilios de uso estrictamente personal, tampoco de software, tel\u00e9fonos celulares, alimentos perecibles, licores o de cualquier otro art\u00edculo que as\u00ed lo especifique la p\u00e1gina de informaci\u00f3n del producto en nuestra WEB.\n \n Adicionalmente no se aceptan devoluciones o cambios de perfumes, consolas de videojuegos, videojuegos, CD\u2019s o cosm\u00e9ticos que no tengan intacta su empaquetadura y por ende que no hayan sido desempacados ni utilizados.\n \n La devoluci\u00f3n o cambio de colchones requiere que el producto est\u00e9 sin uso, con la empaquetadura intacta, y se debe revisar con cada marca la pol\u00edtica vigente para estos casos.\n \n Cuando el art\u00edculo se recoja en el domicilio del cliente para cambio o devoluci\u00f3n, \u00e9ste ser\u00e1 inspeccionado en su parte externa por el transportista dispuesto por JUMBO. En caso de que no se encuentre en las condiciones \u00f3ptimas antes descritas, el producto no ser\u00e1 retirado.\n \n Si el art\u00edculo cumple con la verificaci\u00f3n inicial, este ser\u00e1 enviado a nuestra plataforma, para pasar por un proceso de inspecci\u00f3n final en orden de validar su \u00f3ptimo estado, y as\u00ed poder iniciar el proceso de devoluci\u00f3n y/o cambio del producto. Si el art\u00edculo no cumple con las condiciones de calidad descritas anteriormente, este ser\u00e1 retornado al comprador. El tiempo para que el producto arribe a nuestra bodega puede ser de hasta diez (10) d\u00edas calendario, dependiendo del lugar al que se haya despachado el pedido. Si el art\u00edculo es llevado por el cliente a una de las tiendas JUMBO, este recibir\u00e1 tambi\u00e9n una inspecci\u00f3n por parte del personal designado por la tienda para verificar el estado del producto, pudiendo rechazar la entrega por no cumplir con las condiciones anteriormente descritas\n \n La devoluci\u00f3n o cambio del art\u00edculo es una posibilidad que le da CENCOSUD COLOMBIA S.A., a los clientes de la p\u00e1gina\u00a0www.tiendasjumbo.co\u00a0en la APP y difiere de la solicitud de la efectividad de la garant\u00eda del producto, el cual tiene un procedimiento diferente, tal y como se expone m\u00e1s adelante."
+    }
+  },
+  "rich-text#TerminosCondicionesText26": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Por razones de higiene y salubridad, las tinturas y productos de maquillaje no podr\u00e1n ser cambiados si han sido usados y/o presentan da\u00f1os en sus empaques."
+    }
+  },
+  "rich-text#TerminosCondicionesText27": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Las reversiones de dinero de un bien de tecnolog\u00eda y productos de hogar adquirido en JUMBO a trav\u00e9s de la p\u00e1gina web\u00a0www.tiendasjumbo.co\u00a0o en la APP deben gestionarse llamando en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 3489888 o a nivel nacional al 01 8000 114880.\n \n Para todo lo relacionado con productos de mercado y aseo (Hogar y personal) debe comunicarse a la l\u00ednea de Jumbo en Bogot\u00e1 al 60 1 3489888\n \n En caso que el cliente haya realizado el pago a trav\u00e9s del medio \u201cpago en tienda\u201d en la l\u00ednea de cajas de cualquiera de nuestras tiendas Jumbo a nivel nacional y desee solicitar la reversi\u00f3n de su compra, deber\u00e1 comunicarse en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 60 1 3489888 o a nivel nacional al 01 8000 114880.\n \n El cliente puede ejercer el derecho de retracto sobre una compra realizada en tiendasjumbo.co en t\u00e9rmino m\u00e1ximo de 5 d\u00edas h\u00e1biles, contados a partir de la entrega del bien. Para ello deber\u00e1 devolver el producto por los mismos medios y en las mismas condiciones en que lo recibi\u00f3 y todos los costos que se ocasionen en virtud de dicha devoluci\u00f3n deber\u00e1n ser asumidos en su totalidad por el cliente.\n \n El cliente cuenta con la opci\u00f3n de remitir el producto que desea devolver, a trav\u00e9s de los canales de CENCOSUD a trav\u00e9s del siguiente procedimiento:\n \n Para cubrir este costo, el cliente debe consignar el valor del flete cobrado en su compra a la cuenta de ahorros n\u00famero 182021725 del banco Colpatria a nombre de Cencosud Colombia S.A, el cliente deber\u00e1 enviar el soporte de consignaci\u00f3n al correo Sac@tiendasjumbo.co para coordinar la recolecci\u00f3n del producto correspondiente.\n \n Para la consignaci\u00f3n por favor tener en cuenta la siguiente informaci\u00f3n:\n \n \t \t \u2981\tREF 1 - Cedula del Cliente\n \t \t \u2981\tREF 2 - N\u00famero de Pedido\n \t \t \u2981\tREF 3 - Concepto PAGO FLETE \u2013 DEVOLUCI\u00d3N\n \n Una vez el producto retorne a nuestra plataforma de despachos, nuestros colaboradores inspeccionar\u00e1n el producto y si este se encuentra en perfecto estado, sin uso y en sus empaques originales, manuales, accesorios y cat\u00e1logos; empezar\u00e1 a correr el tiempo que se estipula por ley en el retracto de compra (5 d\u00edas h\u00e1biles despu\u00e9s de la entrega para proceder a la reversi\u00f3n de la compra. Si el art\u00edculo no cumple con las condiciones de calidad descritas anteriormente, este ser\u00e1 retornado al comprador.\n \n Una vez vencido el t\u00e9rmino de cinco (5) d\u00edas h\u00e1biles para ejercer el derecho de retracto, las solicitudes de devoluciones que se encuentren dentro de los ocho (8) d\u00edas calendario siguientes a la compra, se llevaran a cabo mediante una nota cambio que podr\u00e1 ser redimida en cualquiera de nuestras tiendas Jumbo a nivel nacional. Para coordinar este proceso, favor comunicarse con nuestra l\u00ednea de servicio al cliente. Cabe resaltar que esta devoluci\u00f3n difiere de la aplicaci\u00f3n del derecho de retracto, al tratarse de una pol\u00edtica interna la cual tiene un marco temporal diferente al derecho consagrado normativamente.\n \n El cliente puede decidir entre ejercer su derecho de retracto durante el t\u00e9rmino de 5 d\u00edas h\u00e1biles o aplicar la pol\u00edtica que Cencosud Colombia S.A. ha dispuesto de 8 d\u00edas calendario para las devoluciones.\n \n La devoluci\u00f3n del dinero por parte de JUMBO al cliente se llevar\u00e1 a cabo en los plazos estipulados por la ley (hasta 30 d\u00edas calendario dependiendo de la entidad bancar\u00eda del cliente), y en el mismo medio de pago con que se hizo la compra, siempre y cuando la reversi\u00f3n se haga por el valor total de la transacci\u00f3n, y se cumplan las condiciones del derecho de retracto, cuando este se haya solicitado. Para compras que contengan varios productos y se desee realizar la reversi\u00f3n de alguno de ellos, el cliente deber\u00e1 comunicarse con nuestra l\u00ednea de servicio al cliente para informarle el procedimiento a seguir y poder generar la devoluci\u00f3n del dinero. Para compras realizadas con tarjeta de cr\u00e9dito, y al ser un proceso que involucra a la entidad financiera del cliente, \u00e9ste \u00faltimo acepta que se debe cumplir con la pol\u00edtica propia de dicha entidad para el reintegro del dinero. Si el cliente desea realizar la reversi\u00f3n de su compra y el pago de la misma fue realizado mediante tarjeta D\u00e9bito, o el pago se realiz\u00f3 en un punto Baloto, Efecty o a trav\u00e9s del medio \u201cpago en tienda\u201d en la l\u00ednea de cajas de cualquiera de nuestras tiendas Jumbo a nivel nacional, debe comunicarse con nuestra l\u00ednea de servicio al cliente, en Bogot\u00e1 al 60 1 3489888 y a nivel nacional al 01 8000 114880, para conocer el procedimiento y los formatos a diligenciar para poder llevar a cabo el proceso. En este caso la devoluci\u00f3n del dinero puede demorar hasta 45 d\u00edas calendario."
+    }
+  },
+  "rich-text#TerminosCondicionesText28": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Las garant\u00edas de un bien de tecnolog\u00eda y productos de hogar adquirido en JUMBO a trav\u00e9s de la p\u00e1gina web Tiendasjumbo.co o en la APP deben gestionarse llamando en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 60 1 3489888 o a nivel nacional al 01 8000 114880, o acerc\u00e1ndose a cualquiera de nuestras tiendas Jumbo.\n \n Para todo lo relacionado con productos de mercado y aseo (Hogar y personal) debe comunicarse a la l\u00ednea de Jumbo en Bogot\u00e1 al 60 1 3489888 \n \n En caso que el cliente haya realizado el pago a trav\u00e9s del medio \"pago en tienda\" en la l\u00ednea de cajas de cualquiera de nuestras tiendas Jumbo a nivel nacional y desee tramitar la garant\u00eda de su art\u00edculo, deber\u00e1 comunicarse en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 60 1 3489888 o a nivel nacional al 01 8000 114880.\n \n Favor revisar siempre que la fecha de reclamo se encuentre dentro del periodo de cobertura de la garant\u00eda que la marca asigna al producto. En caso de que no se comunique periodo de cobertura, se entiende que es de 12 meses \n \n En caso de falla de fabricaci\u00f3n del producto es requisito indispensable que este sea revisado por el Centro de Servicios Autorizado establecido por la marca. \u00c9ste realiza el diagn\u00f3stico respectivo y con base en \u00e9l decide si el producto debe ser reparado o si entregar\u00e1 la carta para el cambio, o en su defecto niega la solicitud de la garant\u00eda, la cual debe ser enviada por parte del Centro de Servicios Autorizado. Para el tr\u00e1mite de tu garant\u00eda debes presentar la tirilla de compra impresa que enviamos a tu correo electr\u00f3nico o fotocopia de la c\u00e9dula de ciudadan\u00eda del comprador.\n \n Toda solicitud se atender\u00e1 en un tiempo m\u00e1ximo de quince (15) d\u00edas h\u00e1biles siguientes a la recepci\u00f3n de la solicitud de garant\u00eda. Debes tener en cuenta que si el producto se remitiera al proveedor para su diagn\u00f3stico t\u00e9cnico y su reparaci\u00f3n (si aplica), este proceso puede durar hasta treinta (30) d\u00edas h\u00e1biles contados a partir del d\u00eda siguiente a la recepci\u00f3n de la solicitud.\n \n Si el Centro de Servicios Autorizado certifica que efectivamente el producto tiene problemas o defectos de f\u00e1brica, la garant\u00eda del nuevo producto o del producto reparado inicia a partir de la fecha en que sea recibido por el cliente y hasta el tiempo establecido. Esta reparaci\u00f3n es gratuita y en caso que la falla se repita, tendr\u00e1s la opci\u00f3n de solicitar el cambio del bien, efectuar una nueva reparaci\u00f3n o la solicitar la devoluci\u00f3n del dinero.  La garant\u00eda de un producto se perder\u00e1 por alguna de las siguientes razones. \n \t \t \u2981\tCuando se usa inadecuadamente el producto o se le da un uso diferente para el que fue dise\u00f1ado.\n \t \t \u2981\tPor fluctuaciones del voltaje generadas por descargas el\u00e9ctricas o rayos, vandalismo, robo o similares.\n \t \t \u2981\tCuando se tienen conexiones inadecuadas (para el caso de productos que lo requieran)\n \t \t \u2981\tCuando se instala, destapa o se repara por un tercero no autorizado por el proveedor o por CENCOSUD.\n \t \t \u2981\tCuando el certificado de garant\u00eda, n\u00famero de serie o modelo del art\u00edculo sufren alteraciones o enmendaduras, o por otras causas establecidas por el productor del art\u00edculo y que son referenciadas espec\u00edficamente en el Certificado de Garant\u00eda que es entregado en el momento en que se realiza la compra.\n \t \t \u2981\tCuando se demuestre que el defecto proviene de fuerza mayor o caso fortuito.\n \t \t \u2981\tCuando el cliente no atienda las instrucciones de instalaci\u00f3n, armado, uso o mantenimiento indicadas en el manual del producto, en la garant\u00eda o en la p\u00e1gina de informaci\u00f3n del art\u00edculo en Tiendasjumbo.co."
+    }
+  },
+  "rich-text#TerminosCondicionesText29": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Por razones de higiene y salubridad, las tinturas y productos de maquillaje no podr\u00e1n ser cambiados si han sido usados y/o presentan da\u00f1os en sus empaques."
+    }
+  },
+  "rich-text#TerminosCondicionesText3": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Los precios y din\u00e1micas comerciales que se comunican en nuestra p\u00e1gina\u00a0www.tiendasjumbo.co\u00a0o en la APP pueden ser exclusivos del canal, y no siempre coincidir\u00e1n con los vigentes en las tiendas Jumbo. Los productos exclusivos solo podr\u00e1n ser adquiridos a trav\u00e9s de la p\u00e1gina virtual, en ning\u00fan caso aplicar\u00e1n para productos Marketplace.                                        La disponibilidad del stock y cantidades podr\u00e1n variar seg\u00fan la tienda o ciudad de destino seleccionada, por tanto, el despacho de los productos podr\u00e1n tener alguna modificaci\u00f3n si no se cuenta con el stock o con el total de las cantidades que el cliente desea adquirir."
+    }
+  },
+  "rich-text#TerminosCondicionesText30": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "La anulaci\u00f3n de una compra realizada a trav\u00e9s de la p\u00e1gina web Tiendasjumbo.co o en la APP  debe gestionarse dentro de los siguientes 5 d\u00edas calendario a la fecha de la compra. Favor comunicarse con la l\u00ednea de servicio al cliente al 60 1 3489888 o a nivel nacional a la l\u00ednea 01 8000 114880 para recibir y/o suministrar informaci\u00f3n relevante, que permita a JUMBO prestar un servicio id\u00f3neo y oportuno.\n \n Para todo lo relacionado con productos de mercado y aseo (Hogar y personal) debe comunicarse a la l\u00ednea de Jumbo en Bogot\u00e1 al 60 1 3489888\n \n Si el articulo ya fue enviado al cliente, ser\u00e1 \u00e9ste \u00faltimo quien se har\u00e1 responsable de cubrir el costo del retiro del producto. El valor del despacho del producto deber\u00e1 ser nuevamente consignado para proceder a realizar la reversi\u00f3n total de la compra, ya que no es posible realizar reversiones parciales a la transacci\u00f3n. En este caso, se informar\u00e1 al cliente un n\u00famero de cuenta de Cencosud para que cancele el valor correspondiente al despacho, y el cliente deber\u00e1 enviar el soporte de consignaci\u00f3n al email\u00a0sac@tiendasjumbo.co\u00a0para llevar a cabo el proceso de reversi\u00f3n por el valor total de la compra. Recuerda que el producto debe estar sin uso, y en su empaquetadura original e intacta.\n \n La devoluci\u00f3n del dinero por parte de JUMBO al cliente se llevar\u00e1 a cabo en los plazos estipulados por la ley (hasta 30 d\u00edas calendario dependiendo de la entidad bancar\u00eda del cliente), y en el mismo medio de pago con que se hizo la compra, siempre y cuando la anulaci\u00f3n se haga por el valor total. Para compras que contengan varios productos y se desee realizar la anulaci\u00f3n de alguno de ellos, el cliente deber\u00e1 comunicarse con nuestra l\u00ednea de servicio al cliente para informarle el procedimiento a seguir y poder generar la devoluci\u00f3n del dinero. Si el cliente desea realizar la anulaci\u00f3n de su compra acerc\u00e1ndose a una de nuestras tiendas Jumbo y el pago de la misma fue realizado mediante tarjeta D\u00e9bito, debe tener en cuenta que para la devoluci\u00f3n del dinero hay un monto m\u00e1ximo establecido, el cual ser\u00e1 informado comunic\u00e1ndose con nuestra l\u00ednea de servicio al cliente, en Bogot\u00e1 al 60 1 3489888 y a nivel nacional al 01 8000 114880. Para compras realizadas con tarjeta de cr\u00e9dito o d\u00e9bito, y al ser procesos que involucran a la entidad financiera del cliente, \u00e9ste \u00faltimo acepta que se debe cumplir con la pol\u00edtica propia de dicha entidad para el reintegro del dinero."
+    }
+  },
+  "rich-text#TerminosCondicionesText31": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El rechazo por parte de JUMBO a una compra realizada por un cliente se podr\u00e1 llevar a cabo cuando la validaci\u00f3n y aceptaci\u00f3n del pago no sea autorizada por el tercero que hemos contratado para detectar posibles casos de fraude (Pagosonline.Net S.A.S), o cuando la entidad bancaria del cliente o el medio de pago as\u00ed lo determinen. CENCOSUD COLOMBIA S.A., no se hace responsable por los tr\u00e1mites internos de autorizaci\u00f3n que disponga la entidad bancaria ni por lo permisos que requieren los medios de pago para efectuar compras por internet.\n \n Limitaci\u00f3n de cantidades y restricci\u00f3n de pedidos\n \n A exclusivo criterio de Cencosud, se podr\u00e1 limitar y/o cancelar las cantidades compradas por el Cliente, en especial pero sin limitarse, cuando se identifique por cualquier medio que se trata de una compra con destino a Cliente mayorista. En tal caso, Cencosud rechazar\u00e1 de plano las compras por medio de correo electr\u00f3nico. Las restricciones a las compras pueden incluir entre otras, pedidos realizados a partir de la misma cuenta inscrita en el Sitio, pedidos con la misma direcci\u00f3n de entrega, pagos realizados con la misma tarjeta de cr\u00e9dito y/o d\u00e9bito y pedidos con la misma direcci\u00f3n de facturaci\u00f3n.\n \n Se permitir\u00e1 despachar para productos de precio regular un m\u00e1ximo de 10 unidades en productos de mercado y 5 unidades en productos de Hogar y tecnolog\u00eda, si los productos se encuentran con precio de oferta se permitir\u00e1 despachar m\u00e1ximo 3 unidades en Mercado y 1 unidad en Hogar y Tecnolog\u00eda, solo se permitir\u00e1 realizar 2 transacciones por cliente."
+    }
+  },
+  "rich-text#TerminosCondicionesText32": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El art\u00edculo ser\u00e1 entregado en la poblaci\u00f3n y la direcci\u00f3n que el cliente determine dentro del territorio de Colombia, siempre y cuando est\u00e9 dentro de la cobertura metropolitana que el transportista contratado por JUMBO ofrece, y cuando las condiciones de seguridad y acceso as\u00ed lo permitan. De esta forma y en orden de que se constate la posibilidad de entregar un producto a una direcci\u00f3n determinada, se debe llevar a cabo el proceso de compra para que se pueda validar efectivamente la verificaci\u00f3n de la cobertura.\n \n Es responsabilidad del cliente que la direcci\u00f3n sea correcta y completa para facilitar la entrega del producto por parte del transportista.\n \n El cliente acepta que tanto JUMBO como el transportista puedan contactarlo a trav\u00e9s de llamadas telef\u00f3nicas, emails u otros medios para poder llevar a cabo un servicio oportuno y de calidad.\n \n Las entregas se har\u00e1n dentro de una fecha l\u00edmite que se le comunicar\u00e1 al cliente, sin una hora exacta para los producto de tecnolog\u00eda y productos de hogar. Para los productos de mercado y aseo (Personal y hogar) el cliente podr\u00e1 elegir un rango de horario dispuesto por Jumbo. Este plazo se cumplir\u00e1 siempre y cuando las condiciones de seguridad y acceso lo permitan, y cuando no se presente un motivo de fuerza mayor.\n \n El transportista tiene la responsabilidad de entregar el producto que se describe en la gu\u00eda de compra, en su empaque original, en buen estado y cerrado.\n \n La direcci\u00f3n de env\u00edo nunca podr\u00e1 ser alterada una vez hecha la compra, por motivos de seguridad.\n \n El transportista tratar\u00e1 de entregar, en primera instancia, el producto a la persona que hizo la compra. En caso de que se autorice a un tercero a recibir el producto, el cliente debe especificarlo durante el proceso de compra en el espacio dispuesto para esto. En caso de que ni el cliente ni el tercero autorizado se encuentren en el momento de la entrega, el transportista podr\u00e1 entregar a cualquier persona mayor de edad que se encuentre dentro del domicilio indicado por el cliente. En caso de que se autorice a dejar en porter\u00eda el art\u00edculo, es responsabilidad del cliente cualquier p\u00e9rdida o da\u00f1o que llegase a ocurrir. Para todos los casos, y por motivos de seguridad, la persona que recibe el producto debe mostrar al transportista su documento de identidad, firmar con nombre y c\u00e9dula la gu\u00eda de despacho, y dar el visto bueno del estado \u00f3ptimo en que se est\u00e1 recibiendo el producto o hacer las aclaraciones pertinentes en la gu\u00eda.\n \n Se entiende que el cliente o el tercero que este disponga para recibir el producto es mayor de edad, y est\u00e1 en condiciones f\u00edsicas y mentales para hacer la revisi\u00f3n del estado del producto que est\u00e1 entregando el transportista.\n \n En ausencia de reclamos consignados en la gu\u00eda de transporte, ya sea del cliente o de quien este disponga para hacer la recepci\u00f3n del art\u00edculo, se entiende que fue a satisfacci\u00f3n y por ende el cliente recibi\u00f3 en perfecto estado la mercanc\u00eda enviada.\n \n El transportista no est\u00e1 autorizado para armar ni instalar ning\u00fan art\u00edculo.\n \n El transportista no deber\u00e1 modificar los espacios del domicilio del cliente para entregar el art\u00edculo, y el servicio no incluye desmonte de puertas, o alguna otra operaci\u00f3n diferente a la de entregar en la direcci\u00f3n especificada por el cliente, siempre y cuando el sitio sea accesible y el espacio permita el paso de la carga. Cuando el tama\u00f1o del producto impida ser entregado en el lugar deseado, el cliente aceptar\u00e1 otro lugar en donde pueda ser recibido, dentro del mismo domicilio.\n \n Si el cliente insiste en que el producto sea entregado en un punto de dif\u00edcil acceso, ni JUMBO ni el transportista se har\u00e1 responsable por los da\u00f1os que se puedan llegar a presentar al producto o al inmueble.\n \n Cualquier otro servicio que preste el transportista por solicitud del cliente, ser\u00e1 asumido por cuenta y responsabilidad de este \u00faltimo.\n \n El valor del despacho a la direcci\u00f3n del cliente depender\u00e1 de la localizaci\u00f3n de la poblaci\u00f3n y ser\u00e1 asumido por el cliente, a menos que se defina de otra manera. El cliente siempre tendr\u00e1 claro ese valor antes de aceptar la compra.\n \n Si en el momento de hacer el env\u00edo no hay nadie quien reciba el producto, este retornar\u00e1 con el transportista y el cliente debe comunicarse con nosotros para reprogramar la entrega. Si en una segunda ocasi\u00f3n no hay nadie disponible para recibir el producto, este volver\u00e1 a retornar y se cobrar\u00e1 un nuevo costo de despacho al cliente al tercer intento. En este caso, se informar\u00e1 al cliente un n\u00famero de cuenta de Cencosud para que cancele el valor correspondiente al despacho, y el cliente deber\u00e1 enviar al email\u00a0sac@cencosud.com.co, el soporte de consignaci\u00f3n para reprogramar el env\u00edo. En este caso, debes consignar el valor del despacho a una cuenta de Cencosud y enviarnos el soporte para que reprogramemos tu env\u00edo. Por favor comun\u00edcate con nuestra l\u00ednea de atenci\u00f3n al cliente para asesorarte en el proceso.\n \n Una vez recibido a satisfacci\u00f3n el producto por parte del cliente, tercero autorizado o persona mayor de edad que se encuentre en el domicilio del cliente, ning\u00fan colaborador de Jumbo ni de la transportista est\u00e1 autorizado a retirarlo del sitio de entrega. Es responsabilidad del cliente cualquier autorizaci\u00f3n de movilizar el art\u00edculo, una vez el transportista recibe la gu\u00eda firmada y aceptada. Ante cualquier duda, comun\u00edquese a nuestras l\u00edneas de atenci\u00f3n al cliente."
+    }
+  },
+  "rich-text#TerminosCondicionesText33": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Venta y entrega menores:\u00a0Proh\u00edbase el expendio de bebidas embriagantes a menores de edad (ley 124 de 1994).\n \n El exceso de alcohol es perjudicial para la salud (ley 30 de 1986).\n \n Prohibida la venta de productos de tabaco a menores de edad ( ley 1335 de 2009).\n \n Restricci\u00f3n De Licor En Bogot\u00e1, Distrito Capital:\u00a0Para el territorio de Bogot\u00e1, Distrito Capital, queda prohibido el expendio y/o entrega de licores y bebidas embriagantes desde las 11:00 p.m. y hasta las 10:00 a.m. del d\u00eda siguiente.\n Restricci\u00f3n En Venta De \u00c1cidos:\u00a0Proh\u00edbase la venta de: \u00e1cidos sulf\u00farico, soluci\u00f3n acuosa C = 15%; \u00e1cidos clorh\u00eddrico, soluci\u00f3n acuosa C = 33; \u00e1cido muri\u00e1tico, (\u00e1cido clorh\u00eddrico, C = 25%); \u00e1cido fosf\u00f3rico, soluci\u00f3n acuosa C = 20 %, soluci\u00f3n acuosa 5% C = 20%; \u00e1cido n\u00edtrico, soluci\u00f3n acuosa C = 20 %, soluci\u00f3n acuosa 5 = C < 20%; hidr\u00f3xido de sodio, soluci\u00f3n acuosa C = 5%, soluci\u00f3n acuosa 2 % = 5%; e hidr\u00f3xido de sodio en escamas a menores de edad y a personas bajo el efecto del alcohol o sustancias psicoactivas\".\n Bebidas\n *Energizantes:\u00a0Aquellas que tienen un contenido elevado de cafe\u00edna (1.120). La bebida energizante no previene los efectos generados por el consumo de bebidas alcoh\u00f3licas.\n F\n No se recomienda el consumo de bebidas energizantes con bebidas alcoh\u00f3licas.\n \n Este producto solo podr\u00e1 ser comercializado, expendido y dirigido a poblaci\u00f3n mayor de 14 a\u00f1os. Este producto no es recomendado para personas sensibles a la cafe\u00edna. (Ley 170 de 2009, Art. 4).\n \n **Lactosuero:\u00a0Este producto no es leche. Su composici\u00f3n y calidad nutricional difieren de las propias de la leche."
+    }
+  },
+  "rich-text#TerminosCondicionesText34": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "CENCOSUD COLOMBIA S.A., est\u00e1 autorizada para la venta de equipos terminales m\u00f3viles, mediante autorizaci\u00f3n No. 000693 del 2 de Julio de 2015, del Ministerio de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones.\n N\u00famero \u00fanico de verificaci\u00f3n:\u00a00031000953."
+    }
+  },
+  "rich-text#TerminosCondicionesText35": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "\u2981\tObjeto\n El presente Reglamento de Uso, Manejo y Protecci\u00f3n de Datos, tiene por objeto garantizar la protecci\u00f3n del derecho de Habeas Data que tienen toda persona natural (en adelante el \"Titular\"), as\u00ed como la reglamentaci\u00f3n del uso de los datos por parte de CENCOSUD COLOMBIA S.A.\n \n CENCOSUD COLOMBIA S.A., en cumplimiento a la Ley 1581 de 2012 y al decreto 1377 de 2013 informa que los establecimientos de comercio cuentan con un sistema de video vigilancia por lo que est\u00e1 siendo grabado y monitoreado.\n \n En consecuencia se informa que sus datos personales ser\u00e1n utilizados \u00fanicamente para la seguridad de los bienes y las personas que se encuentran dentro de nuestras instalaciones. Por lo anterior, le informamos que sus datos personales \u00fanicamente ser\u00e1n tratados para los fines que le est\u00e1n siendo comunicados. As\u00ed mismo , se le informa que podr\u00e1 ejercer su derecho para consultar, solicitar su correcci\u00f3n ,actualizaci\u00f3n o supresi\u00f3n de acuerdo con los lineamientos consignados en la Pol\u00edtica de Protecci\u00f3n de Datos de CENCOSUD COLOMBIA S.A., que podr\u00e1 consultar en www.puntoscencosud.co\n \n La vigencia de los videos o im\u00e1genes descargables desde el CCTV tienen un t\u00e9rmino de ocho d\u00edas.\n \n Los videos o im\u00e1genes descargados desde el CCTV solo podr\u00e1n ser utilizados y manejados por el responsable de tratamiento de datos personales de la Sede Administrativa que pertenezcan a las \u00e1reas de Prevenci\u00f3n Riesgos y Asuntos Legales. Adicionalmente las autoridades competentes que los requieran por medio de una solicitud judicial.\n \n Lo anterior, atendiendo las disposiciones de la Ley 1581 de 2012, la cual se desarroll\u00f3 el derecho de todas las personas a conocer, actualizar y rectificar la informaci\u00f3n que se haya recogido sobre ellas en las bases de datos o archivos por parte de los responsables y encargados del tratamiento de dichos datos y, teniendo en cuenta la condici\u00f3n de encargado y responsable del tratamiento de datos, que le asiste a CENCOSUD COLOMBIA S.A., seg\u00fan las definiciones que para este efecto incluye la citada ley.\n \n \t \t \u2981\tFormato de inscripci\u00f3n y actualizaci\u00f3n de datos para realizar compras en l\u00ednea en tiendasjumbo.co o en la APP\n \n \t \t \u2981\tFormato de inscripci\u00f3n y actualizaci\u00f3n de datos al programa de fidelizaci\u00f3n Puntos Cencosud.\n \n \t \t \u2981\tFormato de inscripci\u00f3n y actualizaci\u00f3n de datos para servicios financieros;\n \n \t \t \u2981\tDiligenciamiento de formatos de Petici\u00f3n, queja o reclamos aceptando el uso de datos;\n \n \t \t \u2981\tFormato de inscripci\u00f3n y actualizaci\u00f3n de datos para medios digitales.\n \n \t \t \u2981\tTransmisi\u00f3n de los siguientes datos personales: Nombre, documento de identidad, n\u00famero tarjeta de cr\u00e9dito, fecha de vencimiento de la tarjeta de cr\u00e9dito, c\u00f3digo de seguridad de la tarjeta de cr\u00e9dito, informaci\u00f3n de cuenta bancaria para pagos PSE, correo electr\u00f3nico, tel\u00e9fono, y direcci\u00f3n para que Pagosonline.Net S.A.S utilice dichos datos personales con dos prop\u00f3sitos: canalizar transacciones a trav\u00e9s del sistema de Pagosonline.Net S.A.S y hacer validaciones de las mismas en aras de mitigar el riesgo de fraude por suplantaci\u00f3n de identidad en tiendasjumbo.co o en la APP. Los datos personales transmitidos a la Pagosonline.Net S.A.S, se almacenar\u00e1n por el tiempo suficiente para garantizar dicho fin.\n \n \t \t \u2981\tFinalidades de la captura de datos\n \n CENCOSUD COLOMBIA S.A. podr\u00e1 usar los datos capturados de los Titulares para las siguientes actividades:\n \n \t \t \u2981\tEstudiar y atender la(s) solicitudes de servicios solicitados por el Titular en cualquier tiempo;\n \n \t \t \u2981\tEjercer su derecho de conocer de manera suficiente al cliente/afiliado/usuario con quien se propone entablar relaciones, prestar servicios, y valorar el riesgo presente o futuro de las mismas relaciones y servicios;\n \n \t \t \u2981\tOfrecer conjunta o separadamente con terceros o a nombre de terceros, servicios financieros, comerciales y conexos, as\u00ed como realizar campa\u00f1as de promoci\u00f3n, marketing, publicidad, beneficencia o servicio social o en conjunto con terceros. Lo anterior en consideraci\u00f3n a sus sinergias mutuas y su capacidad conjunta de proporcionar condiciones de servicio m\u00e1s favorables a sus clientes. Las empresas de transporte contratadas por CENCOSUD COLOMBIA S.A. recibir\u00e1n la informaci\u00f3n estrictamente necesaria para poder llevar a cabo su labor de entrega, y bajo ninguna circunstancia, ser\u00e1 utilizada para otro fin.\n \n \t \t \u2981\tLos datos capturados del solicitante reposar\u00e1n en la base de datos de CENCOSUD COLOMBIA S.A. hasta que el solicitante as\u00ed lo disponga, para retirar la informaci\u00f3n de la base de datos, el solicitante deber\u00e1 pedir darse de baja a trav\u00e9s de los canales dispuestos por CENCOSUD COLOMBIA S.A. para este fin.\n \n \t \t En consecuencia, para las finalidades descritas, CENCOSUD COLOMBIA S.A. podr\u00e1:\n \n \t \t \u2981\tConocer, almacenar y procesar toda la informaci\u00f3n suministrada por el Titular en una o varias bases de datos, en el formato que estime m\u00e1s conveniente.\n \n \t \t \u2981\tOrdenar, catalogar, clasificar, dividir o separar la informaci\u00f3n suministrada por el Titular.\n \n \t \t \u2981\tVerificar, corroborar, comprobar, validar, investigar o comparar la informaci\u00f3n suministrada por el Titular, con cualquier informaci\u00f3n de que disponga leg\u00edtimamente, incluyendo aquella conocida por sus matrices, subordinadas, afiliadas o cualquier compa\u00f1\u00eda del Grupo CENCOSUD.\n \n \t \t \u2981\tAcceder, consultar, comparar y evaluar toda la informaci\u00f3n que sobre el Titular se encuentre almacenada en las bases de datos de cualquier central de riesgo crediticio, financiero, de antecedentes judiciales o de seguridad leg\u00edtimamente constituida, de naturaleza estatal o privada, nacional o extranjera, o cualquier base de datos comercial o de servicios que permita establecer de manera integral e hist\u00f3ricamente completa el comportamiento que como deudor, usuario, cliente, garante, endosante, afiliado, beneficiario, suscriptor, contribuyente y/o como titular de servicios financieros, comerciales o de cualquier otra \u00edndole.\n \n \t \t \u2981\tAnalizar, procesar, evaluar, tratar o comparar la informaci\u00f3n suministrada por el Titular. A los datos resultantes de an\u00e1lisis, procesamientos, evaluaciones, tratamientos y comparaciones, les ser\u00e1n aplicables las mismas autorizaciones que otorg\u00f3 en el Formulario de Autorizaci\u00f3n para la informaci\u00f3n suministrada por el Titular.\n \n \t \t \u2981\tEstudiar, analizar, personalizar y utilizar la informaci\u00f3n suministrada por el Titular para el seguimiento, desarrollo y/o mejoramiento, tanto individual como general, de condiciones de servicio, administraci\u00f3n, seguridad o atenci\u00f3n, as\u00ed como para la implementaci\u00f3n de planes de mercadeo, campa\u00f1as, beneficios especiales y promociones. CENCOSUD COLOMBIA S.A. podr\u00e1 compartir con sus accionistas y con compa\u00f1\u00edas controlantes, controladas, vinculadas, afiliadas o pertenecientes al mismo grupo empresarial, o con los aliados de negocios que se sometan a las condiciones de la presente autorizaci\u00f3n los resultados de los mencionados estudios, an\u00e1lisis, personalizaciones y usos, as\u00ed como toda la informaci\u00f3n y datos personales suministrados por el Titular.\n \n \t \t \u2981\tReportar, comunicar o permitir el acceso a la informaci\u00f3n suministrada por el Titular o aquella de que disponga sobre el Titular a las centrales de riesgo crediticio, financiero, comercial o de servicios leg\u00edtimamente constituidas, a entidades financieras, de acuerdo con las normas aplicables.\n \n \u2981\tDatos sensibles\n \n Se consideran datos sensibles aquellos relacionados con datos sobre origen racial o \u00e9tnico, la pertenencia a sindicatos, organizaciones sociales o de derechos humanos, convicciones pol\u00edticas, religiosas, de la vida sexual, biom\u00e9tricos o datos de la salud. Esta informaci\u00f3n podr\u00e1 no ser respondida por el Titular.\n \n \u2981\tDerechos y obligaciones de los titulares de la informaci\u00f3n.\n \n El Titular de la informaci\u00f3n compartida con CENCOSUD COLOMBIA S.A. tiene los siguientes derechos:\n \n \t \t \u2981\tConocer, actualizar y rectificar mis datos personales frente a los responsables o encargados del tratamiento. este derecho se podr\u00e1 ejercer, entre otros frente a datos parciales, inexactos, incompletos, fraccionados, que induzcan a error, o aquellos cuyo tratamiento est\u00e9 expresamente prohibido o no haya sido autorizado;\n \n \t \t \u2981\tSolicitar prueba de la autorizaci\u00f3n otorgada al responsable del tratamiento salvo cuando dicha autorizaci\u00f3n no sea necesaria en los t\u00e9rminos del art\u00edculo 10 de la Ley Estatutaria 1581 de 2012.\n \n \t \t \u2981\tSer informado por el responsable del tratamiento o el encargado del tratamiento, previa solicitud, respecto del uso que le ha dado a mis datos personales;\n \n \t \t \u2981\tPresentar ante la Superintendencia de Industria y Comercio quejas por infracciones a lo dispuesto en la Ley Estatutaria 1581 de 2012 y las dem\u00e1s normas que la modifiquen, adicionen o complementen.\n \n \t \t \u2981\tRevocar la autorizaci\u00f3n y/o solicitar la supresi\u00f3n del dato personal cuando en el tratamiento no se respeten los principios, derechos y garant\u00edas constitucionales y legales. La revocatoria y/o supresi\u00f3n s\u00f3lo proceder\u00e1 cuando la superintendencia de industria y comercio haya determinado que en el tratamiento el responsable o encargado han incurrido en conductas contrarias a la ley Estatutaria 1581 de 2012 y a la Constituci\u00f3n.\n \n \t \t \u2981\tAcceder en forma gratuita a mis datos personales que hayan sido objeto de Tratamiento.\n \n \u2981\tConsultas y requerimientos\n \n Cuando el Titular considere necesario hacer solicitudes de informaci\u00f3n o considere que sus derechos han sido vulnerados respecto del uso y manejo de su informaci\u00f3n, podr\u00e1 instaurar las solicitudes que considere pertinentes, de la siguiente forma:\n \n Presentando sus peticiones, quejas o reclamos, accediendo a:\n \t \t \u2981\tP\u00e1gina WEB\u00a0https://www.tiendasjumbo.co/ o en la APP L\u00ednea de atenci\u00f3n al cliente en Bogot\u00e1 60 1 3489888 y l\u00ednea nacional 01 8000 114880\n \t \t \u2981\tFormatos de peticiones, quejas y reclamos disponibles en tiendas\n \t \t \u2981 As\u00ed mismo, en caso de tener alguna inquietud, observaci\u00f3n o comentario relacionado con la recolecci\u00f3n y/o uso de los datos personales suministrados a Pagosonline.Net S.A.S podr\u00e1 contactarse en los siguientes tel\u00e9fonos: L\u00ednea de Servicio al Pagador: (57)  60 1 742 5676, L\u00ednea Nacional: 01 8000 113126, acercarse a la direcci\u00f3n Calle 93b No 17-25 oficina 301, enviar un correo electr\u00f3nico a sac@payulatam.com, o ingresar a la p\u00e1gina web de Pagos On Line en Colombia y en la secci\u00f3n de ayuda, enviar su solicitud, observaci\u00f3n o comentario.\n \t \t \u2981 0.\tResponsables del tratamiento\n \t \t \u2981 El responsable del tratamiento de la informaci\u00f3n ser\u00e1 la sociedad CENCOSUD COLOMBIA S.A., con domicilio en la avenida 9 N\u00ba 125 -30 de la ciudad de Bogot\u00e1 tel\u00e9fono (57)  60 1 657 9797."
+    }
+  },
+  "rich-text#TerminosCondicionesText36": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "JUMBO podr\u00e1, en cualquier momento, revisar los t\u00e9rminos de uso aqu\u00ed contenidos, por medio de la actualizaci\u00f3n del texto ac\u00e1 publicado. El usuario conviene en darse por obligado por cualquiera de tales revisiones, las cuales se entender\u00e1n vigentes a partir del momento en que las mismas sean publicadas a los usuarios, los cuales el usuario estar\u00e1 obligado de cumplir en el evento que decida utilizar este sitio. "
+    }
+  },
+  "rich-text#TerminosCondicionesText37": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Estos t\u00e9rminos y condiciones de venta se regir\u00e1n e interpretar\u00e1n de acuerdo con las leyes de la Rep\u00fablica de Colombia. Cualquier controversia que derive de este documento se someter\u00e1 a los jueces competentes de acuerdo con la legislaci\u00f3n colombiana, y tanto JUMBO como el cliente renuncian expresamente a cualquier otro fuero que pudiera corresponderles en raz\u00f3n de su domicilio presente o futuro."
+    }
+  },
+  "rich-text#TerminosCondicionesText38": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "A exclusivo criterio de Cencosud, se podr\u00e1 limitar y/o cancelar las cantidades compradas por el Cliente, en especial, pero sin limitarse, cuando se identifique por cualquier medio que se trata de una compra con destino a Cliente mayorista. En tal caso, Cencosud rechazar\u00e1 de plano las compras por medio de correo electr\u00f3nico. Las restricciones a las compras pueden incluir entre otras, pedidos realizados a partir de la misma cuenta inscrita en el Sitio, pedidos con la misma direcci\u00f3n de entrega, pagos realizados con la misma tarjeta de cr\u00e9dito y/o d\u00e9bito y pedidos con la misma direcci\u00f3n de facturaci\u00f3n."
+    }
+  },
+  "rich-text#TerminosCondicionesText39": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Esta tarjeta es un medio de pago virtual, emitida y administrada por Cencosud Colombia S.A. NIT. 900.155.107-1, redimible total o parcialmente.\n \n La Tarjeta Regalo tiene una vigencia de 2 a\u00f1os, a partir de la fecha de la emisi\u00f3n, t\u00e9rmino en el cual el saldo debe ser agotado en su totalidad, luego de este t\u00e9rmino, el saldo existente expirar\u00e1 y la tarjeta ser\u00e1 bloqueada. Dicha vigencia no se suspende, interrumpe, renueva, ni prorroga de manera autom\u00e1tica. Esta tarjeta no es recargable.\n \n Cencosud Colombia S.A., no asume responsabilidad alguna en caso de robo o extrav\u00edo y en consecuencia no habr\u00e1 lugar a su reposici\u00f3n o reexpedici\u00f3n. Cencosud Colombia S.A., tampoco asume ning\u00fan tipo de responsabilidad respecto al uso y destinaci\u00f3n que de la tarjeta haga el titular. Este documento no es negociable ni redimible por dinero en efectivo ni por otro medio de pago.\n \n En cada redenci\u00f3n (total o parcial) tanto en las tiendas f\u00edsicas como en la tienda virtual www.tiendasjumbo.co o en la APP, llegar\u00e1 al titular de la tarjeta, un c\u00f3digo al n\u00famero de celular o correo electr\u00f3nico inscrito en el momento de la emisi\u00f3n de la Tarjeta Regalo para permitir dicha redenci\u00f3n.\n \n Esta tarjeta es redimible \u00fanicamente en las tiendas f\u00edsicas JUMBO, EASY, METRO, SPID 35 y METRO EXPRESS ubicadas en la Rep\u00fablica de Colombia y en la p\u00e1gina\u00a0www.tiendasjumbo.co o en la APP, NO es redimible en estaciones de servicios.\n \n Las tarjetas regalo f\u00edsicas, pueden ser habilitadas como medio de pago en nuestra p\u00e1gina, ingresando a www.tiendasjumbo.co o en la APP y haciendo el registro previo.\n \n La denominaci\u00f3n de la Tarjeta Regalo podr\u00e1 ser $50.000, $100.000, $200.000 y $500.000. Por transacci\u00f3n se podr\u00e1n adquirir Tarjetas Regalo hasta por un valor total de $3.000.000 y/o hasta 12 Tarjetas.\n \n La redenci\u00f3n de las tarjetas regalo se permite hasta por un valor de $999.999 COP.\n \n Para emisi\u00f3n de Tarjeta Regalo no aplica descuento de colaborador para empleados Cencosud.S.A.\n \n En la redenci\u00f3n aplican las pol\u00edticas vigentes de descuento general de la compa\u00f1\u00eda."
+    }
+  },
+  "rich-text#TerminosCondicionesText4": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "La devoluci\u00f3n o el cambio de un bien adquirido en JUMBO a trav\u00e9s de la p\u00e1gina web\u00a0www.tiendasjumbo.co\u00a0o en la APP debe gestionarse dentro de los siguientes 8 d\u00edas calendario a la fecha de la entrega del producto, llamando en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 60 1 348 9898 o a nivel nacional al 01 8000 120 320.                  Para proceder a iniciar el proceso de devoluci\u00f3n o cambio de alg\u00fan producto adquirido en nuestro sitio WEB debe comunicarse a la l\u00ednea de servicio al cliente al  60 1 348 9898 o a nivel nacional al 01 8000 120 320, tener a la mano la tirilla de compra que fue enviada a su email, y el art\u00edculo debe estar en condiciones \u00f3ptimas (no rayones, no abolladuras, no manchas, no roturas, no fallas de funcionamiento, etc.), estar sin uso, completo y en el mismo empaque que fue despachado, esto incluye que los cat\u00e1logos y accesorios del art\u00edculo est\u00e9n completos y sin ning\u00fan tipo de uso."
+    }
+  },
+  "rich-text#TerminosCondicionesText4.1": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "En caso de que el cliente haya realizado el pago a trav\u00e9s del medio \u201cpago en tienda\u201d en la l\u00ednea de cajas de cualquiera de nuestras tiendas Jumbo a nivel nacional y desee solicitar el cambio o devoluci\u00f3n de un bien, deber\u00e1 comunicarse en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 60 1 348 9898 o a nivel nacional al 01 8000 120 320."
+    }
+  },
+  "rich-text#TerminosCondicionesText4.2": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Para los productos que necesitan armado o instalaci\u00f3n especializada, la devoluci\u00f3n o cambio no aplica si el art\u00edculo fue manipulado por un tercero no autorizado por CENCOSUD. Se aclara que los costos que se puedan llegar a generar por concepto de armado o instalaci\u00f3n ser\u00e1n responsabilidad del cliente (a menos que las marcas incluyan dicho servicio dentro del costo y as\u00ed lo especifiquen al momento de la compra) y se comunicar\u00e1 en la p\u00e1gina de informaci\u00f3n del producto con quien debe llevarse a cabo el proceso. El transportista dispuesto por Jumbo no retirar\u00e1 un art\u00edculo armado o instalado bajo ninguna circunstancia."
+    }
+  },
+  "rich-text#TerminosCondicionesText4.3": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Si se detectan problemas o fallas del art\u00edculo durante el armado o instalaci\u00f3n por parte del personal autorizado, \u00e9ste \u00faltimo deber\u00e1 desarmar y empacar el producto y el cliente deber\u00e1 comunicarse en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 60 1 348 9898 o a nivel nacional al 01 8000 120 320 para coordinar el retiro con el transportista dispuesto por JUMBO."
+    }
+  },
+  "rich-text#TerminosCondicionesText4.4": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Por seguridad de nuestros clientes, no se aceptan devoluciones o cambios de prendas de vestir o utensilios de uso estrictamente personal, tampoco de software, tel\u00e9fonos celulares, alimentos perecibles, licores o de cualquier otro art\u00edculo que as\u00ed lo especifique la p\u00e1gina de informaci\u00f3n del producto en nuestra WEB o en la APP."
+    }
+  },
+  "rich-text#TerminosCondicionesText4.5": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Adicionalmente no se aceptan devoluciones o cambios de perfumes, consolas de videojuegos, videojuegos, CD\u2019s o cosm\u00e9ticos que no tengan intacta su empaquetadura y por ende que no hayan sido desempacados ni utilizados. "
+    }
+  },
+  "rich-text#TerminosCondicionesText4.6": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "La devoluci\u00f3n o cambio de colchones requiere que el producto est\u00e9 sin uso, con la empaquetadura intacta, y se debe revisar con cada marca la pol\u00edtica vigente para estos casos. "
+    }
+  },
+  "rich-text#TerminosCondicionesText4.7": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Cuando el art\u00edculo se recoja en el domicilio del cliente para cambio o devoluci\u00f3n, \u00e9ste ser\u00e1 inspeccionado en su parte externa por el transportista dispuesto por JUMBO. En caso de que no se encuentre en las condiciones \u00f3ptimas antes descritas, el producto no ser\u00e1 retirado. "
+    }
+  },
+  "rich-text#TerminosCondicionesText4.8": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Si el art\u00edculo cumple con la verificaci\u00f3n inicial, este ser\u00e1 enviado a nuestra plataforma, para pasar por un proceso de inspecci\u00f3n final en orden de validar su \u00f3ptimo estado, y as\u00ed poder iniciar el proceso de devoluci\u00f3n y/o cambio del producto. Si el art\u00edculo no cumple con las condiciones de calidad descritas anteriormente, este ser\u00e1 retornado al comprador. El tiempo para que el producto arribe a nuestra bodega puede ser de hasta diez (10) d\u00edas calendario, dependiendo del lugar al que se haya despachado el pedido. Si el art\u00edculo es llevado por el cliente a una de las tiendas JUMBO, este recibir\u00e1 tambi\u00e9n una inspecci\u00f3n por parte del personal designado por la tienda para verificar el estado del producto, pudiendo rechazar la entrega por no cumplir con las condiciones anteriormente descritas. "
+    }
+  },
+  "rich-text#TerminosCondicionesText4.9": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "La devoluci\u00f3n o cambio del art\u00edculo es una posibilidad que le da CENCOSUD COLOMBIA S.A., a los clientes de la p\u00e1gina\u202fwww.tiendasjumbo.co\u202fo en la APP y difiere de la solicitud de la efectividad de la garant\u00eda del producto, el cual tiene un procedimiento diferente, tal y como se expone m\u00e1s adelante. "
+    }
+  },
+  "rich-text#TerminosCondicionesText40": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Cualquier incidencia se debe gestionar por los dos canales establecidos:\n \n 1. En Tienda F\u00edsica Jumbo y Metro:\n \n Formatos de peticiones, quejas y reclamos disponibles en los m\u00f3dulos de Servicio al Cliente (ATC).\n \n 2. Servicio al Cliente de e-commerce\n \n I. P\u00e1gina WEB https://www.tiendasjumbo.co/ o en la APP\n II. L\u00ednea de atenci\u00f3n al cliente:\n \n \t \t I.  Ecommerce Jumbo Non Food en Bogot\u00e1 60 1 3489898 y l\u00ednea nacional 01 8000 120 320\n \n \t \t II. Sac Jumbo Tiendas & Food en Bogot\u00e1 60 1 3489888 y l\u00ednea nacional 01 8000 114 880\n \n III. Correo Servicio al Cliente: sac@tiendasjumb      \n \n Canal Tiendas Metro: \n \n \u2981\tP\u00e1gina WEB https://www.tiendasmetro.co/ o en la APP\n II.  L\u00ednea de atenci\u00f3n al cliente:\n \t t I. Ecommerce Metro Non food en Bogot\u00e1 60 1 3582220 y l\u00ednea nacional 01 8000 115 133\n \t t \u2981\tSac Metro Tiendas & Food en Bogot\u00e1 60 1 3582222 y l\u00ednea nacional \u00a001 8000 113 510III. Correo Servicio al Cliente: sac@tiendasmetro.co"
+    }
+  },
+  "rich-text#TerminosCondicionesText41": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "En caso de utilizar en una misma transacci\u00f3n, una tarjeta de cr\u00e9dito como medio de pago adicional a la tarjeta regalo, y \u00e9sta quede en estado pendiente de validaci\u00f3n por parte de la pasarela; el monto utilizado con la tarjeta regalo ser\u00e1 bloqueado hasta obtener la confirmaci\u00f3n de la tarjeta de cr\u00e9dito. Si definitivamente no es posible completar la transacci\u00f3n, se devolver\u00e1 el monto utilizado dentro de las 24 horas siguientes al uso del medio de pago Tarjeta Regalo Omnicanal."
+    }
+  },
+  "rich-text#TerminosCondicionesText42": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Toda informaci\u00f3n o contenido transmitido por los usuarios y/o beneficiarios de producto tarjeta regalo virtual es responsabilidad de los mismos, por lo tanto Cencosud Colombia S.A., no asume responsabilidad alguna y queda prohibido el uso de lenguaje, vocabulario, modismos y cualquier expresi\u00f3n que pueda considerarse ofensiva tanto para el remitente como para el destinatario."
+    }
+  },
+  "rich-text#TerminosCondicionesText43": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Declaro que cuento con la autorizaci\u00f3n para el tratamiento de los datos personales del beneficiario de esta tarjeta regalo, en virtud de lo anterior, encargo a Cencosud Colombia S.A. para el tratamiento de los mismos, cuya finalidad ser\u00e1 remitir la tarjeta regalo al beneficiario."
+    }
+  },
+  "rich-text#TerminosCondicionesText44": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "La Tarjeta Regalo Omnicanal es un producto intangible, motivo por el cual no aplica m\u00e9todos de entrega a domicilio o recoge en tienda. Una vez confirmada la compra, el n\u00famero de Tarjeta Regalo Omnicanal adquirido, ser\u00e1 enviado desde el correo tarjetaregalo@cencosud.com.co al correo asociado en la personalizaci\u00f3n del medio de pago; en caso de no recibir esta notificaci\u00f3n en la bandeja principal, el cliente debe verificar la bandeja de correo no deseado o spam."
+    }
+  },
+  "rich-text#TerminosCondicionesText5": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Las reversiones de dinero de un bien adquirido en JUMBO a trav\u00e9s de la p\u00e1gina web\u202fwww.tiendasjumbo.co\u202fo en la APP deben gestionarse llamando en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 60 1 348 9898 o a nivel nacional al 01 8000 120 320. "
+    }
+  },
+  "rich-text#TerminosCondicionesText5.1": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "En caso de que el cliente haya realizado el pago a trav\u00e9s del medio \u201cpago en tienda\u201d en la l\u00ednea de cajas de cualquiera de nuestras tiendas Jumbo a nivel nacional y desee solicitar la reversi\u00f3n de su compra, deber\u00e1 comunicarse en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 60 1 348 9898 o a nivel nacional al 01 8000 120 320. "
+    }
+  },
+  "rich-text#TerminosCondicionesText5.2": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El cliente puede ejercer el derecho de retracto sobre una compra realizada en tiendasjumbo.co en t\u00e9rmino m\u00e1ximo de 5 d\u00edas h\u00e1biles, contados a partir de la entrega del bien. Para ello deber\u00e1 devolver el producto por los mismos medios y en las mismas condiciones en que lo recibi\u00f3 y todos los costos que se ocasionen en virtud de dicha devoluci\u00f3n deber\u00e1n ser asumidos en su totalidad por el cliente. "
+    }
+  },
+  "rich-text#TerminosCondicionesText5.3": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El cliente cuenta con la opci\u00f3n de remitir el producto que desea devolver, a trav\u00e9s de los canales de CENCOSUD a trav\u00e9s del siguiente procedimiento: "
+    }
+  },
+  "rich-text#TerminosCondicionesText5.4": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Para cubrir este costo, el cliente debe consignar el valor del flete cobrado en su compra a la cuenta de ahorros n\u00famero 182021725 del banco Colpatria a nombre de Cencosud Colombia S.A, el cliente deber\u00e1 enviar el soporte de consignaci\u00f3n al correo Sac@tiendasjumbo.co para coordinar la recolecci\u00f3n del producto correspondiente. "
+    }
+  },
+  "rich-text#TerminosCondicionesText5.5": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Para la consignaci\u00f3n por favor tener en cuenta la siguiente informaci\u00f3n: REF 1 - Cedula del Cliente REF 2 - N\u00famero de Pedido REF 3 - Concepto PAGO FLETE \u2013 DEVOLUCI\u00d3N Una vez el producto retorne a nuestra plataforma de despachos, nuestros colaboradores inspeccionar\u00e1n el producto y si este se encuentra en perfecto estado, sin uso y en sus empaques originales, manuales, accesorios y cat\u00e1logos; empezar\u00e1 a correr el tiempo que se estipula por ley en el retracto de compra (5 d\u00edas h\u00e1biles despu\u00e9s de la entrega para proceder a la reversi\u00f3n de la compra. Si el art\u00edculo no cumple con las condiciones de calidad descritas anteriormente, este ser\u00e1 retornado al comprador. "
+    }
+  },
+  "rich-text#TerminosCondicionesText5.6": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Una vez vencido el t\u00e9rmino de cinco (5) d\u00edas h\u00e1biles para ejercer el derecho de retracto, las solicitudes de devoluciones que se encuentren dentro de los ocho (8) d\u00edas calendario siguientes a la compra, se llevaran a cabo mediante una nota cambio que podr\u00e1 ser redimida en cualquiera de nuestras tiendas Jumbo a nivel nacional. Para coordinar este proceso, favor comunicarse con nuestra l\u00ednea de servicio al cliente. Cabe resaltar que esta devoluci\u00f3n difiere de la aplicaci\u00f3n del derecho de retracto, al tratarse de una pol\u00edtica interna la cual tiene un marco temporal diferente al derecho consagrado normativamente. "
+    }
+  },
+  "rich-text#TerminosCondicionesText5.7": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El cliente puede decidir entre ejercer su derecho de retracto durante el t\u00e9rmino de 5 d\u00edas h\u00e1biles o aplicar la pol\u00edtica que Cencosud Colombia S.A. ha dispuesto de 8 d\u00edas calendario para las devoluciones. "
+    }
+  },
+  "rich-text#TerminosCondicionesText5.8": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "La devoluci\u00f3n del dinero por parte de JUMBO al cliente se llevar\u00e1 a cabo en los plazos estipulados por la ley (hasta 30 d\u00edas calendario dependiendo de la entidad bancar\u00eda del cliente), y en el mismo medio de pago con que se hizo la compra, siempre y cuando la reversi\u00f3n se haga por el valor total de la transacci\u00f3n, y se cumplan las condiciones del derecho de retracto, cuando este se haya solicitado. Para compras que contengan varios productos y se desee realizar la reversi\u00f3n de alguno de ellos, el cliente deber\u00e1 comunicarse con nuestra l\u00ednea de servicio al cliente para informarle el procedimiento a seguir y poder generar la devoluci\u00f3n del dinero. Para compras realizadas con tarjeta de cr\u00e9dito, y al ser un proceso que involucra a la entidad financiera del cliente, \u00e9ste \u00faltimo acepta que se debe cumplir con la pol\u00edtica propia de dicha entidad para el reintegro del dinero. Si el cliente desea realizar la reversi\u00f3n de su compra y el pago de la misma fue realizado mediante tarjeta D\u00e9bito, o el pago se realiz\u00f3 en un punto Baloto, Efecty o a trav\u00e9s del medio \u201cpago en tienda\u201d en la l\u00ednea de cajas de cualquiera de nuestras tiendas Jumbo a nivel nacional, debe comunicarse con nuestra l\u00ednea de servicio al cliente, en Bogot\u00e1 al 60 1 348 9898 y a nivel nacional al 01 8000 120 320, para conocer el procedimiento y los formatos a diligenciar para poder llevar a cabo el proceso. En este caso la devoluci\u00f3n del dinero puede demorar hasta 45 d\u00edas calendario. "
+    }
+  },
+  "rich-text#TerminosCondicionesText6": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Las garant\u00edas de un bien adquirido en JUMBO a trav\u00e9s de la p\u00e1gina web Tiendasjumbo.co o en la APP deben gestionarse llamando en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 60 1 348 9898 o a nivel nacional al 01 8000 120 320, o acerc\u00e1ndose a cualquiera de nuestras tiendas Jumbo. "
+    }
+  },
+  "rich-text#TerminosCondicionesText6.1": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "En caso de que el cliente haya realizado el pago a trav\u00e9s del medio \"pago en tienda\" en la l\u00ednea de cajas de cualquiera de nuestras tiendas Jumbo a nivel nacional y desee tramitar la garant\u00eda de su art\u00edculo, deber\u00e1 comunicarse en Bogot\u00e1 a la l\u00ednea de servicio al cliente al 60 1 348 9898 o a nivel nacional al 01 8000 120 320. "
+    }
+  },
+  "rich-text#TerminosCondicionesText6.2": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Favor revisar siempre que la fecha de reclamo se encuentre dentro del periodo de cobertura de la garant\u00eda que la marca asigna al producto. En caso de que no se comunique periodo de cobertura, se entiende que es de 12 meses. "
+    }
+  },
+  "rich-text#TerminosCondicionesText6.3": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "En caso de falla de fabricaci\u00f3n del producto es requisito indispensable que este sea revisado por el Centro de Servicios Autorizado establecido por la marca. \u00c9ste realiza el diagn\u00f3stico respectivo y con base en \u00e9l decide si el producto debe ser reparado o si entregar\u00e1 la carta para el cambio, o en su defecto niega la solicitud de la garant\u00eda, la cual debe ser enviada por parte del Centro de Servicios Autorizado. Para el tr\u00e1mite de tu garant\u00eda debes presentar la tirilla de compra impresa que enviamos a tu correo electr\u00f3nico o fotocopia de la c\u00e9dula de ciudadan\u00eda del comprador. "
+    }
+  },
+  "rich-text#TerminosCondicionesText6.4": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Toda solicitud se atender\u00e1 en un tiempo m\u00e1ximo de quince (15) d\u00edas h\u00e1biles siguientes a la recepci\u00f3n de la solicitud de garant\u00eda. Debes tener en cuenta que si el producto se remitiera al proveedor para su diagn\u00f3stico t\u00e9cnico y su reparaci\u00f3n (si aplica), este proceso puede durar hasta treinta (30) d\u00edas h\u00e1biles contados a partir del d\u00eda siguiente a la recepci\u00f3n de la solicitud. "
+    }
+  },
+  "rich-text#TerminosCondicionesText6.5": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Si el Centro de Servicios Autorizado certifica que efectivamente el producto tiene problemas o defectos de f\u00e1brica, la garant\u00eda del nuevo producto o del producto reparado inicia a partir de la fecha en que sea recibido por el cliente y hasta el tiempo establecido. Esta reparaci\u00f3n es gratuita y en caso de que la falla se repita, tendr\u00e1s la opci\u00f3n de solicitar el cambio del bien, efectuar una nueva reparaci\u00f3n o la solicitar la devoluci\u00f3n del dinero. "
+    }
+  },
+  "rich-text#TerminosCondicionesText6.6": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "La garant\u00eda de un producto se perder\u00e1 por alguna de las siguientes razones:                                                                     \u2981Cuando se usa inadecuadamente el producto o se le da un uso diferente para el que fue dise\u00f1ado.                                                                 \u2981Por fluctuaciones del voltaje generadas por descargas el\u00e9ctricas o rayos, vandalismo, robo o similares.                                                                                \u2981Cuando se tienen conexiones inadecuadas (para el caso de productos que lo requieran)                                                       \u2981Cuando se instala, destapa o se repara por un tercero no autorizado por el proveedor o por CENCOSUD.                                                                      \u2981Cuando el certificado de garant\u00eda, n\u00famero de serie o modelo del art\u00edculo sufren alteraciones o enmendaduras, o por otras causas establecidas por el productor del art\u00edculo y que son referenciadas espec\u00edficamente en el Certificado de Garant\u00eda que es entregado en el momento en que se realiza la compra.                                                                                                                   \u2981Cuando se demuestre que el defecto proviene de fuerza mayor o caso fortuito.                            \u2981Cuando el cliente no atienda las instrucciones de instalaci\u00f3n, armado, uso o mantenimiento indicadas en el manual del producto, en la garant\u00eda o en la p\u00e1gina de informaci\u00f3n del art\u00edculo en Tiendasjumbo.co. "
+    }
+  },
+  "rich-text#TerminosCondicionesText7": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "La anulaci\u00f3n de una compra realizada a trav\u00e9s de la p\u00e1gina web Tiendasjumbo.co o en la APP debe gestionarse dentro de los siguientes 5 d\u00edas calendario a la fecha de la compra. Favor comunicarse con la l\u00ednea de servicio al cliente al 60 1 348 9898 o a nivel nacional a la l\u00ednea 01 8000 120 320 para recibir y/o suministrar informaci\u00f3n relevante, que permita a JUMBO prestar un servicio id\u00f3neo y oportuno. "
+    }
+  },
+  "rich-text#TerminosCondicionesText7.1": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Si el articulo ya fue enviado al cliente, ser\u00e1 \u00e9ste \u00faltimo quien se har\u00e1 responsable de cubrir el costo del retiro del producto. El valor del despacho del producto deber\u00e1 ser nuevamente consignado para proceder a realizar la reversi\u00f3n total de la compra, ya que no es posible realizar reversiones parciales a la transacci\u00f3n. En este caso, se informar\u00e1 al cliente un n\u00famero de cuenta de Cencosud para que cancele el valor correspondiente al despacho, y el cliente deber\u00e1 enviar el soporte de consignaci\u00f3n al email\u202fsac@tiendasjumbo.co\u202fpara llevar a cabo el proceso de reversi\u00f3n por el valor total de la compra. Recuerda que el producto debe estar sin uso, y en su empaquetadura original e intacta.  La devoluci\u00f3n del dinero por parte de JUMBO al cliente se llevar\u00e1 a cabo en los plazos estipulados por la ley (hasta 30 d\u00edas calendario dependiendo de la entidad bancar\u00eda del cliente), y en el mismo medio de pago con que se hizo la compra, siempre y cuando la anulaci\u00f3n se haga por el valor total. Para compras que contengan varios productos y se desee realizar la anulaci\u00f3n de alguno de ellos, el cliente deber\u00e1 comunicarse con nuestra l\u00ednea de servicio al cliente para informarle el procedimiento a seguir y poder generar la devoluci\u00f3n del dinero. Si el cliente desea realizar la anulaci\u00f3n de su compra acerc\u00e1ndose a una de nuestras tiendas Jumbo y el pago de la misma fue realizado mediante tarjeta D\u00e9bito, debe tener en cuenta que para la devoluci\u00f3n del dinero hay un monto m\u00e1ximo establecido, el cual ser\u00e1 informado comunic\u00e1ndose con nuestra l\u00ednea de servicio al cliente, en Bogot\u00e1 al 60 1 348 9898 y a nivel nacional al 01 8000 120 320. Para compras realizadas con tarjeta de cr\u00e9dito o d\u00e9bito, y al ser procesos que involucran a la entidad financiera del cliente, \u00e9ste \u00faltimo acepta que se debe cumplir con la pol\u00edtica propia de dicha entidad para el reintegro del dinero. "
+    }
+  },
+  "rich-text#TerminosCondicionesText8": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El rechazo por parte de JUMBO a una compra realizada por un cliente se podr\u00e1 llevar a cabo cuando la validaci\u00f3n y aceptaci\u00f3n del pago no sea autorizada por el tercero que hemos contratado para detectar posibles casos de fraude (Pagosonline.Net S.A.S), o cuando la entidad bancaria del cliente o el medio de pago as\u00ed lo determinen. CENCOSUD COLOMBIA S.A., no se hace responsable por los tr\u00e1mites internos de autorizaci\u00f3n que disponga la entidad bancaria ni por lo permisos que requieren los medios de pago para efectuar compras por internet. "
+    }
+  },
+  "rich-text#TerminosCondicionesText8.1": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Limitaci\u00f3n de cantidades y restricci\u00f3n de pedidos                                                                       A exclusivo criterio de Cencosud, se podr\u00e1 limitar y/o cancelar las cantidades compradas por el Cliente, en especial pero sin limitarse, cuando se identifique por cualquier medio que se trata de una compra con destino a Cliente mayorista. En tal caso, Cencosud rechazar\u00e1 de plano las compras por medio de correo electr\u00f3nico. Las restricciones a las compras pueden incluir entre otras, pedidos realizados a partir de la misma cuenta inscrita en el Sitio, pedidos con la misma direcci\u00f3n de entrega, pagos realizados con la misma tarjeta de cr\u00e9dito y/o d\u00e9bito y pedidos con la misma direcci\u00f3n de facturaci\u00f3n. "
+    }
+  },
+  "rich-text#TerminosCondicionesText8.2": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Se permitir\u00e1 despachar para productos de precio regular un m\u00e1ximo de 10 unidades en productos de mercado y 5 unidades en productos de Hogar y tecnolog\u00eda, si los productos se encuentran con precio de oferta se permitir\u00e1 despachar m\u00e1ximo 3 unidades en Mercado y 1 unidad en Hogar y Tecnolog\u00eda, solo se permitir\u00e1 realizar 2 transacciones por cliente. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El art\u00edculo ser\u00e1 entregado en la poblaci\u00f3n y la direcci\u00f3n que el cliente determine dentro del territorio de Colombia, siempre y cuando est\u00e9 dentro de la cobertura metropolitana que el transportista contratado por JUMBO ofrece, y cuando las condiciones de seguridad y acceso as\u00ed lo permitan. De esta forma y en orden de que se constate la posibilidad de entregar un producto a una direcci\u00f3n determinada, se debe llevar a cabo el proceso de compra para que se pueda validar efectivamente la verificaci\u00f3n de la cobertura. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.1": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Es responsabilidad del cliente que la direcci\u00f3n sea correcta y completa para facilitar la entrega del producto por parte del transportista. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.10": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El transportista no deber\u00e1 modificar los espacios del domicilio del cliente para entregar el art\u00edculo, y el servicio no incluye desmonte de puertas, o alguna otra operaci\u00f3n diferente a la de entregar en la direcci\u00f3n especificada por el cliente, siempre y cuando el sitio sea accesible y el espacio permita el paso de la carga. Cuando el tama\u00f1o del producto impida ser entregado en el lugar deseado, el cliente aceptar\u00e1 otro lugar en donde pueda ser recibido, dentro del mismo domicilio. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.11": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Si el cliente insiste en que el producto sea entregado en un punto de dif\u00edcil acceso, ni JUMBO ni el transportista se har\u00e1 responsable por los da\u00f1os que se puedan llegar a presentar al producto o al inmueble. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.12": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Cualquier otro servicio que preste el transportista por solicitud del cliente, ser\u00e1 asumido por cuenta y responsabilidad de este \u00faltimo. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.13": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El valor del despacho a la direcci\u00f3n del cliente depender\u00e1 de la localizaci\u00f3n de la poblaci\u00f3n y ser\u00e1 asumido por el cliente, a menos que se defina de otra manera. El cliente siempre tendr\u00e1 claro ese valor antes de aceptar la compra. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.14": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Si en el momento de hacer el env\u00edo no hay nadie quien reciba el producto, este retornar\u00e1 con el transportista y el cliente debe comunicarse con nosotros para reprogramar la entrega. Si en una segunda ocasi\u00f3n no hay nadie disponible para recibir el producto, este volver\u00e1 a retornar y se cobrar\u00e1 un nuevo costo de despacho al cliente al tercer intento. En este caso, se informar\u00e1 al cliente un n\u00famero de cuenta de Cencosud para que cancele el valor correspondiente al despacho, y el cliente deber\u00e1 enviar al email\u202fsac@cencosud.com.co, el soporte de consignaci\u00f3n para reprogramar el env\u00edo. En este caso, debes consignar el valor del despacho a una cuenta de Cencosud y enviarnos el soporte para que reprogramemos tu env\u00edo. Por favor comun\u00edcate con nuestra l\u00ednea de atenci\u00f3n al cliente para asesorarte en el proceso. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.15": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Una vez recibido a satisfacci\u00f3n el producto por parte del cliente, tercero autorizado o persona mayor de edad que se encuentre en el domicilio del cliente, ning\u00fan colaborador de Jumbo ni de la transportista est\u00e1 autorizado a retirarlo del sitio de entrega. Es responsabilidad del cliente cualquier autorizaci\u00f3n de movilizar el art\u00edculo, una vez el transportista recibe la gu\u00eda firmada y aceptada. Ante cualquier duda, comun\u00edquese a nuestras l\u00edneas de atenci\u00f3n al cliente. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.16": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Autorizaci\u00f3n No. 000693 para la venta de equipos terminales m\u00f3viles \n \n \u2981 CENCOSUD COLOMBIA S.A., est\u00e1 autorizada para la venta de equipos terminales m\u00f3viles, mediante autorizaci\u00f3n No. 000693 del 2 de Julio de 2015, del Ministerio de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones. \n \n \u2981 N\u00famero \u00fanico de verificaci\u00f3n:\u202f0031000953.  \n  \n  \u2981 Decreto 2143 de 2017- Procedimiento para la aplicaci\u00f3n de la tarifa diferencial del cinco por ciento (5%) en la adquisici\u00f3n de neveras nuevas para sustituci\u00f3n\",  \n   \n  \u2981 CENCOSUD COLOMBIA S.A. atendiendo las disposiciones del Decreto 2143 de 2017:\u202f\u201cProcedimiento para la aplicaci\u00f3n de la tarifa diferencial del cinco por ciento (5%) en la adquisici\u00f3n de neveras nuevas para sustituci\u00f3n\",establece que el cliente que desee hacer efectivo el beneficio solo podr\u00e1 hacerlo acerc\u00e1ndose \u00fanica y exclusivamente a una tienda f\u00edsica Jumbo donde el personal encargado se encargara de verificar toda la documentaci\u00f3n necesaria para la solicitud de reducci\u00f3n del IVA de neveras nuevas. \n \n  Pasos para aplicar al beneficio: "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.16.1": {
+    "props": {
+      "blockClass": "subtextTermsConditions",
+      "text": "\u2981 Entregar la nevera usada en uno de los canales dispuestos por Red Verde. \n \n \u2981 Red Verde entregar\u00e1 un certificado de recepci\u00f3n de la nevera usada, el cual ser\u00e1 enviado v\u00eda email a la persona due\u00f1a del producto. Podr\u00e1 verificar el certificado a trav\u00e9s de la p\u00e1gina web:\u202fhttp://www.redverde.co/index.php/ahorrate-el-iva\u202fo comunic\u00e1ndose a la l\u00ednea de atenci\u00f3n 3174050510. Recuerde, estos certificados son de car\u00e1cter personal e intransferible, s\u00f3lo son v\u00e1lidos para un \u00fanico uso. \n \n \u2981 En el momento de la compra de la nevera nueva, el comprador deber\u00e1 entregar al comercializador los siguientes documentos: \n \n \u2981 Certificado de recepci\u00f3n de la nevera expedido en original (punto 2) \n \n \u2981 Fotocopia de un documento donde conste el estrato de la vivienda en la cual reside (puede ser la factura de un servicio p\u00fablico). \n \n \u2981 El comercializador verificar\u00e1 los requisitos t\u00e9cnicos y de precio neto de la nevera nueva. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.17": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Condiciones para acceder al beneficio: "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.17.1": {
+    "props": {
+      "blockClass": "subtextTermsConditions",
+      "text": "\u2981 La nevera nueva a comprar debe clasificar en los rangos de energ\u00eda A, B o C del Reglamento T\u00e9cnico de Etiquetado (RETIQ). \n \n \u2981 El precio de la nevera nueva deber\u00e1 ser igual o inferior a 1\u2019183.669, antes de IVA, correspondientes a 30 UVT (Unidades de Valor Tributario). \n \n \u2981 El comprador debe pertenecer a estratos 1, 2 o 3. El beneficio solamente aplica para personas naturales de los mencionados estratos. \n \n \u2981 El consumidor deber\u00e1 entregar la nevera vieja o usada al sistema que determine el productor de la nevera a comprar (en este caso Red Verde y sus canales de entrega autorizados). "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.18": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "GARANT\u00cdA EXTENDIDA Y PROGRAMA MI T\u00c9CNICO  \n \n Extiende la garant\u00eda de f\u00e1brica, para garantizar por m\u00e1s tiempo el correcto funcionamiento de los productos sin incurrir en gastos inesperados adicionales.\u202fConoce m\u00e1s. \n \n Adem\u00e1s tienes Hurto Calificado en Domicilio, Da\u00f1o Accidental y el Nuevo Beneficio Mi t\u00e9cnico. No aplica para compras en\u202ftiendasjumbo.co \n - Consulta t\u00e9rminos y condiciones de garant\u00eda extendida\u202fAqu\u00ed. \n- Consulta T\u00e9rminos y condiciones del programa mi T\u00e9cnico\u202fAqu\u00ed. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.2": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El cliente acepta que tanto JUMBO como el transportista puedan contactarlo a trav\u00e9s de llamadas telef\u00f3nicas, emails u otros medios para poder llevar a cabo un servicio oportuno y de calidad. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.3": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Las entregas se har\u00e1n dentro de una fecha l\u00edmite que se le comunicar\u00e1 al cliente, sin una hora exacta. Este plazo se cumplir\u00e1 siempre y cuando las condiciones de seguridad y acceso lo permitan, y cuando no se presente un motivo de fuerza mayor. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.4": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El transportista tiene la responsabilidad de entregar el producto que se describe en la gu\u00eda de compra, en su empaque original, en buen estado y cerrado. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.5": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "La direcci\u00f3n de env\u00edo nunca podr\u00e1 ser alterada una vez hecha la compra, por motivos de seguridad. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.6": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El transportista tratar\u00e1 de entregar, en primera instancia, el producto a la persona que hizo la compra. En caso de que se autorice a un tercero a recibir el producto, el cliente debe especificarlo durante el proceso de compra en el espacio dispuesto para esto. En caso de que ni el cliente ni el tercero autorizado se encuentren en el momento de la entrega, el transportista podr\u00e1 entregar a cualquier persona mayor de edad que se encuentre dentro del domicilio indicado por el cliente. En caso de que se autorice a dejar en porter\u00eda el art\u00edculo, es responsabilidad del cliente cualquier p\u00e9rdida o da\u00f1o que llegase a ocurrir. Para todos los casos, y por motivos de seguridad, la persona que recibe el producto debe mostrar al transportista su documento de identidad, firmar con nombre y c\u00e9dula la gu\u00eda de despacho, y dar el visto bueno del estado \u00f3ptimo en que se est\u00e1 recibiendo el producto o hacer las aclaraciones pertinentes en la gu\u00eda. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.7": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "Se entiende que el cliente o el tercero que este disponga para recibir el producto es mayor de edad, y est\u00e1 en condiciones f\u00edsicas y mentales para hacer la revisi\u00f3n del estado del producto que est\u00e1 entregando el transportista. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.8": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "En ausencia de reclamos consignados en la gu\u00eda de transporte, ya sea del cliente o de quien este disponga para hacer la recepci\u00f3n del art\u00edculo, se entiende que fue a satisfacci\u00f3n y por ende el cliente recibi\u00f3 en perfecto estado la mercanc\u00eda enviada. "
+    }
+  },
+  "rich-text#TerminosCondicionesText9.9": {
+    "props": {
+      "blockClass": "textTermsConditions",
+      "text": "El transportista no est\u00e1 autorizado para armar ni instalar ning\u00fan art\u00edculo. "
+    }
+  },
+  "rich-text#eTerminosCondicioneMercado": {
+    "props": {
+      "blockClass": "headerTermsConditions",
+      "text": "Mercado"
+    }
+  },
+  "rich-text#eTerminosCondiciones": {
+    "props": {
+      "blockClass": "headerTermsConditions",
+      "text": "T\u00e9rminos y Condiciones de Compras de Supermercados"
+    }
+  },
+  "scroll-view#terms-conditions": {
+    "children": [
+      "flex-layout.col#eTerminosCondiciones"
+    ]
+  },
+  "store.terms-conditions": {
+    "blocks": [
+      "scroll-view#terms-conditions"
     ]
   }
 }

@@ -1,47 +1,92 @@
 {
-  "store.user-app-version": {
+  "device-info": {
+    "props": {
+      "blockClass": "appVersionDescription",
+      "formatText": "v{version}-build.{buildNumber}",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#app-version": {
     "children": [
-      {
-        "flex-layout.row#flex-layout.col#app-version": {
-          "children": [
-            {
-              "flex-layout.col#app-version": {
-                "children": [
-                  "image#cencosud-app-version",
-                  {
-                    "flex-layout.col#info": {
-                      "children": [
-                        {
-                          "flex-layout.row#about-container": {
-                            "children": [
-                              "icon#info",
-                              "rich-text#about"
-                            ]
-                          }
-                        },
-                        {
-                          "flex-layout.row#device-info-title": {
-                            "children": [
-                              "rich-text#device-info"
-                            ]
-                          }
-                        },
-                        {
-                          "flex-layout.row#device-info": {
-                            "children": [
-                              "device-info"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
+      "image#cencosud-app-version",
+      "flex-layout.col#info"
+    ],
+    "props": {
+      "blockClass": "emptyCartCol"
+    }
+  },
+  "flex-layout.col#info": {
+    "children": [
+      "flex-layout.row#about-container",
+      "flex-layout.row#device-info-title",
+      "flex-layout.row#device-info"
+    ],
+    "props": {
+      "blockClass": "app-device-info-container_row"
+    }
+  },
+  "flex-layout.row#about-container": {
+    "children": [
+      "icon#info",
+      "rich-text#about"
+    ],
+    "props": {
+      "blockClass": "aboutContainer"
+    }
+  },
+  "flex-layout.row#device-info": {
+    "children": [
+      "device-info"
+    ]
+  },
+  "flex-layout.row#device-info-title": {
+    "children": [
+      "rich-text#device-info"
+    ],
+    "props": {
+      "blockClass": "device-info-title-container"
+    }
+  },
+  "flex-layout.row#flex-layout.col#app-version": {
+    "children": [
+      "flex-layout.col#app-version"
+    ],
+    "props": {
+      "blockClass": "RowAppVersionScreen"
+    }
+  },
+  "icon#info": {
+    "props": {
+      "color": "#565656",
+      "lib": "Ionicons",
+      "name": "help-circle-outline",
+      "size": 30
+    }
+  },
+  "image#cencosud-app-version": {
+    "props": {
+      "blockClass": "emptyCartImage",
+      "height": 100,
+      "resizeMode": "contain",
+      "uri": "https://i.imgur.com/xq8CWgO.png",
+      "width": 100
+    }
+  },
+  "rich-text#about": {
+    "props": {
+      "blockClass": "aboutTitle",
+      "text": "Acerca de"
+    }
+  },
+  "rich-text#device-info": {
+    "props": {
+      "blockClass": "appVersionTitle",
+      "text": "Versi\u00f3n de la aplicaci\u00f3n"
+    }
+  },
+  "store.user-app-version": {
+    "blocks": [
+      "flex-layout.row#flex-layout.col#app-version"
     ]
   }
 }

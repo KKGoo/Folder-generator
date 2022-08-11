@@ -1,28 +1,87 @@
 {
-  "store.search-store-tenants": {
+  "scroll-view#select-tenant": {
     "children": [
-      {
-        "scroll-view#select-tenant": {
-          "children": [
+      "store-form.select-tenant"
+    ],
+    "props": {
+      "blockClass": "scrollAddAddress"
+    }
+  },
+  "store-form.button#select-store-address": {
+    "props": {
+      "blockClass": "storeFormButtonStyle",
+      "buttonText": "Seleccionar Tienda",
+      "variant": "secondary"
+    }
+  },
+  "store-form.select-group#tenants": {
+    "children": [
+      "store-form.select-group-item#tenant-department",
+      "store-form.select-group-item#tenant-municipalicies",
+      "store-form.select-group-item#tenant",
+      "store-form.button#select-store-address"
+    ],
+    "props": {
+      "blockClass": "wrapperGroup"
+    }
+  },
+  "store-form.select-group-item#tenant": {
+    "props": {
+      "blockClass": "storeFormSelectAdresses",
+      "dependency": "municipalicies",
+      "iconActive": "icon#chevronUp",
+      "iconDisable": "icon#chevronDown",
+      "iconPosition": "right",
+      "name": "tenants",
+      "placeholder": "Selecciona una tienda"
+    }
+  },
+  "store-form.select-group-item#tenant-department": {
+    "props": {
+      "blockClass": "storeFormSelectAdresses",
+      "iconActive": "icon#chevronUp",
+      "iconDisable": "icon#chevronDown",
+      "name": "departments",
+      "placeholder": "Selecciona una ciudad"
+    }
+  },
+  "store-form.select-group-item#tenant-municipalicies": {
+    "props": {
+      "blockClass": "storeFormSelectAdresses",
+      "dependency": "departments",
+      "iconActive": "icon#chevronUp",
+      "iconDisable": "icon#chevronDown",
+      "iconPosition": "right",
+      "name": "municipalicies",
+      "placeholder": "Selecciona un municipio"
+    }
+  },
+  "store-form.select-tenant": {
+    "children": [
+      "store-form.select-group#tenants"
+    ],
+    "props": {
+      "blockClass": "AddAddressWrapper",
+      "schemaValidation": [
+        {
+          "id": "tenants",
+          "type": "text",
+          "validationType": "object",
+          "validations": [
             {
-              "store-form.select-tenant": {
-                "children": [
-                  {
-                    "store-form.select-group#tenants": {
-                      "children": [
-                        "store-form.select-group-item#tenant-department",
-                        "store-form.select-group-item#tenant-municipalicies",
-                        "store-form.select-group-item#tenant",
-                        "store-form.button#select-store-address"
-                      ]
-                    }
-                  }
-                ]
-              }
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
             }
           ]
         }
-      }
+      ]
+    }
+  },
+  "store.search-store-tenants": {
+    "blocks": [
+      "scroll-view#select-tenant"
     ]
   }
 }

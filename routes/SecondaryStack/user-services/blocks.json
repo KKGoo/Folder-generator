@@ -1,7 +1,37 @@
 {
   "store.user-services": {
-    "children": [
+    "blocks": [
       "web-view#user-services"
     ]
+  },
+  "web-view#user-services": {
+    "props": {
+      "classes": [
+        "vtex-store-components-3-x-infoCardCallActionContainer--servicios__info-card--recoge-en-tienda-mobile",
+        "vtex-store-components-3-x-infoCardCallActionContainer--servicios__info-card--envios-mobile",
+        "vtex-flex-layout-0-x-flexRow--header-banner-mobile",
+        "vtex-flex-layout-0-x-flexRow--search-mobile",
+        "vtex-flex-layout-0-x-flexRow--main-header-mobile",
+        "vtex-store-components-3-x-infoCardCallActionContainer",
+        "vtex-store-components-3-x-infoCardCallActionContainer--servicios__info-card--jumbo-al-auto--mobile",
+        "chat-widget",
+        "vtex-store-footer-2-x-footerLayout",
+        "vtex-sticky-layout-0-x-container",
+        "vtex-sticky-layout-0-x-wrapper",
+        ".vtex-store-footer-2-x-footerLayout",
+        "vtex-store-footer-2-x-footerLayout--mobile-footer",
+        "vtex-flex-layout-0-x-flexRow--row-title-main",
+        "vtex-store-footer-2-x-footerLayout",
+        "vtex-store-footer-2-x-footerLayout",
+        "vtex-store-footer-2-x-footerLayout--mobile-footer",
+        "vtex-flex-layout-0-x-flexRow",
+        "vtex-flex-layout-0-x-flexRow--newsletter-mobile",
+        "vtex-store-footer-2-x-footerLayoutSpacer",
+        "flex flex-grow-1, tex-flex-layout-0-x-flexRow--pre-header",
+        "vtex-store-components-3-x-infoCardCallActionContainer",
+        "vtex-store-components-3-x-infoCardCallActionContainer--servicios__info-card--recoge-en-tienda"
+      ],
+      "uri": "https://dev--tiendasjumboqaio.myvtex.com/servicios"
+    }
   }
 }

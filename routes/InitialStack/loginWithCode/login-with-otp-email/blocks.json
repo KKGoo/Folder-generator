@@ -1,34 +1,95 @@
 {
-  "store.login-with-otp-email": {
+  "flex-layout.col#loginWithCodeEmail": {
     "children": [
-      {
-        "store-form.otp#loginWithCodeEmail": {
-          "children": [
+      "rich-text#text-loginWithCodeEmail",
+      "store-form.input#loginWithCodeEmail",
+      "store-form.button#submit-loginWithCodeEmail"
+    ]
+  },
+  "flex-layout.row#loginWithCodeEmail": {
+    "children": [
+      "flex-layout.col#loginWithCodeEmail"
+    ]
+  },
+  "icon#alert": {
+    "props": {
+      "color": "red",
+      "lib": "Ionicons",
+      "name": "alert-circle-outline",
+      "size": 25
+    }
+  },
+  "icon#pass": {
+    "props": {
+      "color": "#565656",
+      "lib": "Ionicons",
+      "name": "key-outline",
+      "size": 30
+    }
+  },
+  "rich-text#text-loginWithCodeEmail": {
+    "props": {
+      "blockClass": "titleLoginWithCodeEmail",
+      "text": "Ingresa tu correo electr\u00f3nico y te enviaremos un c\u00f3digo de 6 d\u00edgitos. "
+    }
+  },
+  "store-form.button#submit-loginWithCodeEmail": {
+    "props": {
+      "blockClass": "storeFormButtonStyle",
+      "buttonText": "Verificar correo electr\u00f3nico",
+      "variant": "secondary"
+    }
+  },
+  "store-form.input#loginWithCodeEmail": {
+    "children": [
+      "icon#pass",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isEmail": true,
+      "isRequired": true,
+      "label": "Correo electr\u00f3nico",
+      "name": "email",
+      "rightIcon": true
+    }
+  },
+  "store-form.otp#loginWithCodeEmail": {
+    "children": [
+      "flex-layout.row#loginWithCodeEmail"
+    ],
+    "props": {
+      "blockClass": "storeFormConfirmEmail",
+      "modalDescription": "Hemos enviado al correo: {email} el enlace de verificaci\u00f3n de manera exitosa",
+      "modalType": "continue",
+      "mode": "onChange",
+      "redirectTo": "/auth/login-with-otp-email-check-code/{email}",
+      "schemaValidation": [
+        {
+          "id": "email",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
             {
-              "flex-layout.row#loginWithCodeEmail": {
-                "children": [
-                  {
-                    "flex-layout.col#loginWithCodeEmail": {
-                      "children": [
-                        "rich-text#text-loginWithCodeEmail",
-                        {
-                          "store-form.input#loginWithCodeEmail": {
-                            "children": [
-                              "icon#pass",
-                              "icon#alert"
-                            ]
-                          }
-                        },
-                        "store-form.button#submit-loginWithCodeEmail"
-                      ]
-                    }
-                  }
-                ]
-              }
+              "params": [
+                "El correo electr\u00f3nico es requerido"
+              ],
+              "type": "required"
+            },
+            {
+              "params": [
+                "Debe ser un email v\u00e1lido"
+              ],
+              "type": "email"
             }
           ]
         }
-      }
+      ]
+    }
+  },
+  "store.login-with-otp-email": {
+    "blocks": [
+      "store-form.otp#loginWithCodeEmail"
     ]
   }
 }

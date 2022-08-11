@@ -1,6 +1,11 @@
 {
+  "rich-text#comprar": {
+    "props": {
+      "text": "comprar"
+    }
+  },
   "store.comprar": {
-    "children": [
+    "blocks": [
       "rich-text#comprar"
     ]
   }

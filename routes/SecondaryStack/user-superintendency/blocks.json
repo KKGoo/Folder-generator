@@ -1,7 +1,25 @@
 {
   "store.user-superintendency": {
-    "children": [
+    "blocks": [
       "web-view#superintendency"
     ]
+  },
+  "web-view#superintendency": {
+    "props": {
+      "classes": [
+        "chat-widget",
+        "vtex-store-footer-2-x-footerLayout",
+        "vtex-sticky-layout-0-x-container",
+        ".vtex-store-footer-2-x-footerLayout",
+        "vtex-store-footer-2-x-footerLayout--mobile-footer",
+        "vtex-flex-layout-0-x-flexRow--row-title-main",
+        "vtex-store-footer-2-x-footerLayout",
+        "vtex-store-footer-2-x-footerLayout",
+        "vtex-store-footer-2-x-footerLayout--mobile-footer",
+        "vtex-flex-layout-0-x-flexRow",
+        "vtex-flex-layout-0-x-flexRow--newsletter-mobile"
+      ],
+      "uri": "https://www.sic.gov.co/"
+    }
   }
 }

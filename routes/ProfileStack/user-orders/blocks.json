@@ -1,40 +1,62 @@
 {
-  "store.user-orders": {
+  "flex-layout.col#oderDetails": {
     "children": [
-      {
-        "orders-layout#orders": {
-          "children": [
-            {
-              "orders-layout.list#orderList": {
-                "children": [
-                  {
-                    "flex-layout.row#orderContainer": {
-                      "children": [
-                        {
-                          "flex-layout.col#oderDetails": {
-                            "children": [
-                              "orders-layout.id#order-id",
-                              "orders-layout.status#order-status",
-                              "orders-layout.date#order-date"
-                            ]
-                          }
-                        },
-                        {
-                          "flex-layout.col#orderButton": {
-                            "children": [
-                              "orders-layout.show-more#show"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
+      "orders-layout.id#order-id",
+      "orders-layout.status#order-status",
+      "orders-layout.date#order-date"
+    ]
+  },
+  "flex-layout.col#orderButton": {
+    "children": [
+      "orders-layout.show-more#show"
+    ]
+  },
+  "flex-layout.row#orderContainer": {
+    "children": [
+      "flex-layout.col#oderDetails",
+      "flex-layout.col#orderButton"
+    ],
+    "props": {
+      "blockClass": "orderWrapper"
+    }
+  },
+  "orders-layout#orders": {
+    "children": [
+      "orders-layout.list#orderList"
+    ]
+  },
+  "orders-layout.date#order-date": {
+    "props": {
+      "blockClass": "itemOrderDate"
+    }
+  },
+  "orders-layout.id#order-id": {
+    "props": {
+      "blockClass": "itemOrderId"
+    }
+  },
+  "orders-layout.list#orderList": {
+    "children": [
+      "flex-layout.row#orderContainer"
+    ],
+    "props": {
+      "ListEmptyComponent": "flex-layout.row#emptyOrderList",
+      "blockClass": "orderLayoutContainer",
+      "redirectTo": "/profile/order/{orderId}"
+    }
+  },
+  "orders-layout.show-more#show": {
+    "props": {
+      "blockClass": "buttonStyle",
+      "buttonText": "Ver m\u00e1s",
+      "redirectTo": "/profile/order/{orderId}",
+      "variant": "secondary"
+    }
+  },
+  "orders-layout.status#order-status": {},
+  "store.user-orders": {
+    "blocks": [
+      "orders-layout#orders"
     ]
   }
 }

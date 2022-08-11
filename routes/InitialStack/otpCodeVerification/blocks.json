@@ -1,56 +1,201 @@
 {
-  "store.otpCodeVerification": {
+  "flex-layout.col#inputCol": {
     "children": [
-      {
-        "store-form.signup#otp-validation": {
-          "children": [
+      "rich-text#otp-code-validation",
+      "store-form.input#otp-code-input",
+      "flex-layout.row#storeFormEmailSignup"
+    ]
+  },
+  "flex-layout.col#storeFormEmailSignup": {
+    "children": [
+      "store-form.input#password-signup",
+      "rich-text#passwordRules",
+      "store-form.button#submit-signup"
+    ]
+  },
+  "flex-layout.row#inputRow": {
+    "children": [
+      "flex-layout.col#inputCol"
+    ]
+  },
+  "flex-layout.row#storeFormEmailSignup": {
+    "children": [
+      "flex-layout.col#storeFormEmailSignup"
+    ]
+  },
+  "icon#alert": {
+    "props": {
+      "color": "red",
+      "lib": "Ionicons",
+      "name": "alert-circle-outline",
+      "size": 25
+    }
+  },
+  "icon#pass": {
+    "props": {
+      "color": "#565656",
+      "lib": "Ionicons",
+      "name": "key-outline",
+      "size": 30
+    }
+  },
+  "resend-code-link#otpValidationLink": {
+    "props": {
+      "blockClass": "signInLink",
+      "displayMode": "anchor",
+      "label": "**\u00bfNo has recibido el c\u00f3digo?**",
+      "modalDescription": "El enlace de verificaci\u00f3n se ha enviado de manera exitosa a tu correo: {email} ",
+      "modalTitle": "Enviado",
+      "modalType": "continue"
+    }
+  },
+  "rich-text#otp-code-validation": {
+    "props": {
+      "blockClass": "titleSignup",
+      "text": "Ingresa el c\u00f3digo que te enviamos al correo:"
+    }
+  },
+  "rich-text#passwordRules": {
+    "props": {
+      "blockClass": "passwordRulesStyles",
+      "text": "Debe contar con:\n\n- M\u00ednimo de 8 caracteres.\n- 1 n\u00famero.\n- 1 letra min\u00fascula.\n- 1 letra may\u00fascula.\n"
+    }
+  },
+  "store-form.button#submit-signup": {
+    "props": {
+      "blockClass": "storeFormButtonStyle",
+      "buttonText": "Confirmar",
+      "variant": "secondary"
+    }
+  },
+  "store-form.input#otp-code-input": {
+    "children": [
+      "icon#pass",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isRequired": true,
+      "label": "C\u00f3digo de Validaci\u00f3n",
+      "name": "code",
+      "rightIcon": true
+    }
+  },
+  "store-form.input#password-signup": {
+    "children": [
+      "icon#pass",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isPassword": true,
+      "isRequired": true,
+      "label": "Contrase\u00f1a",
+      "name": "newPassword",
+      "rightIcon": true,
+      "showPassword": true
+    }
+  },
+  "store-form.signup#otp-validation": {
+    "children": [
+      "flex-layout.row#inputRow",
+      "resend-code-link#otpValidationLink"
+    ],
+    "props": {
+      "blockClass": "emailVerificationFormEmail",
+      "contentError": "flex-layout.row#contentModalSignupError",
+      "modalType": "continue",
+      "mode": "onChange",
+      "redirectTo": "/auth/signup/{email}/{accesskey}",
+      "schemaValidation": [
+        {
+          "id": "code",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
             {
-              "flex-layout.row#inputRow": {
-                "children": [
-                  {
-                    "flex-layout.col#inputCol": {
-                      "children": [
-                        "rich-text#otp-code-validation",
-                        {
-                          "store-form.input#otp-code-input": {
-                            "children": [
-                              "icon#pass",
-                              "icon#alert"
-                            ]
-                          }
-                        },
-                        {
-                          "flex-layout.row#storeFormEmailSignup": {
-                            "children": [
-                              {
-                                "flex-layout.col#storeFormEmailSignup": {
-                                  "children": [
-                                    {
-                                      "store-form.input#password-signup": {
-                                        "children": [
-                                          "icon#pass",
-                                          "icon#alert"
-                                        ]
-                                      }
-                                    },
-                                    "rich-text#passwordRules",
-                                    "store-form.button#submit-signup"
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
+              "params": [
+                "El c\u00f3digo que ha ingresado es incorrecto"
+              ],
+              "type": "required"
             },
-            "resend-code-link#otpValidationLink"
+            {
+              "params": [
+                6,
+                "El c\u00f3digo debe ser de 6 d\u00edgitos"
+              ],
+              "type": "min"
+            },
+            {
+              "params": [
+                6,
+                "El c\u00f3digo debe ser de 6 d\u00edgitos"
+              ],
+              "type": "max"
+            },
+            {
+              "params": [
+                {},
+                "Debe ser solo d\u00edgitos"
+              ],
+              "type": "matches"
+            }
+          ]
+        },
+        {
+          "id": "newPassword",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                "La contrase\u00f1a es requerida"
+              ],
+              "type": "required"
+            },
+            {
+              "params": [
+                8,
+                "La contrase\u00f1a no puede ser menor a 8 caracteres"
+              ],
+              "type": "min"
+            },
+            {
+              "params": [
+                50,
+                "La contrase\u00f1a no puede ser mayor a 50 caracteres"
+              ],
+              "type": "max"
+            },
+            {
+              "params": [
+                {},
+                "Debe contener al menos un numero"
+              ],
+              "type": "matches"
+            },
+            {
+              "params": [
+                {},
+                "Debe contener almenos una letra minuscula"
+              ],
+              "type": "matches"
+            },
+            {
+              "params": [
+                {},
+                "Debe contener almenos una letra mayuscula"
+              ],
+              "type": "matches"
+            }
           ]
         }
-      }
+      ]
+    }
+  },
+  "store.otpCodeVerification": {
+    "blocks": [
+      "store-form.signup#otp-validation"
     ]
   }
 }

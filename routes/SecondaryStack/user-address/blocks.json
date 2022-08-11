@@ -1,55 +1,122 @@
 {
-  "store.user-address": {
+  "flex-layout.col#address": {
     "children": [
-      {
-        "flex-layout.col#address": {
-          "children": [
-            {
-              "flex-layout.col#newAddAddressAccept": {
-                "children": [
-                  "rich-text#user-address",
-                  {
-                    "my-addresses.shelf": {
-                      "children": [
-                        {
-                          "store-locator-item": {
-                            "children": [
-                              {
-                                "flex-layout.row#address": {
-                                  "children": [
-                                    "store-locator-switch",
-                                    "my-addresses.formatted-address",
-                                    {
-                                      "flex-layout.col#icon-swipe": {
-                                        "children": [
-                                          "icon#swipe"
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "flex-layout.row#newAddAddress": {
-                "children": [
-                  "icon#addNewAddress",
-                  "store-link#userAddAddress"
-                ]
-              }
-            },
-            "store-link#userAddAddressAccept"
-          ]
-        }
-      }
+      "flex-layout.col#newAddAddressAccept",
+      "flex-layout.row#newAddAddress",
+      "store-link#userAddAddressAccept"
+    ],
+    "props": {
+      "blockClass": "locatorContainerWrapper"
+    }
+  },
+  "flex-layout.col#icon-swipe": {
+    "children": [
+      "icon#swipe"
+    ],
+    "props": {
+      "blockClass": "wishlistIcon"
+    }
+  },
+  "flex-layout.col#newAddAddressAccept": {
+    "children": [
+      "rich-text#user-address",
+      "my-addresses.shelf"
+    ]
+  },
+  "flex-layout.row#address": {
+    "children": [
+      "store-locator-switch",
+      "my-addresses.formatted-address",
+      "flex-layout.col#icon-swipe"
+    ],
+    "props": {
+      "blockClass": "locatorContainer"
+    }
+  },
+  "flex-layout.row#newAddAddress": {
+    "children": [
+      "icon#addNewAddress",
+      "store-link#userAddAddress"
+    ],
+    "props": {
+      "blockClass": "addWrapperAddress"
+    }
+  },
+  "icon#addNewAddress": {
+    "props": {
+      "color": "#A4C735",
+      "height": 50,
+      "lib": "FontAwesome5",
+      "name": "plus",
+      "width": 50
+    }
+  },
+  "icon#swipe": {
+    "props": {
+      "color": "#1FA02E",
+      "lib": "FontAwesome5",
+      "name": "angle-double-left",
+      "size": 30
+    }
+  },
+  "my-addresses.formatted-address": {
+    "props": {
+      "blockClass": "locatorAdress"
+    }
+  },
+  "my-addresses.shelf": {
+    "children": [
+      "store-locator-item"
+    ],
+    "props": {
+      "blockClass": "locatorwrapper",
+      "content": "flex-layout.row#contentModalRemoveAddressSuccess",
+      "deleteConfirmationContent": "flex-layout.row#contentModalRemoveAddress",
+      "modalType": "continue"
+    }
+  },
+  "rich-text#user-address": {
+    "props": {
+      "blockClass": "userAdressText",
+      "text": "Elige donde vas a recibir tus compras"
+    }
+  },
+  "store-link#userAddAddress": {
+    "props": {
+      "blockClass": "linkAddAdresses",
+      "displayMode": "anchor",
+      "label": "Agregar nueva direcci\u00f3n",
+      "url": "/add-addresses"
+    }
+  },
+  "store-link#userAddAddressAccept": {
+    "props": {
+      "blockClass": "linkAddAdressesButton",
+      "displayMode": "button",
+      "label": "Aceptar",
+      "redirectTo": "/back"
+    }
+  },
+  "store-locator-item": {
+    "children": [
+      "flex-layout.row#address"
+    ],
+    "props": {
+      "name": "selectorLocator"
+    }
+  },
+  "store-locator-switch": {
+    "props": {
+      "blockClass": "switchCreateAccount",
+      "isRequired": true,
+      "thumbColor": "#fff",
+      "trackColorFalse": "gray",
+      "trackColorTrue": "#A4C735"
+    }
+  },
+  "store.user-address": {
+    "blocks": [
+      "flex-layout.col#address"
     ]
   }
 }

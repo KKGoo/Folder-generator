@@ -1,251 +1,567 @@
 {
-  "store.home": {
+  "condition.theme#easy-home": {
     "children": [
-      {
-        "flex-layout.row#header": {
-          "children": [
-            {
-              "flex-layout.row#dummy-container": {
-                "children": [
-                  {
-                    "condition.theme#jumbo": {
-                      "children": [
-                        "image#jumbo"
-                      ]
-                    }
-                  },
-                  "store-link#fake-input",
-                  "icon#lupa-de-busqueda"
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "scroll-view#home-scroll": {
-          "children": [
-            {
-              "condition.theme#jumbo-home": {
-                "children": [
-                  "custom.prime-fab",
-                  {
-                    "flex-layout.row#sliderhome": {
-                      "children": [
-                        {
-                          "slider-layout#home": {
-                            "children": [
-                              "image#oferta1",
-                              "image#oferta2",
-                              "image#oferta3"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "scroll-view#home": {
-                      "children": [
-                        {
-                          "menu#menu-home": {
-                            "children": [
-                              {
-                                "menu-item#home-ofertas": {
-                                  "children": [
-                                    "info-card#ofertas"
-                                  ]
-                                }
-                              },
-                              {
-                                "menu-item#home-supermercado": {
-                                  "children": [
-                                    "info-card#supermercado"
-                                  ]
-                                }
-                              },
-                              {
-                                "menu-item#home-pescaderia": {
-                                  "children": [
-                                    "info-card#pescaderia"
-                                  ]
-                                }
-                              },
-                              {
-                                "menu-item#home-carnes": {
-                                  "children": [
-                                    "info-card#carnes"
-                                  ]
-                                }
-                              },
-                              {
-                                "menu-item#home-mundo-saludable": {
-                                  "children": [
-                                    "info-card#mundo-saludable"
-                                  ]
-                                }
-                              },
-                              {
-                                "menu-item#home-panaderia": {
-                                  "children": [
-                                    "info-card#panaderia"
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "flex-layout.row#home-row-one": {
-                      "children": [
-                        {
-                          "flex-layout.col#home-col-one": {
-                            "children": [
-                              "info-card#supermercadoBanner"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "flex-layout.row#home-row-two": {
-                      "children": [
-                        {
-                          "flex-layout.col#home-col-two": {
-                            "children": [
-                              "info-card#tv-tecnologia"
-                            ]
-                          }
-                        },
-                        {
-                          "flex-layout.col#home-col-three": {
-                            "children": [
-                              "info-card#bazar-hogar"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  "rich-text#view-product-tittle-1",
-                  {
-                    "list-context.product-list#product-destcados": {
-                      "children": [
-                        {
-                          "product-summary.shelf#listHome": {
-                            "children": [
-                              "product-summary-image#productimageHome",
-                              {
-                                "flex-layout.col#home-product-tittlecontainer": {
-                                  "children": [
-                                    "product-summary-price#productprice",
-                                    "product-summary-name#productnameHome",
-                                    "product-summary-brand#productbrandhome",
-                                    {
-                                      "flex-layout.row#shipping-home": {
-                                        "children": [
-                                          "icon#free-shippingCartHome",
-                                          "rich-text#shipping-home"
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "flex-layout.row#home-row-three": {
-                      "children": [
-                        {
-                          "flex-layout.col#home-col-four": {
-                            "children": [
-                              "info-card#eco-tank-banner"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  "rich-text#view-product-tittle-2",
-                  {
-                    "list-context.product-list#product-destcados-2": {
-                      "children": [
-                        {
-                          "product-summary.shelf#listHome": {
-                            "children": [
-                              "product-summary-image#productimageHome",
-                              {
-                                "flex-layout.col#home-product-tittlecontainer": {
-                                  "children": [
-                                    "product-summary-price#productprice",
-                                    "product-summary-name#productnameHome",
-                                    "product-summary-brand#productbrandhome",
-                                    {
-                                      "flex-layout.row#shipping-home": {
-                                        "children": [
-                                          "icon#free-shippingCartHome",
-                                          "rich-text#shipping-home"
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "flex-layout.row#home-row-four": {
-                      "children": [
-                        {
-                          "flex-layout.col#home-col-five": {
-                            "children": [
-                              "info-card#vanish"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "condition.theme#metro-home": {
-                "children": [
-                  "rich-text#title-metro"
-                ]
-              }
-            },
-            {
-              "condition.theme#easy-home": {
-                "children": [
-                  "rich-text#title-easy"
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "flex-layout.row#FAB": {
-          "children": [
-            "custom.prime-fab"
-          ]
-        }
+      "rich-text#title-easy"
+    ],
+    "props": {
+      "conditions": {
+        "If": [
+          {
+            "object": "easy",
+            "subject": "theme",
+            "verb": "is"
+          }
+        ]
       }
+    }
+  },
+  "condition.theme#jumbo": {
+    "children": [
+      "image#jumbo"
+    ],
+    "props": {
+      "blockClass": "triggerUIActionChangeFlag",
+      "conditions": {
+        "If": [
+          {
+            "object": "jumbo",
+            "subject": "theme",
+            "verb": "is"
+          }
+        ]
+      }
+    }
+  },
+  "condition.theme#jumbo-home": {
+    "children": [
+      "custom.prime-fab",
+      "flex-layout.row#sliderhome",
+      "scroll-view#home",
+      "flex-layout.row#home-row-one",
+      "flex-layout.row#home-row-two",
+      "rich-text#view-product-tittle-1",
+      "list-context.product-list#product-destcados",
+      "flex-layout.row#home-row-three",
+      "rich-text#view-product-tittle-2",
+      "list-context.product-list#product-destcados-2",
+      "flex-layout.row#home-row-four"
+    ],
+    "props": {
+      "conditions": {
+        "If": [
+          {
+            "object": "jumbo",
+            "subject": "theme",
+            "verb": "is"
+          }
+        ]
+      }
+    }
+  },
+  "condition.theme#metro-home": {
+    "children": [
+      "rich-text#title-metro"
+    ],
+    "props": {
+      "conditions": {
+        "If": [
+          {
+            "object": "metro",
+            "subject": "theme",
+            "verb": "is"
+          }
+        ]
+      }
+    }
+  },
+  "custom.prime-fab": {},
+  "flex-layout.col#home-col-five": {
+    "children": [
+      "info-card#vanish"
+    ]
+  },
+  "flex-layout.col#home-col-four": {
+    "children": [
+      "info-card#eco-tank-banner"
+    ]
+  },
+  "flex-layout.col#home-col-one": {
+    "children": [
+      "info-card#supermercadoBanner"
+    ]
+  },
+  "flex-layout.col#home-col-three": {
+    "children": [
+      "info-card#bazar-hogar"
+    ]
+  },
+  "flex-layout.col#home-col-two": {
+    "children": [
+      "info-card#tv-tecnologia"
+    ]
+  },
+  "flex-layout.col#home-product-tittlecontainer": {
+    "children": [
+      "product-summary-price#productprice",
+      "product-summary-name#productnameHome",
+      "product-summary-brand#productbrandhome",
+      "flex-layout.row#shipping-home"
+    ],
+    "props": {
+      "blockClass": "HomeProductContainer"
+    }
+  },
+  "flex-layout.row#FAB": {
+    "children": [
+      "custom.prime-fab"
+    ],
+    "props": {
+      "blockClass": "flexRowFABHome"
+    }
+  },
+  "flex-layout.row#dummy-container": {
+    "children": [
+      "condition.theme#jumbo",
+      "store-link#fake-input",
+      "icon#lupa-de-busqueda"
+    ],
+    "props": {
+      "blockClass": "dummycontainerHeaderHome"
+    }
+  },
+  "flex-layout.row#header": {
+    "children": [
+      "flex-layout.row#dummy-container"
+    ],
+    "props": {
+      "blockClass": "dummyHeaderContainer"
+    }
+  },
+  "flex-layout.row#home-row-four": {
+    "children": [
+      "flex-layout.col#home-col-five"
+    ],
+    "props": {
+      "blockClass": "flexRowHomeStyle"
+    }
+  },
+  "flex-layout.row#home-row-one": {
+    "children": [
+      "flex-layout.col#home-col-one"
+    ],
+    "props": {
+      "blockClass": "flexRowHomeStyle"
+    }
+  },
+  "flex-layout.row#home-row-three": {
+    "children": [
+      "flex-layout.col#home-col-four"
+    ],
+    "props": {
+      "blockClass": "flexRowHomeStyle"
+    }
+  },
+  "flex-layout.row#home-row-two": {
+    "children": [
+      "flex-layout.col#home-col-two",
+      "flex-layout.col#home-col-three"
+    ],
+    "props": {
+      "blockClass": "flexRowHomeStyle"
+    }
+  },
+  "flex-layout.row#shipping-home": {
+    "children": [
+      "icon#free-shippingCartHome",
+      "rich-text#shipping-home"
+    ],
+    "props": {
+      "blockClass": "freeShipping"
+    }
+  },
+  "flex-layout.row#sliderhome": {
+    "children": [
+      "slider-layout#home"
+    ],
+    "props": {
+      "blockClass": "flexRowMenuHome"
+    }
+  },
+  "icon#free-shippingCartHome": {
+    "props": {
+      "backgroundColor": "red",
+      "color": "#A4C735",
+      "height": 10.67,
+      "lib": "FontAwesome5",
+      "name": "truck",
+      "width": 14.67
+    }
+  },
+  "icon#lupa-de-busqueda": {
+    "props": {
+      "blockClass": "lupaDeBusquedaHeader",
+      "lib": "Ionicons",
+      "name": "search",
+      "size": 24,
+      "variant": "primary"
+    }
+  },
+  "image#jumbo": {
+    "props": {
+      "height": 46,
+      "resizeMode": "stretch",
+      "uri": "https://i.imgur.com/Ix4bVYU.png",
+      "width": 46
+    }
+  },
+  "image#oferta1": {
+    "props": {
+      "resizeMode": "stretch",
+      "uri": "https://i.imgur.com/0e0LKGV.jpg"
+    }
+  },
+  "image#oferta2": {
+    "props": {
+      "resizeMode": "stretch",
+      "uri": "https://i.imgur.com/QINs6xw.jpg"
+    }
+  },
+  "image#oferta3": {
+    "props": {
+      "resizeMode": "stretch",
+      "uri": "https://i.imgur.com/gPfLJes.jpg"
+    }
+  },
+  "info-card#bazar-hogar": {
+    "props": {
+      "blockClass": "infoCardStyle",
+      "callToActionMode": "link",
+      "callToActionUrl": "/search/hogar-y-decoracion",
+      "height": 127,
+      "imageUrl": "https://i.imgur.com/Muo3aeG.png",
+      "isFullModeStyle": false
+    }
+  },
+  "info-card#carnes": {
+    "props": {
+      "blockClass": "infoCardMenuStyle",
+      "callToActionBlockClass": "infoCardMenuStyle",
+      "callToActionMode": "link",
+      "callToActionText": "Carnes",
+      "callToActionUrl": "/search/supermercado/Lacteos-huevos-y-refrigerados/Carnes-frias-y-embutidos",
+      "height": 72,
+      "imageUrl": "https://i.imgur.com/fHlO4ON.png",
+      "isFullModeStyle": false,
+      "textAlignment": "center",
+      "textPosition": "bottom",
+      "width": 72
+    }
+  },
+  "info-card#eco-tank-banner": {
+    "props": {
+      "blockClass": "infoCardStyle",
+      "callToActionMode": "link",
+      "callToActionUrl": "/search/supermercado",
+      "height": 127,
+      "imageUrl": "https://jumbocolombiafood.vteximg.com.br/arquivos/Bnr-responsive-Jumbofertas-60-2und-Productos-alpina-sxh-5-02-2022.jpg?v=637795210295030000",
+      "isFullModeStyle": false,
+      "resizeMode": "stretch"
+    }
+  },
+  "info-card#mundo-saludable": {
+    "props": {
+      "blockClass": "infoCardMenuStyle",
+      "callToActionBlockClass": "infoCardMenuStyle",
+      "callToActionMode": "link",
+      "callToActionText": "Mundo Saludable",
+      "callToActionUrl": "/mundo-saludable",
+      "height": 72,
+      "imageUrl": "https://i.imgur.com/P1Ois4U.png",
+      "isFullModeStyle": false,
+      "textAlignment": "center",
+      "textPosition": "bottom",
+      "width": 72
+    }
+  },
+  "info-card#ofertas": {
+    "props": {
+      "blockClass": "infoCardMenuStyle",
+      "callToActionBlockClass": "infoCardMenuStyle",
+      "callToActionMode": "link",
+      "callToActionText": "Prime",
+      "callToActionUrl": "/prime",
+      "height": 72,
+      "imageUrl": "https://i.imgur.com/JA8RYDI.png",
+      "isFullModeStyle": false,
+      "textAlignment": "center",
+      "textPosition": "bottom",
+      "width": 72
+    }
+  },
+  "info-card#panaderia": {
+    "props": {
+      "blockClass": "infoCardMenuStyle",
+      "callToActionBlockClass": "infoCardMenuStyle",
+      "callToActionMode": "link",
+      "callToActionText": "Panader\u00eda",
+      "callToActionUrl": "/search/supermercado/Panaderia-y-Pasteleria",
+      "height": 72,
+      "imageUrl": "https://i.imgur.com/r6EWceO.png",
+      "isFullModeStyle": false,
+      "textAlignment": "center",
+      "textPosition": "bottom",
+      "width": 72
+    }
+  },
+  "info-card#pescaderia": {
+    "props": {
+      "blockClass": "infoCardMenuStyle",
+      "callToActionBlockClass": "infoCardMenuStyle",
+      "callToActionMode": "link",
+      "callToActionText": "Pescaderia",
+      "callToActionUrl": "/search/supermercado/Pescados-y-Mariscos",
+      "height": 72,
+      "imageUrl": "https://i.imgur.com/9dSSlJs.png",
+      "isFullModeStyle": false,
+      "textAlignment": "center",
+      "textPosition": "bottom",
+      "width": 72
+    }
+  },
+  "info-card#supermercado": {
+    "props": {
+      "blockClass": "infoCardMenuStyle",
+      "callToActionBlockClass": "infoCardMenuStyle",
+      "callToActionMode": "link",
+      "callToActionText": "Supermercado",
+      "callToActionUrl": "/supermercado",
+      "height": 72,
+      "imageUrl": "https://i.imgur.com/VrHSstc.png",
+      "isFullModeStyle": false,
+      "textAlignment": "center",
+      "textPosition": "bottom",
+      "width": 72
+    }
+  },
+  "info-card#supermercadoBanner": {
+    "props": {
+      "blockClass": "infoCardStyle",
+      "callToActionMode": "link",
+      "callToActionUrl": "/supermercado/",
+      "height": 127,
+      "imageUrl": "https://i.imgur.com/0KYBMGM.png",
+      "isFullModeStyle": false
+    }
+  },
+  "info-card#tv-tecnologia": {
+    "props": {
+      "blockClass": "infoCardStyle",
+      "callToActionMode": "link",
+      "callToActionUrl": "/search/tecnologia",
+      "height": 127,
+      "imageUrl": "https://i.imgur.com/qZC2Uua.png",
+      "isFullModeStyle": false
+    }
+  },
+  "info-card#vanish": {
+    "props": {
+      "blockClass": "infoCardStyle",
+      "callToActionMode": "link",
+      "callToActionUrl": "/search/supermercado",
+      "height": 127,
+      "imageUrl": "https://jumbocolombiafood.vteximg.com.br/arquivos/Bnr-responsive-Jumbofertas-60-2und-Panaderia-jugos-congelados-6-02-2022.jpg?v=637794345492400000",
+      "isFullModeStyle": false,
+      "resizeMode": "stretch"
+    }
+  },
+  "list-context.product-list#product-destcados": {
+    "children": [
+      "product-summary.shelf#listHome"
+    ],
+    "props": {
+      "blockClass": "listContextHome",
+      "params": {
+        "department": "supermercado"
+      },
+      "perPage": 9
+    }
+  },
+  "list-context.product-list#product-destcados-2": {
+    "children": [
+      "product-summary.shelf#listHome"
+    ],
+    "props": {
+      "blockClass": "listContextHome",
+      "params": {
+        "collection": "145"
+      },
+      "perPage": 9
+    }
+  },
+  "menu#menu-home": {
+    "children": [
+      "menu-item#home-ofertas",
+      "menu-item#home-supermercado",
+      "menu-item#home-pescaderia",
+      "menu-item#home-carnes",
+      "menu-item#home-mundo-saludable",
+      "menu-item#home-panaderia"
+    ],
+    "props": {
+      "blockClass": "menuHomeStyle"
+    }
+  },
+  "menu-item#home-carnes": {
+    "children": [
+      "info-card#carnes"
+    ]
+  },
+  "menu-item#home-mundo-saludable": {
+    "children": [
+      "info-card#mundo-saludable"
+    ],
+    "props": {
+      "blockClass": "MenuItemStyle",
+      "redirectTo": "/feed"
+    }
+  },
+  "menu-item#home-ofertas": {
+    "children": [
+      "info-card#ofertas"
+    ],
+    "props": {
+      "redirectTo": "/feed"
+    }
+  },
+  "menu-item#home-panaderia": {
+    "children": [
+      "info-card#panaderia"
+    ],
+    "props": {
+      "redirectTo": "/feed"
+    }
+  },
+  "menu-item#home-pescaderia": {
+    "children": [
+      "info-card#pescaderia"
+    ],
+    "props": {
+      "redirectTo": "/feed"
+    }
+  },
+  "menu-item#home-supermercado": {
+    "children": [
+      "info-card#supermercado"
+    ],
+    "props": {
+      "redirectTo": "/feed"
+    }
+  },
+  "product-summary-brand#productbrandhome": {
+    "props": {
+      "blockClass": "productBrandHome"
+    }
+  },
+  "product-summary-image#productimageHome": {
+    "props": {
+      "blockClass": "productImageHome"
+    }
+  },
+  "product-summary-name#productnameHome": {
+    "props": {
+      "blockClass": "productNameHome",
+      "maxCharts": 16,
+      "truncate": true
+    }
+  },
+  "product-summary-price#productprice": {
+    "props": {
+      "blockClass": "productPrice",
+      "deleteDecimals": true
+    }
+  },
+  "product-summary.shelf#listHome": {
+    "children": [
+      "product-summary-image#productimageHome",
+      "flex-layout.col#home-product-tittlecontainer"
+    ],
+    "props": {
+      "blockClass": "listHome",
+      "horizontal": true,
+      "redirectTo": "{link}"
+    }
+  },
+  "rich-text#shipping-home": {
+    "props": {
+      "blockClass": "textShippingHome",
+      "text": "Env\u00edo a Domicilio"
+    }
+  },
+  "rich-text#title-easy": {
+    "props": {
+      "text": "Seleccion\u00f3 easy"
+    }
+  },
+  "rich-text#title-metro": {
+    "props": {
+      "text": "Seleccion\u00f3 metro"
+    }
+  },
+  "rich-text#view-product-tittle-1": {
+    "props": {
+      "blockClass": "techTittles",
+      "text": "Productos destacados"
+    }
+  },
+  "rich-text#view-product-tittle-2": {
+    "props": {
+      "blockClass": "techTittles",
+      "text": "Productos destacados"
+    }
+  },
+  "scroll-view#home": {
+    "children": [
+      "menu#menu-home"
+    ],
+    "props": {
+      "blockClass": "scrollViewMenuHomeContainer",
+      "horizontal": true
+    }
+  },
+  "scroll-view#home-scroll": {
+    "children": [
+      "condition.theme#jumbo-home",
+      "condition.theme#metro-home",
+      "condition.theme#easy-home"
+    ],
+    "props": {
+      "blockClass": "homeScrollView"
+    }
+  },
+  "slider-layout#home": {
+    "children": [
+      "image#oferta1",
+      "image#oferta2",
+      "image#oferta3"
+    ],
+    "props": {
+      "blockClass": "sliderHome",
+      "height": 100
+    }
+  },
+  "store-link#fake-input": {
+    "props": {
+      "blockClass": "fakeInputStyles",
+      "displayMode": "button",
+      "label": "\u00bfQu\u00e9 est\u00e1s buscando?",
+      "url": "/searchTerm"
+    }
+  },
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#header",
+      "scroll-view#home-scroll",
+      "flex-layout.row#FAB"
     ]
   }
 }

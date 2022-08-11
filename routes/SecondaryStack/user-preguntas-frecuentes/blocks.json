@@ -1,7 +1,27 @@
 {
   "store.user-preguntas-frecuentes": {
-    "children": [
+    "blocks": [
       "web-view#preguntasFrecuentes"
     ]
+  },
+  "web-view#preguntasFrecuentes": {
+    "props": {
+      "classes": [
+        "chat-widget",
+        "vtex-store-footer-2-x-footerLayout",
+        "vtex-sticky-layout-0-x-container",
+        ".vtex-store-footer-2-x-footerLayout",
+        "vtex-store-footer-2-x-footerLayout--mobile-footer",
+        "vtex-flex-layout-0-x-flexRow--row-title-main",
+        "vtex-store-footer-2-x-footerLayout",
+        "vtex-store-footer-2-x-footerLayout",
+        "vtex-store-footer-2-x-footerLayout--mobile-footer",
+        "vtex-flex-layout-0-x-flexRow",
+        "vtex-flex-layout-0-x-flexRow--newsletter-mobile",
+        "vtex-store-footer-2-x-footerLayoutSpacer",
+        "flex flex-grow-1"
+      ],
+      "uri": "https://dev--tiendasjumboqaio.myvtex.com/institucional/preguntas-frecuentes"
+    }
   }
 }

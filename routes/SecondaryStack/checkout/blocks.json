@@ -1,7 +1,14 @@
 {
   "store.checkout": {
-    "children": [
+    "blocks": [
       "web-view#checkout"
     ]
+  },
+  "web-view#checkout": {
+    "props": {
+      "checkout": true,
+      "hostname": "production--tiendasjumboqaio.myvtex.com",
+      "js": "jsCheckout"
+    }
   }
 }

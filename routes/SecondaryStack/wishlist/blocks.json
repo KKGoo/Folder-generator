@@ -1,78 +1,161 @@
 {
-  "store.wishlist": {
+  "flex-layout.col#button-wrapper": {
     "children": [
-      {
-        "flex-layout.col#wishlist": {
-          "children": [
+      "store-form.button#add-wishlist-submit"
+    ],
+    "props": {
+      "blockClass": "wishlistSubmitButton"
+    }
+  },
+  "flex-layout.col#description-wishlist": {
+    "children": [
+      "rich-text#name-wishlist",
+      "wishlist-name#wishlistName"
+    ]
+  },
+  "flex-layout.col#icon-swipe": {
+    "children": [
+      "icon#swipe"
+    ],
+    "props": {
+      "blockClass": "wishlistIcon"
+    }
+  },
+  "flex-layout.col#input-wrapper": {
+    "children": [
+      "store-form.input#wishlist-name"
+    ],
+    "props": {
+      "blockClass": "wishlistNameInput"
+    }
+  },
+  "flex-layout.col#wishlist": {
+    "children": [
+      "flex-layout.col#wishlist-list"
+    ],
+    "props": {
+      "blockClass": "cartContainer"
+    }
+  },
+  "flex-layout.col#wishlist-list": {
+    "children": [
+      "wishlist-layout#wishlist"
+    ]
+  },
+  "flex-layout.row#wishlist-form-input": {
+    "children": [
+      "flex-layout.col#input-wrapper",
+      "flex-layout.col#button-wrapper"
+    ],
+    "props": {
+      "blockClass": "storeFormWishlistContainerStyle"
+    }
+  },
+  "flex-layout.row#wishlist-list": {
+    "children": [
+      "flex-layout.col#description-wishlist",
+      "flex-layout.col#icon-swipe"
+    ],
+    "props": {
+      "blockClass": "productList"
+    }
+  },
+  "icon#swipe": {
+    "props": {
+      "color": "#1FA02E",
+      "lib": "FontAwesome5",
+      "name": "angle-double-left",
+      "size": 30
+    }
+  },
+  "rich-text#name-wishlist": {
+    "props": {
+      "blockClass": "productBrand",
+      "text": "Nombre de lista:"
+    }
+  },
+  "store-form.button#add-wishlist-submit": {
+    "props": {
+      "blockClass": "storeFormButtonStyle;customStoreFormButtonStyle",
+      "buttonText": "Crear lista",
+      "variant": "secondary"
+    }
+  },
+  "store-form.customer-add-wishlist#my-wishlist": {
+    "children": [
+      "flex-layout.row#wishlist-form-input"
+    ],
+    "props": {
+      "blockClass": "AddWishlistWrapper",
+      "content": "flex-layout.row#contentModalAddWishlist",
+      "modalType": "continue",
+      "redirectTo": "/wishlist",
+      "schemaValidation": [
+        {
+          "id": "name",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
             {
-              "flex-layout.col#wishlist-list": {
-                "children": [
-                  {
-                    "wishlist-layout#wishlist": {
-                      "children": [
-                        {
-                          "wishlist.shelf#wishlist": {
-                            "children": [
-                              {
-                                "flex-layout.row#wishlist-list": {
-                                  "children": [
-                                    {
-                                      "flex-layout.col#description-wishlist": {
-                                        "children": [
-                                          "rich-text#name-wishlist",
-                                          "wishlist-name#wishlistName"
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "flex-layout.col#icon-swipe": {
-                                        "children": [
-                                          "icon#swipe"
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "store-form.customer-add-wishlist#my-wishlist": {
-                            "children": [
-                              {
-                                "flex-layout.row#wishlist-form-input": {
-                                  "children": [
-                                    {
-                                      "flex-layout.col#input-wrapper": {
-                                        "children": [
-                                          "store-form.input#wishlist-name"
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "flex-layout.col#button-wrapper": {
-                                        "children": [
-                                          "store-form.button#add-wishlist-submit"
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        "store-link#wishlist-rich-text-product"
-                      ]
-                    }
-                  }
-                ]
-              }
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
             }
           ]
         }
-      }
+      ]
+    }
+  },
+  "store-form.input#wishlist-name": {
+    "props": {
+      "blockClass": "storeFormInputStyle;customWishlistAddInputStyle",
+      "maxLength": 20,
+      "name": "name",
+      "placeholder": "Ponle nombre a tu lista"
+    }
+  },
+  "store-link#wishlist-rich-text-product": {
+    "props": {
+      "blockClass": "addProductToWishList",
+      "displayMode": "button",
+      "label": "Ir a Agregar Productos",
+      "url": "/searchTerm",
+      "variant": "primary"
+    }
+  },
+  "store.wishlist": {
+    "blocks": [
+      "flex-layout.col#wishlist"
     ]
+  },
+  "wishlist-layout#wishlist": {
+    "children": [
+      "wishlist.shelf#wishlist",
+      "store-form.customer-add-wishlist#my-wishlist",
+      "store-link#wishlist-rich-text-product"
+    ],
+    "props": {
+      "blockClass": "cartLayoutClass"
+    }
+  },
+  "wishlist-name#wishlistName": {
+    "props": {
+      "blockClass": "productName"
+    }
+  },
+  "wishlist.shelf#wishlist": {
+    "children": [
+      "flex-layout.row#wishlist-list"
+    ],
+    "props": {
+      "blockClass": "productShelf",
+      "columns": 1,
+      "content": "flex-layout.row#contentModalRemoveWishlistSuccess",
+      "deleteConfirmationContent": "flex-layout.row#contentModalRemoveWishlist",
+      "listEmptyComponent": "flex-layout.row#emptyWishlist",
+      "modalType": "continue",
+      "redirectTo": "/wishlist/detail/{id}"
+    }
   }
 }

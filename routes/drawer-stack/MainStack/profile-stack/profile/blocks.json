@@ -1,262 +1,512 @@
 {
-  "store.profile": {
+  "custom.prime-profile": {
+    "props": {
+      "itemSlot": "flex-layout.row#prime-profile"
+    }
+  },
+  "flex-layout.col#edit-profile-wrapper": {
     "children": [
-      {
-        "scroll-view#profile": {
-          "children": [
-            {
-              "my-account#profile": {
-                "children": [
-                  {
-                    "flex-layout.row#welcome-profile": {
-                      "children": [
-                        "icon#user-circle",
-                        {
-                          "flex-layout.col#welcome-profile-text": {
-                            "children": [
-                              "my-account.fullname#profile",
-                              "my-account.email#profile"
-                            ]
-                          }
-                        },
-                        {
-                          "flex-layout.col#edit-profile-wrapper": {
-                            "children": [
-                              "store-link#to-edit-profile"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  "custom.prime-profile",
-                  {
-                    "flex-layout.col#profile-options": {
-                      "children": [
-                        {
-                          "flex-layout.row#profile": {
-                            "children": [
-                              {
-                                "menu#menu-profile": {
-                                  "children": [
-                                    {
-                                      "menu-item#profile-item-orders": {
-                                        "children": [
-                                          {
-                                            "flex-layout.row#orders": {
-                                              "children": [
-                                                {
-                                                  "flex-layout.row#orders-text": {
-                                                    "children": [
-                                                      "icon#basket-outline",
-                                                      "rich-text#orders"
-                                                    ]
-                                                  }
-                                                },
-                                                "icon#chevron-forward"
-                                              ]
-                                            }
-                                          }
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "menu-item#profile-item-location": {
-                                        "children": [
-                                          {
-                                            "flex-layout.row#location": {
-                                              "children": [
-                                                {
-                                                  "flex-layout.row#location-text": {
-                                                    "children": [
-                                                      "icon#location-outline",
-                                                      "rich-text#location"
-                                                    ]
-                                                  }
-                                                },
-                                                "icon#chevron-forward"
-                                              ]
-                                            }
-                                          }
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "menu-item#profile-item-cards": {
-                                        "children": [
-                                          {
-                                            "flex-layout.row#cards": {
-                                              "children": [
-                                                {
-                                                  "flex-layout.row#cards-text": {
-                                                    "children": [
-                                                      "icon#card-outline",
-                                                      "rich-text#cards"
-                                                    ]
-                                                  }
-                                                },
-                                                "icon#chevron-forward"
-                                              ]
-                                            }
-                                          }
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "menu-item#profile-item-gift": {
-                                        "children": [
-                                          {
-                                            "flex-layout.row#gift": {
-                                              "children": [
-                                                {
-                                                  "flex-layout.row#gift-text": {
-                                                    "children": [
-                                                      "icon#gift-outline",
-                                                      "rich-text#gift"
-                                                    ]
-                                                  }
-                                                },
-                                                "icon#chevron-forward"
-                                              ]
-                                            }
-                                          }
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "menu-item#profile-item-wishlist": {
-                                        "children": [
-                                          {
-                                            "flex-layout.row#wishlist": {
-                                              "children": [
-                                                {
-                                                  "flex-layout.row#wishlist-text": {
-                                                    "children": [
-                                                      "icon#wishlist-outline",
-                                                      "rich-text#wishlist"
-                                                    ]
-                                                  }
-                                                },
-                                                "icon#chevron-forward"
-                                              ]
-                                            }
-                                          }
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "menu-item#profile-item-discounts": {
-                                        "children": [
-                                          {
-                                            "flex-layout.row#discounts": {
-                                              "children": [
-                                                {
-                                                  "flex-layout.row#discounts-text": {
-                                                    "children": [
-                                                      "icon#pricetag-outline",
-                                                      "rich-text#discounts"
-                                                    ]
-                                                  }
-                                                },
-                                                "icon#chevron-forward"
-                                              ]
-                                            }
-                                          }
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "menu-item#profile-item-services": {
-                                        "children": [
-                                          {
-                                            "flex-layout.row#services": {
-                                              "children": [
-                                                {
-                                                  "flex-layout.row#services-text": {
-                                                    "children": [
-                                                      "icon#pricetag-gears",
-                                                      "rich-text#services"
-                                                    ]
-                                                  }
-                                                },
-                                                "icon#chevron-forward"
-                                              ]
-                                            }
-                                          }
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "menu-item#profile-item-fidelity": {
-                                        "children": [
-                                          {
-                                            "flex-layout.row#fidelity": {
-                                              "children": [
-                                                {
-                                                  "flex-layout.row#fidelity-text": {
-                                                    "children": [
-                                                      "icon#fidelity",
-                                                      "rich-text#fidelity"
-                                                    ]
-                                                  }
-                                                },
-                                                "icon#chevron-forward"
-                                              ]
-                                            }
-                                          }
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "menu-item#profile-item-help": {
-                                        "children": [
-                                          {
-                                            "flex-layout.row#help": {
-                                              "children": [
-                                                {
-                                                  "flex-layout.row#help-text": {
-                                                    "children": [
-                                                      "icon#help-circle-outline",
-                                                      "rich-text#help"
-                                                    ]
-                                                  }
-                                                },
-                                                "icon#chevron-forward"
-                                              ]
-                                            }
-                                          }
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "flex-layout.row#log-out": {
-                      "children": [
-                        {
-                          "signout#log-out": {
-                            "children": [
-                              "icon#power-outline",
-                              "rich-text#log-out"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
+      "store-link#to-edit-profile"
+    ],
+    "props": {
+      "blockClass": "colEditProfile"
+    }
+  },
+  "flex-layout.col#profile-options": {
+    "children": [
+      "flex-layout.row#profile"
+    ]
+  },
+  "flex-layout.col#welcome-profile-text": {
+    "children": [
+      "my-account.fullname#profile",
+      "my-account.email#profile"
+    ],
+    "props": {
+      "blockClass": "welcomeProfileTextContianer"
+    }
+  },
+  "flex-layout.row#cards": {
+    "children": [
+      "flex-layout.row#cards-text",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "categoriesStyles"
+    }
+  },
+  "flex-layout.row#cards-text": {
+    "children": [
+      "icon#card-outline",
+      "rich-text#cards"
+    ],
+    "props": {
+      "blockClass": "categoriesStylesText"
+    }
+  },
+  "flex-layout.row#discounts": {
+    "children": [
+      "flex-layout.row#discounts-text",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "categoriesStyles"
+    }
+  },
+  "flex-layout.row#discounts-text": {
+    "children": [
+      "icon#pricetag-outline",
+      "rich-text#discounts"
+    ],
+    "props": {
+      "blockClass": "categoriesStylesText"
+    }
+  },
+  "flex-layout.row#fidelity": {
+    "children": [
+      "flex-layout.row#fidelity-text",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "categoriesStyles"
+    }
+  },
+  "flex-layout.row#fidelity-text": {
+    "children": [
+      "icon#fidelity",
+      "rich-text#fidelity"
+    ],
+    "props": {
+      "blockClass": "categoriesStylesText"
+    }
+  },
+  "flex-layout.row#gift": {
+    "children": [
+      "flex-layout.row#gift-text",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "categoriesStyles"
+    }
+  },
+  "flex-layout.row#gift-text": {
+    "children": [
+      "icon#gift-outline",
+      "rich-text#gift"
+    ],
+    "props": {
+      "blockClass": "categoriesStylesText"
+    }
+  },
+  "flex-layout.row#help": {
+    "children": [
+      "flex-layout.row#help-text",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "categoriesStyles"
+    }
+  },
+  "flex-layout.row#help-text": {
+    "children": [
+      "icon#help-circle-outline",
+      "rich-text#help"
+    ],
+    "props": {
+      "blockClass": "categoriesStylesText"
+    }
+  },
+  "flex-layout.row#location": {
+    "children": [
+      "flex-layout.row#location-text",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "categoriesStyles"
+    }
+  },
+  "flex-layout.row#location-text": {
+    "children": [
+      "icon#location-outline",
+      "rich-text#location"
+    ],
+    "props": {
+      "blockClass": "categoriesStylesText"
+    }
+  },
+  "flex-layout.row#log-out": {
+    "children": [
+      "signout#log-out"
+    ],
+    "props": {
+      "blockClass": "logOutContainer"
+    }
+  },
+  "flex-layout.row#orders": {
+    "children": [
+      "flex-layout.row#orders-text",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "categoriesStyles"
+    }
+  },
+  "flex-layout.row#orders-text": {
+    "children": [
+      "icon#basket-outline",
+      "rich-text#orders"
+    ],
+    "props": {
+      "blockClass": "categoriesStylesText"
+    }
+  },
+  "flex-layout.row#profile": {
+    "children": [
+      "menu#menu-profile"
+    ],
+    "props": {
+      "blockClass": "categoriesHelpRowStyles"
+    }
+  },
+  "flex-layout.row#services": {
+    "children": [
+      "flex-layout.row#services-text",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "categoriesStyles"
+    }
+  },
+  "flex-layout.row#services-text": {
+    "children": [
+      "icon#pricetag-gears",
+      "rich-text#services"
+    ],
+    "props": {
+      "blockClass": "categoriesStylesText"
+    }
+  },
+  "flex-layout.row#welcome-profile": {
+    "children": [
+      "icon#user-circle",
+      "flex-layout.col#welcome-profile-text",
+      "flex-layout.col#edit-profile-wrapper"
+    ],
+    "props": {
+      "blockClass": "welcomeContainer"
+    }
+  },
+  "flex-layout.row#wishlist": {
+    "children": [
+      "flex-layout.row#wishlist-text",
+      "icon#chevron-forward"
+    ],
+    "props": {
+      "blockClass": "categoriesStyles"
+    }
+  },
+  "flex-layout.row#wishlist-text": {
+    "children": [
+      "icon#wishlist-outline",
+      "rich-text#wishlist"
+    ],
+    "props": {
+      "blockClass": "categoriesStylesText"
+    }
+  },
+  "icon#basket-outline": {
+    "props": {
+      "color": "black",
+      "lib": "Ionicons",
+      "name": "basket-outline",
+      "size": 30
+    }
+  },
+  "icon#card-outline": {
+    "props": {
+      "color": "black",
+      "lib": "Ionicons",
+      "name": "card-outline",
+      "size": 30
+    }
+  },
+  "icon#chevron-forward": {
+    "props": {
+      "lib": "Ionicons",
+      "name": "chevron-forward-outline",
+      "size": 30
+    }
+  },
+  "icon#fidelity": {
+    "props": {
+      "color": "black",
+      "lib": "Ionicons",
+      "name": "md-heart-circle-outline",
+      "size": 30
+    }
+  },
+  "icon#gift-outline": {
+    "props": {
+      "color": "black",
+      "lib": "MaterialIcons",
+      "name": "redeem",
+      "size": 30
+    }
+  },
+  "icon#help-circle-outline": {
+    "props": {
+      "color": "black",
+      "lib": "Ionicons",
+      "name": "help-circle-outline",
+      "size": 30
+    }
+  },
+  "icon#location-outline": {
+    "props": {
+      "color": "black",
+      "lib": "Ionicons",
+      "name": "location-outline",
+      "size": 30
+    }
+  },
+  "icon#power-outline": {
+    "props": {
+      "lib": "Ionicons",
+      "name": "power-outline",
+      "size": 30
+    }
+  },
+  "icon#pricetag-gears": {
+    "props": {
+      "color": "black",
+      "lib": "Ionicons",
+      "name": "people",
+      "size": 30
+    }
+  },
+  "icon#pricetag-outline": {
+    "props": {
+      "color": "black",
+      "lib": "Ionicons",
+      "name": "pricetag-outline",
+      "size": 30
+    }
+  },
+  "icon#user-circle": {
+    "props": {
+      "lib": "FontAwesome5",
+      "name": "user-circle",
+      "size": 46
+    }
+  },
+  "icon#wishlist-outline": {
+    "props": {
+      "color": "black",
+      "lib": "MaterialIcons",
+      "name": "playlist-add",
+      "size": 30
+    }
+  },
+  "menu#menu-profile": {
+    "children": [
+      "menu-item#profile-item-orders",
+      "menu-item#profile-item-location",
+      "menu-item#profile-item-cards",
+      "menu-item#profile-item-gift",
+      "menu-item#profile-item-wishlist",
+      "menu-item#profile-item-discounts",
+      "menu-item#profile-item-services",
+      "menu-item#profile-item-fidelity",
+      "menu-item#profile-item-help"
+    ],
+    "props": {
+      "blockClass": "menuStyle"
+    }
+  },
+  "menu-item#profile-item-cards": {
+    "children": [
+      "flex-layout.row#cards"
+    ],
+    "props": {
+      "redirectTo": "/mis-tarjetas"
+    }
+  },
+  "menu-item#profile-item-discounts": {
+    "children": [
+      "flex-layout.row#discounts"
+    ],
+    "props": {
+      "redirectTo": "/mis-descuentos"
+    }
+  },
+  "menu-item#profile-item-fidelity": {
+    "children": [
+      "flex-layout.row#fidelity"
+    ],
+    "props": {
+      "external_uri": true,
+      "redirect": "https://www.puntoscencosud.co/#modal-registrarse"
+    }
+  },
+  "menu-item#profile-item-gift": {
+    "children": [
+      "flex-layout.row#gift"
+    ],
+    "props": {
+      "redirectTo": "/tarjetas-regalo"
+    }
+  },
+  "menu-item#profile-item-help": {
+    "children": [
+      "flex-layout.row#help"
+    ],
+    "props": {
+      "redirectTo": "/centro-de-ayuda"
+    }
+  },
+  "menu-item#profile-item-location": {
+    "children": [
+      "flex-layout.row#location"
+    ],
+    "props": {
+      "redirectTo": "/user-address"
+    }
+  },
+  "menu-item#profile-item-orders": {
+    "children": [
+      "flex-layout.row#orders"
+    ],
+    "props": {
+      "redirectTo": "/MyOrders"
+    }
+  },
+  "menu-item#profile-item-services": {
+    "children": [
+      "flex-layout.row#services"
+    ],
+    "props": {
+      "redirectTo": "/user-services"
+    }
+  },
+  "menu-item#profile-item-wishlist": {
+    "children": [
+      "flex-layout.row#wishlist"
+    ],
+    "props": {
+      "redirectTo": "/wishlist"
+    }
+  },
+  "my-account#profile": {
+    "children": [
+      "flex-layout.row#welcome-profile",
+      "custom.prime-profile",
+      "flex-layout.col#profile-options",
+      "flex-layout.row#log-out"
+    ]
+  },
+  "my-account.email#profile": {
+    "props": {
+      "blockClass": "TextEmail"
+    }
+  },
+  "my-account.fullname#profile": {
+    "props": {
+      "blockClass": "TextName"
+    }
+  },
+  "rich-text#cards": {
+    "props": {
+      "blockClass": "itemMenuTextLogo",
+      "text": "Mis tarjetas"
+    }
+  },
+  "rich-text#discounts": {
+    "props": {
+      "blockClass": "itemMenuTextLogo",
+      "text": "Mis descuentos"
+    }
+  },
+  "rich-text#fidelity": {
+    "props": {
+      "blockClass": "itemMenuTextLogo",
+      "text": "Fidelidad"
+    }
+  },
+  "rich-text#gift": {
+    "props": {
+      "blockClass": "itemMenuTextLogo",
+      "text": "Tarjetas regalo"
+    }
+  },
+  "rich-text#help": {
+    "props": {
+      "blockClass": "itemMenuTextLogo",
+      "text": "Centro de ayuda"
+    }
+  },
+  "rich-text#location": {
+    "props": {
+      "blockClass": "itemMenuTextLogo",
+      "text": "Mis direcciones"
+    }
+  },
+  "rich-text#log-out": {
+    "props": {
+      "blockClass": "itemLogOut",
+      "text": "Cerrar sesi\u00f3n"
+    }
+  },
+  "rich-text#orders": {
+    "props": {
+      "blockClass": "itemMenuTextLogo",
+      "text": "Mis pedidos"
+    }
+  },
+  "rich-text#services": {
+    "props": {
+      "blockClass": "itemMenuTextLogo",
+      "text": "Servicios"
+    }
+  },
+  "rich-text#wishlist": {
+    "props": {
+      "blockClass": "itemMenuTextLogo",
+      "text": "Mis listas"
+    }
+  },
+  "scroll-view#profile": {
+    "children": [
+      "my-account#profile"
+    ],
+    "props": {
+      "blockClass": "scrollViewMenuCategoryContainer"
+    }
+  },
+  "signout#log-out": {
+    "children": [
+      "icon#power-outline",
+      "rich-text#log-out"
+    ],
+    "props": {
+      "blockClass": "signoutButtonStyle",
+      "content": "flex-layout.row#contentModalSignOut",
+      "modalType": "acceptCancel",
+      "mode": "onChange",
+      "redirectTo": "/auth/login"
+    }
+  },
+  "store-link#to-edit-profile": {
+    "props": {
+      "blockClass": "editProfileButtonStyles",
+      "displayMode": "button",
+      "label": "Editar",
+      "leftIcon": "icon#edit-profile-button",
+      "url": "/account/profile/edit"
+    }
+  },
+  "store.profile": {
+    "blocks": [
+      "scroll-view#profile"
     ]
   }
 }

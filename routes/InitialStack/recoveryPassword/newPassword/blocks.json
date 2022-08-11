@@ -1,39 +1,256 @@
 {
-  "store.newPassword": {
+  "icon#alert": {
+    "props": {
+      "color": "red",
+      "lib": "Ionicons",
+      "name": "alert-circle-outline",
+      "size": 25
+    }
+  },
+  "resend-code-link#otpValidationLink": {
+    "props": {
+      "blockClass": "signInLink",
+      "displayMode": "anchor",
+      "label": "**\u00bfNo has recibido el c\u00f3digo?**",
+      "modalDescription": "El enlace de verificaci\u00f3n se ha enviado de manera exitosa a tu correo: {email} ",
+      "modalTitle": "Enviado",
+      "modalType": "continue"
+    }
+  },
+  "rich-text#passwordRules": {
+    "props": {
+      "blockClass": "passwordRulesStyles",
+      "text": "Debe contar con:\n\n- M\u00ednimo de 8 caracteres.\n- 1 n\u00famero.\n- 1 letra min\u00fascula.\n- 1 letra may\u00fascula.\n"
+    }
+  },
+  "rich-text#text-new-password": {
+    "props": {
+      "blockClass": "titleSignup",
+      "text": "Escribe tu nueva contrase\u00f1a:"
+    }
+  },
+  "scroll-view#new-password": {
     "children": [
-      {
-        "scroll-view#new-password": {
-          "children": [
+      "store-form.new-password#newPassword"
+    ],
+    "props": {
+      "blockClass": "newPasswordScrollViewContainer"
+    }
+  },
+  "store-form.button#newPassword": {
+    "props": {
+      "blockClass": "storeFormButtonStyle",
+      "buttonText": "Confirmar",
+      "variant": "secondary"
+    }
+  },
+  "store-form.input#confirmPassword": {
+    "children": [
+      "icon#alert",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isPassword": true,
+      "isRequired": true,
+      "label": "Repita su nueva contrase\u00f1a",
+      "rightIcon": true,
+      "showPassword": true
+    }
+  },
+  "store-form.input#new-password-code": {
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isEmail": true,
+      "isRequired": true,
+      "keyboardType": "numeric",
+      "label": "C\u00f3digo",
+      "name": "code",
+      "rightIcon": true
+    }
+  },
+  "store-form.input#newPasswordRenew": {
+    "children": [
+      "icon#alert",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "editable": true,
+      "isPassword": true,
+      "isRequired": true,
+      "label": "Nueva contrase\u00f1a",
+      "name": "newPassword",
+      "rightIcon": true,
+      "showPassword": true
+    }
+  },
+  "store-form.new-password#newPassword": {
+    "children": [
+      "rich-text#text-new-password",
+      "store-form.input#new-password-code",
+      "store-form.input#newPasswordRenew",
+      "store-form.input#confirmPassword",
+      "rich-text#passwordRules",
+      "store-form.button#newPassword",
+      "resend-code-link#otpValidationLink"
+    ],
+    "props": {
+      "blockClass": "newPasswordFormEmailContainerStyles",
+      "content": "flex-layout.row#contentModalSuccessNewPassword",
+      "contentError": "flex-layout.row#contentModalNewPasswordError",
+      "modalType": "continue",
+      "mode": "onChange",
+      "onSuccessRedirectTo": "/auth/login",
+      "schemaValidation": [
+        {
+          "id": "code",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
             {
-              "store-form.new-password#newPassword": {
-                "children": [
-                  "rich-text#text-new-password",
-                  "store-form.input#new-password-code",
-                  {
-                    "store-form.input#newPasswordRenew": {
-                      "children": [
-                        "icon#alert",
-                        "icon#alert"
-                      ]
-                    }
-                  },
-                  {
-                    "store-form.input#confirmPassword": {
-                      "children": [
-                        "icon#alert",
-                        "icon#alert"
-                      ]
-                    }
-                  },
-                  "rich-text#passwordRules",
-                  "store-form.button#newPassword",
-                  "resend-code-link#otpValidationLink"
-                ]
-              }
+              "params": [
+                "El c\u00f3digo que ha ingresado es incorrecto"
+              ],
+              "type": "required"
+            },
+            {
+              "params": [
+                6,
+                "El c\u00f3digo debe ser de 6 d\u00edgitos"
+              ],
+              "type": "min"
+            },
+            {
+              "params": [
+                6,
+                "El c\u00f3digo debe ser de 6 d\u00edgitos"
+              ],
+              "type": "max"
+            },
+            {
+              "params": [
+                {},
+                "Debe ser solo d\u00edgitos"
+              ],
+              "type": "matches"
+            }
+          ]
+        },
+        {
+          "id": "newPassword",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                8,
+                "La contrase\u00f1a no puede ser menor a 8 caracteres"
+              ],
+              "type": "min"
+            },
+            {
+              "params": [
+                50,
+                "La contrase\u00f1a no puede ser mayor a 50 caracteres"
+              ],
+              "type": "max"
+            },
+            {
+              "params": [
+                {},
+                "Debe contener al menos un numero"
+              ],
+              "type": "matches"
+            },
+            {
+              "params": [
+                {},
+                "Debe contener al menos una letra minuscula"
+              ],
+              "type": "matches"
+            },
+            {
+              "params": [
+                {},
+                "Debe contener al menos una letra mayuscula"
+              ],
+              "type": "matches"
+            },
+            {
+              "params": [
+                "La contrase\u00f1a es requerida"
+              ],
+              "type": "required"
+            }
+          ]
+        },
+        {
+          "id": "confirmPassword",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                8,
+                "La contrase\u00f1a no puede ser menor a 8 caracteres"
+              ],
+              "type": "min"
+            },
+            {
+              "params": [
+                50,
+                "La contrase\u00f1a no puede ser mayor a 50 caracteres"
+              ],
+              "type": "max"
+            },
+            {
+              "params": [
+                {},
+                "Debe contener al menos un numero"
+              ],
+              "type": "matches"
+            },
+            {
+              "params": [
+                {},
+                "Debe contener al menos una letra minuscula"
+              ],
+              "type": "matches"
+            },
+            {
+              "params": [
+                {},
+                "Debe contener al menos una letra mayuscula"
+              ],
+              "type": "matches"
+            },
+            {
+              "params": [
+                "La contrase\u00f1a es requerida"
+              ],
+              "type": "required"
+            },
+            {
+              "params": [
+                {
+                  "params": [
+                    "newPassword"
+                  ],
+                  "type": "ref"
+                },
+                "Las contrase\u00f1as deben coincidir por completo"
+              ],
+              "type": "oneOf"
             }
           ]
         }
-      }
+      ]
+    }
+  },
+  "store.newPassword": {
+    "blocks": [
+      "scroll-view#new-password"
     ]
   }
 }

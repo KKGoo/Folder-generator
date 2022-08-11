@@ -1,32 +1,130 @@
 {
-  "store.add-cards": {
+  "cardholder-input#cardholder": {
+    "props": {
+      "blockClass": "storeFormAddressInputStyle",
+      "name": "cardholder",
+      "placeholder": "JOHN DOE"
+    }
+  },
+  "credit-card#add-card": {
+    "props": {
+      "blockClass": "creditCard"
+    }
+  },
+  "credit-card-group#add-cart": {
     "children": [
-      {
-        "scroll-view#add-cards": {
-          "children": [
+      "credit-card#add-card",
+      "rich-text#num-tarjeta",
+      "number-card-input#num-tarjeta",
+      "rich-text#cardholder",
+      "cardholder-input#cardholder",
+      "rich-text#duedate",
+      "due-date-input#duedate",
+      "store-form.button#add-card-submit"
+    ]
+  },
+  "due-date-input#duedate": {
+    "props": {
+      "blockClass": "storeFormAddressInputStyle",
+      "name": "due-date",
+      "placeholder": "MM/YY"
+    }
+  },
+  "number-card-input#num-tarjeta": {
+    "props": {
+      "blockClass": "storeFormAddressInputStyle",
+      "name": "card-number",
+      "placeholder": "0000 0000 0000 0000"
+    }
+  },
+  "rich-text#cardholder": {
+    "props": {
+      "blockClass": "titleLoginWithCodeEmail",
+      "text": "Nombre del Titular"
+    }
+  },
+  "rich-text#duedate": {
+    "props": {
+      "blockClass": "titleLoginWithCodeEmail",
+      "text": "Mes y A\u00f1o de Vencimiento"
+    }
+  },
+  "rich-text#num-tarjeta": {
+    "props": {
+      "blockClass": "titleLoginWithCodeEmail",
+      "text": "N\u00famero de Tarjeta"
+    }
+  },
+  "scroll-view#add-cards": {
+    "children": [
+      "store-form.customer-add-cards#my-address"
+    ],
+    "props": {
+      "blockClass": "scrollAddAddress"
+    }
+  },
+  "store-form.button#add-card-submit": {
+    "props": {
+      "blockClass": "storeFormButtonStyle",
+      "buttonText": "Agregar Tarjeta",
+      "variant": "secondary"
+    }
+  },
+  "store-form.customer-add-cards#my-address": {
+    "children": [
+      "credit-card-group#add-cart"
+    ],
+    "props": {
+      "blockClass": "AddAddressWrapper",
+      "content": "flex-layout.row#contentModalAddAddress",
+      "modalType": "continue",
+      "redirectTo": "/user-address",
+      "schemaValidation": [
+        {
+          "id": "card-number",
+          "type": "text",
+          "validationType": "object",
+          "validations": [
             {
-              "store-form.customer-add-cards#my-address": {
-                "children": [
-                  {
-                    "credit-card-group#add-cart": {
-                      "children": [
-                        "credit-card#add-card",
-                        "rich-text#num-tarjeta",
-                        "number-card-input#num-tarjeta",
-                        "rich-text#cardholder",
-                        "cardholder-input#cardholder",
-                        "rich-text#duedate",
-                        "due-date-input#duedate",
-                        "store-form.button#add-card-submit"
-                      ]
-                    }
-                  }
-                ]
-              }
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            }
+          ]
+        },
+        {
+          "id": "cardholder",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            }
+          ]
+        },
+        {
+          "id": "duedate",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
             }
           ]
         }
-      }
+      ]
+    }
+  },
+  "store.add-cards": {
+    "blocks": [
+      "scroll-view#add-cards"
     ]
   }
 }

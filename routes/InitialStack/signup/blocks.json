@@ -1,93 +1,406 @@
 {
-  "store.signup": {
+  "flex-layout.col#id": {
     "children": [
-      {
-        "scroll-view#signup": {
-          "children": [
+      "store-form.input#id"
+    ],
+    "props": {
+      "blockClass": "cartContainer"
+    }
+  },
+  "flex-layout.col#id-type": {
+    "children": [
+      "store-form.select#id-type"
+    ],
+    "props": {
+      "blockClass": "ProfileContainer"
+    }
+  },
+  "flex-layout.row#document": {
+    "children": [
+      "flex-layout.col#id-type",
+      "flex-layout.col#id"
+    ],
+    "props": {
+      "blockClass": "flexRowDocumentStyles"
+    }
+  },
+  "flex-layout.row#first-term": {
+    "children": [
+      "switch-component#accept-conditions",
+      "store-link#linkToConditions"
+    ],
+    "props": {
+      "blockClass": "flexRowDocumentStyles"
+    }
+  },
+  "flex-layout.row#rowLinkToLogInSreenSignIn": {
+    "children": [
+      "store-link#signIn"
+    ],
+    "props": {
+      "blockClass": "rowLinkToLogInSreenSignIn"
+    }
+  },
+  "icon#alert": {
+    "props": {
+      "color": "red",
+      "lib": "Ionicons",
+      "name": "alert-circle-outline",
+      "size": 25
+    }
+  },
+  "icon#calendar": {
+    "props": {
+      "color": "#1FA02E",
+      "lib": "Ionicons",
+      "name": "calendar-outline",
+      "size": 25
+    }
+  },
+  "icon#pass": {
+    "props": {
+      "color": "#565656",
+      "lib": "Ionicons",
+      "name": "key-outline",
+      "size": 30
+    }
+  },
+  "rich-text#text-signup": {
+    "props": {
+      "blockClass": "titleSignup",
+      "text": "Completa tus datos para registrarte:"
+    }
+  },
+  "scroll-view#signup": {
+    "children": [
+      "store-form.update-profile#update-profile-signup"
+    ],
+    "props": {
+      "blockClass": "signupFormEmail"
+    }
+  },
+  "store-form.button#submit-profile": {
+    "props": {
+      "blockClass": "storeFormButtonStyle",
+      "buttonText": "Confirmar",
+      "variant": "secondary"
+    }
+  },
+  "store-form.date-picker#dateOfBirth": {
+    "children": [
+      "icon#calendar"
+    ],
+    "props": {
+      "blockClass": "storeFormDatePicker",
+      "isRequired": true,
+      "label": "Fecha de nacimiento",
+      "name": "birthDate",
+      "variant": "secondary"
+    }
+  },
+  "store-form.input#cellPhone": {
+    "children": [
+      "icon#pass",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isRequired": true,
+      "keyboardType": "numeric",
+      "label": "Celular",
+      "name": "cellPhone",
+      "rightIcon": true
+    }
+  },
+  "store-form.input#firstName": {
+    "children": [
+      "icon#pass",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isRequired": true,
+      "label": "Nombre",
+      "rightIcon": true,
+      "schemaValidation": {}
+    }
+  },
+  "store-form.input#id": {
+    "children": [
+      "icon#alert",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "experiment",
+      "isRequired": true,
+      "label": "N\u00famero de documento",
+      "name": "document",
+      "rightIcon": true,
+      "valueType": "number"
+    }
+  },
+  "store-form.input#lastName": {
+    "children": [
+      "icon#pass",
+      "icon#alert"
+    ],
+    "props": {
+      "blockClass": "storeFormInputStyle",
+      "isRequired": true,
+      "label": "Apellido",
+      "rightIcon": true
+    }
+  },
+  "store-form.select#id-type": {
+    "props": {
+      "blockClass": "storeFormSelectStyle",
+      "defaultText": {
+        "label": "C.C",
+        "value": "cedulaCOL"
+      },
+      "iconDisable": "icon#selectIcon",
+      "iconPosition": "right",
+      "label": "select",
+      "name": "documentType",
+      "options": [
+        {
+          "label": "C.C",
+          "value": "cedulaCOL"
+        },
+        {
+          "label": "C.E",
+          "value": "cedulaEXTRANJERO"
+        },
+        {
+          "label": "Pasaporte",
+          "value": "pasaporte"
+        }
+      ]
+    }
+  },
+  "store-form.update-profile#update-profile-signup": {
+    "children": [
+      "rich-text#text-signup",
+      "store-form.input#firstName",
+      "store-form.input#lastName",
+      "flex-layout.row#document",
+      "store-form.date-picker#dateOfBirth",
+      "store-form.input#cellPhone",
+      "flex-layout.row#first-term",
+      "store-form.button#submit-profile"
+    ],
+    "props": {
+      "blockClass": "storeFormSignup",
+      "content": "flex-layout.row#contentModalSignupProfile",
+      "contentError": "flex-layout.row#contentModalUpdateError",
+      "modalType": "continue",
+      "mode": "onChange",
+      "redirectTo": "/feed",
+      "revalidateSignIn": true,
+      "schemaValidation": [
+        {
+          "id": "firstName",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
             {
-              "store-form.update-profile#update-profile-signup": {
-                "children": [
-                  "rich-text#text-signup",
-                  {
-                    "store-form.input#firstName": {
-                      "children": [
-                        "icon#pass",
-                        "icon#alert"
-                      ]
-                    }
-                  },
-                  {
-                    "store-form.input#lastName": {
-                      "children": [
-                        "icon#pass",
-                        "icon#alert"
-                      ]
-                    }
-                  },
-                  {
-                    "flex-layout.row#document": {
-                      "children": [
-                        {
-                          "flex-layout.col#id-type": {
-                            "children": [
-                              "store-form.select#id-type"
-                            ]
-                          }
-                        },
-                        {
-                          "flex-layout.col#id": {
-                            "children": [
-                              {
-                                "store-form.input#id": {
-                                  "children": [
-                                    "icon#alert",
-                                    "icon#alert"
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "store-form.date-picker#dateOfBirth": {
-                      "children": [
-                        "icon#calendar"
-                      ]
-                    }
-                  },
-                  {
-                    "store-form.input#cellPhone": {
-                      "children": [
-                        "icon#pass",
-                        "icon#alert"
-                      ]
-                    }
-                  },
-                  {
-                    "flex-layout.row#first-term": {
-                      "children": [
-                        "switch-component#accept-conditions",
-                        "store-link#linkToConditions"
-                      ]
-                    }
-                  },
-                  "store-form.button#submit-profile"
-                ]
-              }
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            },
+            {
+              "params": [
+                32,
+                "El nombre no puede ser mayor a 50 caracteres"
+              ],
+              "type": "max"
+            },
+            {
+              "params": [
+                {},
+                "El nombre solo puede contener letras"
+              ],
+              "type": "matches"
+            }
+          ]
+        },
+        {
+          "id": "lastName",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            },
+            {
+              "params": [
+                32,
+                "El apellido no puede ser mayor a 50 caracteres"
+              ],
+              "type": "max"
+            },
+            {
+              "params": [
+                {},
+                "El apellido solo puede contener letras"
+              ],
+              "type": "matches"
+            }
+          ]
+        },
+        {
+          "id": "document",
+          "type": "number",
+          "validationType": "number",
+          "validations": [
+            {
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            },
+            {
+              "params": [
+                100000,
+                "El n\u00famero de documento no puede ser menor a 10 caracteres"
+              ],
+              "type": "min"
+            },
+            {
+              "params": [
+                9999999999,
+                "El n\u00famero de documento no puede ser mayor a 10 caracteres"
+              ],
+              "type": "max"
+            },
+            {
+              "params": [
+                "El n\u00famero de documento debe ser v\u00e1lido"
+              ],
+              "type": "typeError"
+            }
+          ]
+        },
+        {
+          "id": "documentType",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            }
+          ]
+        },
+        {
+          "id": "cellPhone",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            },
+            {
+              "params": [
+                {},
+                "Solo pueden ser numeros"
+              ],
+              "type": "matches"
+            },
+            {
+              "params": [
+                10,
+                "El celular no puede ser menor a 10 caracteres"
+              ],
+              "type": "min"
+            },
+            {
+              "params": [
+                10,
+                "El celular no puede ser mayor a 10 caracteres"
+              ],
+              "type": "max"
+            }
+          ]
+        },
+        {
+          "id": "birthDate",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
+            {
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
+            }
+          ]
+        },
+        {
+          "id": "accept-conditions",
+          "type": "boolean",
+          "validationType": "bool",
+          "validations": [
+            {
+              "params": [
+                [
+                  true
+                ],
+                "Debe aceptar terminos y condiciones"
+              ],
+              "type": "oneOf"
+            },
+            {
+              "params": [
+                "Terminos y condiciones es requerido"
+              ],
+              "type": "required"
             }
           ]
         }
-      },
-      {
-        "flex-layout.row#rowLinkToLogInSreenSignIn": {
-          "children": [
-            "store-link#signIn"
-          ]
-        }
-      }
+      ],
+      "validationSignup": true
+    }
+  },
+  "store-link#linkToConditions": {
+    "props": {
+      "blockClass": "registerLink",
+      "displayMode": "anchor",
+      "label": "Acepto los **t\u00e9rminos, condiciones, pol\u00edticas de privacidad y tratamiento de datos**",
+      "url": "/Terms&Conditions"
+    }
+  },
+  "store-link#signIn": {
+    "props": {
+      "accessibilityLabel": "This is a button",
+      "blockClass": "signInLink",
+      "displayMode": "anchor",
+      "label": "\u00bfYa tienes cuenta? **Iniciar sesi\u00f3n**",
+      "url": "/auth/login"
+    }
+  },
+  "store.signup": {
+    "blocks": [
+      "scroll-view#signup",
+      "flex-layout.row#rowLinkToLogInSreenSignIn"
     ]
+  },
+  "switch-component#accept-conditions": {
+    "props": {
+      "blockClass": "switchCreateAccount",
+      "isRequired": true,
+      "thumbColor": "#fff",
+      "trackColorFalse": "gray",
+      "trackColorTrue": "#A4C735"
+    }
   }
 }

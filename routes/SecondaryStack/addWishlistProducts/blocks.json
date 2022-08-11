@@ -1,70 +1,136 @@
 {
-  "store.addWishlistProducts": {
+  "add-to-wishlist-button#add-wishlist": {
+    "props": {
+      "accessibilityLabel": "This is a button",
+      "blockClass": "addTolistProductSummary",
+      "content": "flex-layout.row#contentModalAddWishlistItem",
+      "contentError": "flex-layout.row#contentModalWishlistError",
+      "displayMode": "button",
+      "label": "A\u00f1adir la lista",
+      "modalType": "continue"
+    }
+  },
+  "flex-layout.col#AddWishListProducts": {
     "children": [
-      {
-        "flex-layout.col#AddWishListProducts": {
-          "children": [
+      "flex-layout.col#AddWishListProducts-list"
+    ],
+    "props": {
+      "blockClass": "cartContainer"
+    }
+  },
+  "flex-layout.col#AddWishListProducts-list": {
+    "children": [
+      "wishlist-layout#AddWishListProducts"
+    ]
+  },
+  "flex-layout.col#button-wrapper": {
+    "children": [
+      "store-form.button#add-wishlist-submit"
+    ],
+    "props": {
+      "blockClass": "wishlistSubmitButton"
+    }
+  },
+  "flex-layout.col#description-ddWishListProducts": {
+    "children": [
+      "wishlist-name#AddWishListProductsName"
+    ]
+  },
+  "flex-layout.col#input-wrapper": {
+    "children": [
+      "store-form.input#wishlist-name"
+    ],
+    "props": {
+      "blockClass": "wishlistNameInput"
+    }
+  },
+  "flex-layout.row#AddWishListProducts-list": {
+    "children": [
+      "flex-layout.col#description-ddWishListProducts",
+      "add-to-wishlist-button#add-wishlist"
+    ],
+    "props": {
+      "blockClass": "productList"
+    }
+  },
+  "flex-layout.row#wishlist-form-input": {
+    "children": [
+      "flex-layout.col#input-wrapper",
+      "flex-layout.col#button-wrapper"
+    ],
+    "props": {
+      "blockClass": "storeFormWishlistContainerStyle"
+    }
+  },
+  "store-form.button#add-wishlist-submit": {
+    "props": {
+      "blockClass": "storeFormButtonStyle;customStoreFormButtonStyle",
+      "buttonText": "Crear lista",
+      "variant": "secondary"
+    }
+  },
+  "store-form.customer-add-wishlist#AddWishListProducts": {
+    "children": [
+      "flex-layout.row#wishlist-form-input"
+    ],
+    "props": {
+      "blockClass": "AddAddressWrapper",
+      "content": "flex-layout.row#contentModalAddWishlist",
+      "modalType": "continue",
+      "redirectTo": "goBack",
+      "schemaValidation": [
+        {
+          "id": "name",
+          "type": "text",
+          "validationType": "string",
+          "validations": [
             {
-              "flex-layout.col#AddWishListProducts-list": {
-                "children": [
-                  {
-                    "wishlist-layout#AddWishListProducts": {
-                      "children": [
-                        {
-                          "wishlist.shelf#AddWishListProducts": {
-                            "children": [
-                              {
-                                "flex-layout.row#AddWishListProducts-list": {
-                                  "children": [
-                                    {
-                                      "flex-layout.col#description-ddWishListProducts": {
-                                        "children": [
-                                          "wishlist-name#AddWishListProductsName"
-                                        ]
-                                      }
-                                    },
-                                    "add-to-wishlist-button#add-wishlist"
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "store-form.customer-add-wishlist#AddWishListProducts": {
-                            "children": [
-                              {
-                                "flex-layout.row#wishlist-form-input": {
-                                  "children": [
-                                    {
-                                      "flex-layout.col#input-wrapper": {
-                                        "children": [
-                                          "store-form.input#wishlist-name"
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "flex-layout.col#button-wrapper": {
-                                        "children": [
-                                          "store-form.button#add-wishlist-submit"
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
+              "params": [
+                "Este campo es requerido"
+              ],
+              "type": "required"
             }
           ]
         }
-      }
+      ]
+    }
+  },
+  "store-form.input#wishlist-name": {
+    "props": {
+      "blockClass": "storeFormInputStyle;customWishlistAddInputStyle",
+      "maxLength": 20,
+      "name": "name",
+      "placeholder": "Ponle nombre a tu lista"
+    }
+  },
+  "store.addWishlistProducts": {
+    "blocks": [
+      "flex-layout.col#AddWishListProducts"
     ]
+  },
+  "wishlist-layout#AddWishListProducts": {
+    "children": [
+      "wishlist.shelf#AddWishListProducts",
+      "store-form.customer-add-wishlist#AddWishListProducts"
+    ],
+    "props": {
+      "blockClass": "cartLayoutClass"
+    }
+  },
+  "wishlist-name#AddWishListProductsName": {
+    "props": {
+      "blockClass": "productName"
+    }
+  },
+  "wishlist.shelf#AddWishListProducts": {
+    "children": [
+      "flex-layout.row#AddWishListProducts-list"
+    ],
+    "props": {
+      "blockClass": "productShelf",
+      "columns": 1,
+      "listEmptyComponent": "flex-layout.row#emptyWishlist",
+      "redirectTo": "/wishlist/detail/{id}"
+    }
   }
 }
